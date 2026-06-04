@@ -1,37 +1,48 @@
-## Contribution Graph
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dschinkel/dschinkel/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/dschinkel/dschinkel/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution snake animation" src="https://raw.githubusercontent.com/dschinkel/dschinkel/output/github-contribution-grid-snake.svg">
-</picture>
-
-<img src="./assets/github-profile-banner.svg" alt="Dave Schinkel GitHub profile banner">
+<img src="./assets/github-profile-banner.svg" alt="Dave Schinkel GitHub profile banner" width="100%">
 
 # Dave Schinkel
 
-Staff / Lead Software Engineer focused on sustainable engineering systems, agentic workflows, TDD, React, Node, and cloud automation.
-
 ```txt
-Code quality first. Fast feedback loops. Agents with guardrails.
+$ whoami
+
+Staff / Lead Software Engineer
+TDD / XP practitioner
+Agentic workflow builder
+React / Node / Cloud automation
 ```
 
 ## Current Focus
 
-Building custom agentic development workflows using Claude Code, custom skills, local LLMs, embedding agents, signal agents, and CI-driven quality checks.
-
 ```txt
-Agentic Workflows   █████████░
-TDD / XP            ██████████
-React / Node        █████████░
-Cloud Automation    ████████░░
-LLM Tooling         ████████░░
-Clean Architecture  █████████░
+$ current-focus
+
+custom-claude-skills
+local-llm-test-loops
+embedding-agents
+signal-agents
+prompt-evaluation-pipelines
+ci-quality-gates
+clean-architecture
 ```
 
-## Systems I Build
+## Agentic Engineering Lab
 
-I build engineering systems that make software easier to change, safer to evolve, and faster to ship.
+Building practical AI-assisted software delivery systems with fast feedback, executable checks, and clean boundaries.
+
+```mermaid
+flowchart LR
+  A[Claude Code] --> B[Custom Skills]
+  B --> C[Agentic Workflows]
+  C --> D[Test Feedback]
+  D --> E[CI Quality Gates]
+  E --> F[Production Systems]
+```
+
+## Contribution Roast
+
+<img src="https://raw.githubusercontent.com/dschinkel/dschinkel/output/coffee-contribution-grid.svg" alt="Coffee-themed GitHub contribution roast grid" width="100%">
+
+## Systems I Build
 
 ```txt
 Custom Claude Skills
@@ -41,17 +52,18 @@ React / Node Platforms
 CI/CD Quality Gates
 Hexagonal Architecture
 TDD-First Codebases
+Cloud Automation
 ```
 
-## Engineering Principles
+## Definition of Done
 
 ```txt
-Small stories.
-Fast feedback.
-Executable specifications.
-Clean boundaries.
-Testable systems.
-Agentic workflows with guardrails.
+[✓] Tests verify important behavior
+[✓] Small vertical slices
+[✓] Clean domain boundaries
+[✓] Fast local feedback
+[✓] CI-enforced quality
+[✓] Agent outputs verified by tests
 ```
 
 ## Tech Stack
@@ -75,6 +87,6 @@ Agentic workflows with guardrails.
 
 ## Links
 
-- Website: https://WeDoTDD.com
-- GitHub: https://github.com/dschinkel
-- LinkedIn: https://www.linkedin.com/in/daveschinkel
+Website: https://WeDoTDD.com  
+GitHub: https://github.com/dschinkel  
+LinkedIn: https://www.linkedin.com/in/daveschinkel

@@ -1,10 +1,41 @@
-<svg width="1200" height="300" viewBox="0 0 1200 300" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="1200" height="300" fill="#0D1117"/>
-  <rect x="24" y="24" width="1152" height="252" rx="28" fill="#111827" stroke="#30363D" stroke-width="2"/>
-  <text x="72" y="120" fill="#F0F6FC" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="700">DAVE SCHINKEL</text>
-  <text x="76" y="168" fill="#8B949E" font-family="Arial, Helvetica, sans-serif" font-size="26">Staff / Lead Software Engineer</text>
-  <text x="76" y="215" fill="#3FB950" font-family="Arial, Helvetica, sans-serif" font-size="24">TDD • Agentic Workflows • React • Node • Cloud Automation</text>
-  <circle cx="1040" cy="120" r="42" fill="#3FB950" opacity="0.20"/>
-  <circle cx="1095" cy="165" r="30" fill="#3FB950" opacity="0.35"/>
-  <circle cx="1010" cy="205" r="18" fill="#3FB950" opacity="0.45"/>
+<svg width="1200" height="300" viewBox="0 0 1200 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Dave Schinkel GitHub Profile Banner</title>
+  <desc id="desc">Dark coffee-themed engineering banner</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#120A07"/>
+      <stop offset="0.5" stop-color="#2A1810"/>
+      <stop offset="1" stop-color="#0E0806"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1010 92) rotate(90) scale(170 240)">
+      <stop stop-color="#C28B55" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#C28B55" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="300" rx="28" fill="url(#bg)"/>
+  <rect width="1200" height="300" rx="28" fill="url(#glow)"/>
+  <g opacity="0.22">
+    <path d="M80 245 C180 208 290 265 390 225 C510 177 610 264 730 216 C840 172 940 220 1118 185" stroke="#B98758" stroke-width="2"/>
+    <path d="M40 62 C145 20 260 85 370 43 C498 -6 617 76 745 38 C865 2 960 56 1160 25" stroke="#E4C7A3" stroke-width="1.4"/>
+  </g>
+  <g transform="translate(900 72)">
+    <path d="M60 68h130c0 52-28 96-73 96h-57c-45 0-73-44-73-96h73Z" fill="#3A2116" stroke="#D4A373" stroke-width="5"/>
+    <path d="M191 88h17c28 0 28 46 0 46h-23" stroke="#D4A373" stroke-width="11" stroke-linecap="round"/>
+    <path d="M36 177h151" stroke="#D4A373" stroke-width="8" stroke-linecap="round"/>
+    <path d="M68 47 C48 27 92 22 72 2" stroke="#E8D3B8" stroke-width="5" stroke-linecap="round" opacity="0.85">
+      <animateTransform attributeName="transform" type="translate" values="0 0; 0 -8; 0 0" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".35;.9;.35" dur="4s" repeatCount="indefinite"/>
+    </path>
+    <path d="M116 45 C96 25 140 20 120 0" stroke="#E8D3B8" stroke-width="5" stroke-linecap="round" opacity="0.7">
+      <animateTransform attributeName="transform" type="translate" values="0 0; 0 -10; 0 0" dur="4.6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".25;.8;.25" dur="4.6s" repeatCount="indefinite"/>
+    </path>
+    <path d="M160 49 C140 29 184 24 164 4" stroke="#E8D3B8" stroke-width="5" stroke-linecap="round" opacity="0.6">
+      <animateTransform attributeName="transform" type="translate" values="0 0; 0 -7; 0 0" dur="5.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".2;.7;.2" dur="5.2s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  <text x="74" y="104" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="24" fill="#D4A373">AGENTIC ENGINEERING LAB</text>
+  <text x="74" y="160" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="58" font-weight="800" fill="#FFF3E2">DAVE SCHINKEL</text>
+  <text x="77" y="205" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="25" fill="#E8D3B8">TDD • Agentic Workflows • React • Node • Cloud Automation</text>
 </svg>
