@@ -1,0 +1,1246 @@
+<svg width="990" height="255" viewBox="0 0 990 255" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Coffee-themed GitHub contribution grid for dschinkel</title>
+  <desc id="desc">A coffee bean roast map generated from GitHub contribution activity.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="990" y2="255" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#110906"/>
+      <stop offset="0.55" stop-color="#25140D"/>
+      <stop offset="1" stop-color="#0C0604"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="7" stdDeviation="9" flood-color="#000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <rect x="0" y="0" width="990" height="255" rx="24" fill="url(#bg)"/>
+  <rect x="18" y="18" width="954" height="219" rx="18" fill="#160C08" stroke="#6B442A" stroke-opacity="0.55"/>
+
+  <g filter="url(#shadow)">
+    <text x="42" y="47" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16" fill="#D4A373">CONTRIBUTION ROAST</text>
+    <text x="42" y="67" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#9F7A59">dschinkel • 15109 contributions • generated 2026-09-05</text>
+  </g>
+
+  <g>
+    <text x="34" y="100" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" fill="#806047">Mon</text>
+    <text x="34" y="132" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" fill="#806047">Wed</text>
+    <text x="34" y="164" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" fill="#806047">Fri</text>
+    <text x="80" y="75" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#B98E66">Sep</text><text x="144" y="75" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#B98E66">Oct</text><text x="208" y="75" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#B98E66">Nov</text><text x="288" y="75" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#B98E66">Dec</text><text x="352" y="75" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#B98E66">Jan</text><text x="416" y="75" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#B98E66">Feb</text><text x="480" y="75" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#B98E66">Mar</text><text x="560" y="75" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#B98E66">Apr</text><text x="624" y="75" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#B98E66">May</text><text x="704" y="75" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#B98E66">Jun</text><text x="768" y="75" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#B98E66">Jul</text><text x="832" y="75" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#B98E66">Aug</text>
+    <g><title>2025-08-31: 0 contributions</title><circle cx="71" cy="95" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2025-09-01: 0 contributions</title><circle cx="71" cy="111" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2025-09-02: 0 contributions</title><circle cx="71" cy="127" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2025-09-03: 0 contributions</title><circle cx="71" cy="143" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2025-09-04: 0 contributions</title><circle cx="71" cy="159" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2025-09-05: 0 contributions</title><circle cx="71" cy="175" r="2.1" fill="#5A3825" opacity="0.55"/></g>
+    <g opacity="0.98">
+      <title>2025-09-06: 3 contributions</title>
+      <ellipse cx="71" cy="191" rx="5.7" ry="7.1" transform="rotate(-24 71 191)" fill="#9B6A3D" stroke="#C99663" stroke-width="1.1">
+        
+      </ellipse>
+      <path d="M68.8 186.6 C73.1 189.2, 68.7 192.4, 73.5 196.1" stroke="#53301E" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2025-09-07: 5 contributions</title>
+      <ellipse cx="87" cy="95" rx="5.7" ry="7.1" transform="rotate(-24 87 95)" fill="#604029" stroke="#A47248" stroke-width="1.1">
+        
+      </ellipse>
+      <path d="M84.8 90.6 C89.1 93.2, 84.7 96.4, 89.5 100.1" stroke="#D0A474" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2025-09-08: 2 contributions</title>
+      <ellipse cx="87" cy="111" rx="5.7" ry="7.1" transform="rotate(-24 87 111)" fill="#9B6A3D" stroke="#C99663" stroke-width="1.1">
+        
+      </ellipse>
+      <path d="M84.8 106.6 C89.1 109.2, 84.7 112.4, 89.5 116.1" stroke="#53301E" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2025-09-09: 1 contribution</title>
+      <ellipse cx="87" cy="127" rx="5.7" ry="7.1" transform="rotate(-24 87 127)" fill="#CDAA7D" stroke="#E7C9A3" stroke-width="1.1">
+        
+      </ellipse>
+      <path d="M84.8 122.6 C89.1 125.2, 84.7 128.4, 89.5 132.1" stroke="#8C5E35" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g><g><title>2025-09-10: 0 contributions</title><circle cx="87" cy="143" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2025-09-11: 0 contributions</title><circle cx="87" cy="159" r="2.1" fill="#5A3825" opacity="0.55"/></g>
+    <g opacity="0.98">
+      <title>2025-09-12: 2 contributions</title>
+      <ellipse cx="87" cy="175" rx="5.7" ry="7.1" transform="rotate(-24 87 175)" fill="#9B6A3D" stroke="#C99663" stroke-width="1.1">
+        
+      </ellipse>
+      <path d="M84.8 170.6 C89.1 173.2, 84.7 176.4, 89.5 180.1" stroke="#53301E" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2025-09-13: 6 contributions</title>
+      <ellipse cx="87" cy="191" rx="5.7" ry="7.1" transform="rotate(-24 87 191)" fill="#604029" stroke="#A47248" stroke-width="1.1">
+        
+      </ellipse>
+      <path d="M84.8 186.6 C89.1 189.2, 84.7 192.4, 89.5 196.1" stroke="#D0A474" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g><g><title>2025-09-14: 0 contributions</title><circle cx="103" cy="95" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2025-09-15: 0 contributions</title><circle cx="103" cy="111" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2025-09-16: 0 contributions</title><circle cx="103" cy="127" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2025-09-17: 0 contributions</title><circle cx="103" cy="143" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2025-09-18: 0 contributions</title><circle cx="103" cy="159" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2025-09-19: 0 contributions</title><circle cx="103" cy="175" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2025-09-20: 0 contributions</title><circle cx="103" cy="191" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2025-09-21: 0 contributions</title><circle cx="119" cy="95" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2025-09-22: 0 contributions</title><circle cx="119" cy="111" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2025-09-23: 0 contributions</title><circle cx="119" cy="127" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2025-09-24: 0 contributions</title><circle cx="119" cy="143" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2025-09-25: 0 contributions</title><circle cx="119" cy="159" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2025-09-26: 0 contributions</title><circle cx="119" cy="175" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2025-09-27: 0 contributions</title><circle cx="119" cy="191" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2025-09-28: 0 contributions</title><circle cx="135" cy="95" r="2.1" fill="#5A3825" opacity="0.55"/></g>
+    <g opacity="0.98">
+      <title>2025-09-29: 1 contribution</title>
+      <ellipse cx="135" cy="111" rx="5.7" ry="7.1" transform="rotate(-24 135 111)" fill="#CDAA7D" stroke="#E7C9A3" stroke-width="1.1">
+        
+      </ellipse>
+      <path d="M132.8 106.6 C137.1 109.2, 132.7 112.4, 137.5 116.1" stroke="#8C5E35" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g><g><title>2025-09-30: 0 contributions</title><circle cx="135" cy="127" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2025-10-01: 0 contributions</title><circle cx="135" cy="143" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2025-10-02: 0 contributions</title><circle cx="135" cy="159" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2025-10-03: 0 contributions</title><circle cx="135" cy="175" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2025-10-04: 0 contributions</title><circle cx="135" cy="191" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2025-10-05: 0 contributions</title><circle cx="151" cy="95" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2025-10-06: 0 contributions</title><circle cx="151" cy="111" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2025-10-07: 0 contributions</title><circle cx="151" cy="127" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2025-10-08: 0 contributions</title><circle cx="151" cy="143" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2025-10-09: 0 contributions</title><circle cx="151" cy="159" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2025-10-10: 0 contributions</title><circle cx="151" cy="175" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2025-10-11: 0 contributions</title><circle cx="151" cy="191" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2025-10-12: 0 contributions</title><circle cx="167" cy="95" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2025-10-13: 0 contributions</title><circle cx="167" cy="111" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2025-10-14: 0 contributions</title><circle cx="167" cy="127" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2025-10-15: 0 contributions</title><circle cx="167" cy="143" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2025-10-16: 0 contributions</title><circle cx="167" cy="159" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2025-10-17: 0 contributions</title><circle cx="167" cy="175" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2025-10-18: 0 contributions</title><circle cx="167" cy="191" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2025-10-19: 0 contributions</title><circle cx="183" cy="95" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2025-10-20: 0 contributions</title><circle cx="183" cy="111" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2025-10-21: 0 contributions</title><circle cx="183" cy="127" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2025-10-22: 0 contributions</title><circle cx="183" cy="143" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2025-10-23: 0 contributions</title><circle cx="183" cy="159" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2025-10-24: 0 contributions</title><circle cx="183" cy="175" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2025-10-25: 0 contributions</title><circle cx="183" cy="191" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2025-10-26: 0 contributions</title><circle cx="199" cy="95" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2025-10-27: 0 contributions</title><circle cx="199" cy="111" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2025-10-28: 0 contributions</title><circle cx="199" cy="127" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2025-10-29: 0 contributions</title><circle cx="199" cy="143" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2025-10-30: 0 contributions</title><circle cx="199" cy="159" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2025-10-31: 0 contributions</title><circle cx="199" cy="175" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2025-11-01: 0 contributions</title><circle cx="199" cy="191" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2025-11-02: 0 contributions</title><circle cx="215" cy="95" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2025-11-03: 0 contributions</title><circle cx="215" cy="111" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2025-11-04: 0 contributions</title><circle cx="215" cy="127" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2025-11-05: 0 contributions</title><circle cx="215" cy="143" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2025-11-06: 0 contributions</title><circle cx="215" cy="159" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2025-11-07: 0 contributions</title><circle cx="215" cy="175" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2025-11-08: 0 contributions</title><circle cx="215" cy="191" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2025-11-09: 0 contributions</title><circle cx="231" cy="95" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2025-11-10: 0 contributions</title><circle cx="231" cy="111" r="2.1" fill="#5A3825" opacity="0.55"/></g>
+    <g opacity="0.98">
+      <title>2025-11-11: 2 contributions</title>
+      <ellipse cx="231" cy="127" rx="5.7" ry="7.1" transform="rotate(-24 231 127)" fill="#9B6A3D" stroke="#C99663" stroke-width="1.1">
+        
+      </ellipse>
+      <path d="M228.8 122.6 C233.1 125.2, 228.7 128.4, 233.5 132.1" stroke="#53301E" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g><g><title>2025-11-12: 0 contributions</title><circle cx="231" cy="143" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2025-11-13: 0 contributions</title><circle cx="231" cy="159" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2025-11-14: 0 contributions</title><circle cx="231" cy="175" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2025-11-15: 0 contributions</title><circle cx="231" cy="191" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2025-11-16: 0 contributions</title><circle cx="247" cy="95" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2025-11-17: 0 contributions</title><circle cx="247" cy="111" r="2.1" fill="#5A3825" opacity="0.55"/></g>
+    <g opacity="0.98">
+      <title>2025-11-18: 5 contributions</title>
+      <ellipse cx="247" cy="127" rx="5.7" ry="7.1" transform="rotate(-24 247 127)" fill="#604029" stroke="#A47248" stroke-width="1.1">
+        
+      </ellipse>
+      <path d="M244.8 122.6 C249.1 125.2, 244.7 128.4, 249.5 132.1" stroke="#D0A474" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2025-11-19: 2 contributions</title>
+      <ellipse cx="247" cy="143" rx="5.7" ry="7.1" transform="rotate(-24 247 143)" fill="#9B6A3D" stroke="#C99663" stroke-width="1.1">
+        
+      </ellipse>
+      <path d="M244.8 138.6 C249.1 141.2, 244.7 144.4, 249.5 148.1" stroke="#53301E" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g><g><title>2025-11-20: 0 contributions</title><circle cx="247" cy="159" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2025-11-21: 0 contributions</title><circle cx="247" cy="175" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2025-11-22: 0 contributions</title><circle cx="247" cy="191" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2025-11-23: 0 contributions</title><circle cx="263" cy="95" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2025-11-24: 0 contributions</title><circle cx="263" cy="111" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2025-11-25: 0 contributions</title><circle cx="263" cy="127" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2025-11-26: 0 contributions</title><circle cx="263" cy="143" r="2.1" fill="#5A3825" opacity="0.55"/></g>
+    <g opacity="0.98">
+      <title>2025-11-27: 2 contributions</title>
+      <ellipse cx="263" cy="159" rx="5.7" ry="7.1" transform="rotate(-24 263 159)" fill="#9B6A3D" stroke="#C99663" stroke-width="1.1">
+        
+      </ellipse>
+      <path d="M260.8 154.6 C265.1 157.2, 260.7 160.4, 265.5 164.1" stroke="#53301E" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g><g><title>2025-11-28: 0 contributions</title><circle cx="263" cy="175" r="2.1" fill="#5A3825" opacity="0.55"/></g>
+    <g opacity="0.98">
+      <title>2025-11-29: 1 contribution</title>
+      <ellipse cx="263" cy="191" rx="5.7" ry="7.1" transform="rotate(-24 263 191)" fill="#CDAA7D" stroke="#E7C9A3" stroke-width="1.1">
+        
+      </ellipse>
+      <path d="M260.8 186.6 C265.1 189.2, 260.7 192.4, 265.5 196.1" stroke="#8C5E35" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2025-11-30: 38 contributions</title>
+      <ellipse cx="279" cy="95" rx="5.7" ry="7.1" transform="rotate(-24 279 95)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.4s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M276.8 90.6 C281.1 93.2, 276.7 96.4, 281.5 100.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g><g><title>2025-12-01: 0 contributions</title><circle cx="279" cy="111" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2025-12-02: 0 contributions</title><circle cx="279" cy="127" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2025-12-03: 0 contributions</title><circle cx="279" cy="143" r="2.1" fill="#5A3825" opacity="0.55"/></g>
+    <g opacity="0.98">
+      <title>2025-12-04: 1 contribution</title>
+      <ellipse cx="279" cy="159" rx="5.7" ry="7.1" transform="rotate(-24 279 159)" fill="#CDAA7D" stroke="#E7C9A3" stroke-width="1.1">
+        
+      </ellipse>
+      <path d="M276.8 154.6 C281.1 157.2, 276.7 160.4, 281.5 164.1" stroke="#8C5E35" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g><g><title>2025-12-05: 0 contributions</title><circle cx="279" cy="175" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2025-12-06: 0 contributions</title><circle cx="279" cy="191" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2025-12-07: 0 contributions</title><circle cx="295" cy="95" r="2.1" fill="#5A3825" opacity="0.55"/></g>
+    <g opacity="0.98">
+      <title>2025-12-08: 3 contributions</title>
+      <ellipse cx="295" cy="111" rx="5.7" ry="7.1" transform="rotate(-24 295 111)" fill="#9B6A3D" stroke="#C99663" stroke-width="1.1">
+        
+      </ellipse>
+      <path d="M292.8 106.6 C297.1 109.2, 292.7 112.4, 297.5 116.1" stroke="#53301E" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2025-12-09: 2 contributions</title>
+      <ellipse cx="295" cy="127" rx="5.7" ry="7.1" transform="rotate(-24 295 127)" fill="#9B6A3D" stroke="#C99663" stroke-width="1.1">
+        
+      </ellipse>
+      <path d="M292.8 122.6 C297.1 125.2, 292.7 128.4, 297.5 132.1" stroke="#53301E" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g><g><title>2025-12-10: 0 contributions</title><circle cx="295" cy="143" r="2.1" fill="#5A3825" opacity="0.55"/></g>
+    <g opacity="0.98">
+      <title>2025-12-11: 6 contributions</title>
+      <ellipse cx="295" cy="159" rx="5.7" ry="7.1" transform="rotate(-24 295 159)" fill="#604029" stroke="#A47248" stroke-width="1.1">
+        
+      </ellipse>
+      <path d="M292.8 154.6 C297.1 157.2, 292.7 160.4, 297.5 164.1" stroke="#D0A474" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2025-12-12: 14 contributions</title>
+      <ellipse cx="295" cy="175" rx="5.7" ry="7.1" transform="rotate(-24 295 175)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.1s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M292.8 170.6 C297.1 173.2, 292.7 176.4, 297.5 180.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g><g><title>2025-12-13: 0 contributions</title><circle cx="295" cy="191" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2025-12-14: 0 contributions</title><circle cx="311" cy="95" r="2.1" fill="#5A3825" opacity="0.55"/></g>
+    <g opacity="0.98">
+      <title>2025-12-15: 49 contributions</title>
+      <ellipse cx="311" cy="111" rx="5.7" ry="7.1" transform="rotate(-24 311 111)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.7s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M308.8 106.6 C313.1 109.2, 308.7 112.4, 313.5 116.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g><g><title>2025-12-16: 0 contributions</title><circle cx="311" cy="127" r="2.1" fill="#5A3825" opacity="0.55"/></g>
+    <g opacity="0.98">
+      <title>2025-12-17: 6 contributions</title>
+      <ellipse cx="311" cy="143" rx="5.7" ry="7.1" transform="rotate(-24 311 143)" fill="#604029" stroke="#A47248" stroke-width="1.1">
+        
+      </ellipse>
+      <path d="M308.8 138.6 C313.1 141.2, 308.7 144.4, 313.5 148.1" stroke="#D0A474" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2025-12-18: 9 contributions</title>
+      <ellipse cx="311" cy="159" rx="5.7" ry="7.1" transform="rotate(-24 311 159)" fill="#604029" stroke="#A47248" stroke-width="1.1">
+        
+      </ellipse>
+      <path d="M308.8 154.6 C313.1 157.2, 308.7 160.4, 313.5 164.1" stroke="#D0A474" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g><g><title>2025-12-19: 0 contributions</title><circle cx="311" cy="175" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2025-12-20: 0 contributions</title><circle cx="311" cy="191" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2025-12-21: 0 contributions</title><circle cx="327" cy="95" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2025-12-22: 0 contributions</title><circle cx="327" cy="111" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2025-12-23: 0 contributions</title><circle cx="327" cy="127" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2025-12-24: 0 contributions</title><circle cx="327" cy="143" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2025-12-25: 0 contributions</title><circle cx="327" cy="159" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2025-12-26: 0 contributions</title><circle cx="327" cy="175" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2025-12-27: 0 contributions</title><circle cx="327" cy="191" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2025-12-28: 0 contributions</title><circle cx="343" cy="95" r="2.1" fill="#5A3825" opacity="0.55"/></g>
+    <g opacity="0.98">
+      <title>2025-12-29: 2 contributions</title>
+      <ellipse cx="343" cy="111" rx="5.7" ry="7.1" transform="rotate(-24 343 111)" fill="#9B6A3D" stroke="#C99663" stroke-width="1.1">
+        
+      </ellipse>
+      <path d="M340.8 106.6 C345.1 109.2, 340.7 112.4, 345.5 116.1" stroke="#53301E" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2025-12-30: 9 contributions</title>
+      <ellipse cx="343" cy="127" rx="5.7" ry="7.1" transform="rotate(-24 343 127)" fill="#604029" stroke="#A47248" stroke-width="1.1">
+        
+      </ellipse>
+      <path d="M340.8 122.6 C345.1 125.2, 340.7 128.4, 345.5 132.1" stroke="#D0A474" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g><g><title>2025-12-31: 0 contributions</title><circle cx="343" cy="143" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2026-01-01: 0 contributions</title><circle cx="343" cy="159" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2026-01-02: 0 contributions</title><circle cx="343" cy="175" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2026-01-03: 0 contributions</title><circle cx="343" cy="191" r="2.1" fill="#5A3825" opacity="0.55"/></g>
+    <g opacity="0.98">
+      <title>2026-01-04: 9 contributions</title>
+      <ellipse cx="359" cy="95" rx="5.7" ry="7.1" transform="rotate(-24 359 95)" fill="#604029" stroke="#A47248" stroke-width="1.1">
+        
+      </ellipse>
+      <path d="M356.8 90.6 C361.1 93.2, 356.7 96.4, 361.5 100.1" stroke="#D0A474" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-01-05: 19 contributions</title>
+      <ellipse cx="359" cy="111" rx="5.7" ry="7.1" transform="rotate(-24 359 111)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.1s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M356.8 106.6 C361.1 109.2, 356.7 112.4, 361.5 116.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-01-06: 59 contributions</title>
+      <ellipse cx="359" cy="127" rx="5.7" ry="7.1" transform="rotate(-24 359 127)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.2s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M356.8 122.6 C361.1 125.2, 356.7 128.4, 361.5 132.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-01-07: 8 contributions</title>
+      <ellipse cx="359" cy="143" rx="5.7" ry="7.1" transform="rotate(-24 359 143)" fill="#604029" stroke="#A47248" stroke-width="1.1">
+        
+      </ellipse>
+      <path d="M356.8 138.6 C361.1 141.2, 356.7 144.4, 361.5 148.1" stroke="#D0A474" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g><g><title>2026-01-08: 0 contributions</title><circle cx="359" cy="159" r="2.1" fill="#5A3825" opacity="0.55"/></g>
+    <g opacity="0.98">
+      <title>2026-01-09: 3 contributions</title>
+      <ellipse cx="359" cy="175" rx="5.7" ry="7.1" transform="rotate(-24 359 175)" fill="#9B6A3D" stroke="#C99663" stroke-width="1.1">
+        
+      </ellipse>
+      <path d="M356.8 170.6 C361.1 173.2, 356.7 176.4, 361.5 180.1" stroke="#53301E" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-01-10: 1 contribution</title>
+      <ellipse cx="359" cy="191" rx="5.7" ry="7.1" transform="rotate(-24 359 191)" fill="#CDAA7D" stroke="#E7C9A3" stroke-width="1.1">
+        
+      </ellipse>
+      <path d="M356.8 186.6 C361.1 189.2, 356.7 192.4, 361.5 196.1" stroke="#8C5E35" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-01-11: 31 contributions</title>
+      <ellipse cx="375" cy="95" rx="5.7" ry="7.1" transform="rotate(-24 375 95)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.1s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M372.8 90.6 C377.1 93.2, 372.7 96.4, 377.5 100.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-01-12: 2 contributions</title>
+      <ellipse cx="375" cy="111" rx="5.7" ry="7.1" transform="rotate(-24 375 111)" fill="#9B6A3D" stroke="#C99663" stroke-width="1.1">
+        
+      </ellipse>
+      <path d="M372.8 106.6 C377.1 109.2, 372.7 112.4, 377.5 116.1" stroke="#53301E" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g><g><title>2026-01-13: 0 contributions</title><circle cx="375" cy="127" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2026-01-14: 0 contributions</title><circle cx="375" cy="143" r="2.1" fill="#5A3825" opacity="0.55"/></g>
+    <g opacity="0.98">
+      <title>2026-01-15: 1 contribution</title>
+      <ellipse cx="375" cy="159" rx="5.7" ry="7.1" transform="rotate(-24 375 159)" fill="#CDAA7D" stroke="#E7C9A3" stroke-width="1.1">
+        
+      </ellipse>
+      <path d="M372.8 154.6 C377.1 157.2, 372.7 160.4, 377.5 164.1" stroke="#8C5E35" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g><g><title>2026-01-16: 0 contributions</title><circle cx="375" cy="175" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2026-01-17: 0 contributions</title><circle cx="375" cy="191" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2026-01-18: 0 contributions</title><circle cx="391" cy="95" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2026-01-19: 0 contributions</title><circle cx="391" cy="111" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2026-01-20: 0 contributions</title><circle cx="391" cy="127" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2026-01-21: 0 contributions</title><circle cx="391" cy="143" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2026-01-22: 0 contributions</title><circle cx="391" cy="159" r="2.1" fill="#5A3825" opacity="0.55"/></g>
+    <g opacity="0.98">
+      <title>2026-01-23: 2 contributions</title>
+      <ellipse cx="391" cy="175" rx="5.7" ry="7.1" transform="rotate(-24 391 175)" fill="#9B6A3D" stroke="#C99663" stroke-width="1.1">
+        
+      </ellipse>
+      <path d="M388.8 170.6 C393.1 173.2, 388.7 176.4, 393.5 180.1" stroke="#53301E" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g><g><title>2026-01-24: 0 contributions</title><circle cx="391" cy="191" r="2.1" fill="#5A3825" opacity="0.55"/></g>
+    <g opacity="0.98">
+      <title>2026-01-25: 29 contributions</title>
+      <ellipse cx="407" cy="95" rx="5.7" ry="7.1" transform="rotate(-24 407 95)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.3s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M404.8 90.6 C409.1 93.2, 404.7 96.4, 409.5 100.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-01-26: 52 contributions</title>
+      <ellipse cx="407" cy="111" rx="5.7" ry="7.1" transform="rotate(-24 407 111)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.4s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M404.8 106.6 C409.1 109.2, 404.7 112.4, 409.5 116.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-01-27: 13 contributions</title>
+      <ellipse cx="407" cy="127" rx="5.7" ry="7.1" transform="rotate(-24 407 127)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.5s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M404.8 122.6 C409.1 125.2, 404.7 128.4, 409.5 132.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-01-28: 48 contributions</title>
+      <ellipse cx="407" cy="143" rx="5.7" ry="7.1" transform="rotate(-24 407 143)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.6s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M404.8 138.6 C409.1 141.2, 404.7 144.4, 409.5 148.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-01-29: 16 contributions</title>
+      <ellipse cx="407" cy="159" rx="5.7" ry="7.1" transform="rotate(-24 407 159)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.7s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M404.8 154.6 C409.1 157.2, 404.7 160.4, 409.5 164.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g><g><title>2026-01-30: 0 contributions</title><circle cx="407" cy="175" r="2.1" fill="#5A3825" opacity="0.55"/></g>
+    <g opacity="0.98">
+      <title>2026-01-31: 7 contributions</title>
+      <ellipse cx="407" cy="191" rx="5.7" ry="7.1" transform="rotate(-24 407 191)" fill="#604029" stroke="#A47248" stroke-width="1.1">
+        
+      </ellipse>
+      <path d="M404.8 186.6 C409.1 189.2, 404.7 192.4, 409.5 196.1" stroke="#D0A474" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-02-01: 8 contributions</title>
+      <ellipse cx="423" cy="95" rx="5.7" ry="7.1" transform="rotate(-24 423 95)" fill="#604029" stroke="#A47248" stroke-width="1.1">
+        
+      </ellipse>
+      <path d="M420.8 90.6 C425.1 93.2, 420.7 96.4, 425.5 100.1" stroke="#D0A474" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g><g><title>2026-02-02: 0 contributions</title><circle cx="423" cy="111" r="2.1" fill="#5A3825" opacity="0.55"/></g>
+    <g opacity="0.98">
+      <title>2026-02-03: 1 contribution</title>
+      <ellipse cx="423" cy="127" rx="5.7" ry="7.1" transform="rotate(-24 423 127)" fill="#CDAA7D" stroke="#E7C9A3" stroke-width="1.1">
+        
+      </ellipse>
+      <path d="M420.8 122.6 C425.1 125.2, 420.7 128.4, 425.5 132.1" stroke="#8C5E35" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-02-04: 39 contributions</title>
+      <ellipse cx="423" cy="143" rx="5.7" ry="7.1" transform="rotate(-24 423 143)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.7s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M420.8 138.6 C425.1 141.2, 420.7 144.4, 425.5 148.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-02-05: 1 contribution</title>
+      <ellipse cx="423" cy="159" rx="5.7" ry="7.1" transform="rotate(-24 423 159)" fill="#CDAA7D" stroke="#E7C9A3" stroke-width="1.1">
+        
+      </ellipse>
+      <path d="M420.8 154.6 C425.1 157.2, 420.7 160.4, 425.5 164.1" stroke="#8C5E35" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g><g><title>2026-02-06: 0 contributions</title><circle cx="423" cy="175" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2026-02-07: 0 contributions</title><circle cx="423" cy="191" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2026-02-08: 0 contributions</title><circle cx="439" cy="95" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2026-02-09: 0 contributions</title><circle cx="439" cy="111" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2026-02-10: 0 contributions</title><circle cx="439" cy="127" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2026-02-11: 0 contributions</title><circle cx="439" cy="143" r="2.1" fill="#5A3825" opacity="0.55"/></g>
+    <g opacity="0.98">
+      <title>2026-02-12: 1 contribution</title>
+      <ellipse cx="439" cy="159" rx="5.7" ry="7.1" transform="rotate(-24 439 159)" fill="#CDAA7D" stroke="#E7C9A3" stroke-width="1.1">
+        
+      </ellipse>
+      <path d="M436.8 154.6 C441.1 157.2, 436.7 160.4, 441.5 164.1" stroke="#8C5E35" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g><g><title>2026-02-13: 0 contributions</title><circle cx="439" cy="175" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2026-02-14: 0 contributions</title><circle cx="439" cy="191" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2026-02-15: 0 contributions</title><circle cx="455" cy="95" r="2.1" fill="#5A3825" opacity="0.55"/></g>
+    <g opacity="0.98">
+      <title>2026-02-16: 18 contributions</title>
+      <ellipse cx="455" cy="111" rx="5.7" ry="7.1" transform="rotate(-24 455 111)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.7s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M452.8 106.6 C457.1 109.2, 452.7 112.4, 457.5 116.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-02-17: 24 contributions</title>
+      <ellipse cx="455" cy="127" rx="5.7" ry="7.1" transform="rotate(-24 455 127)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.8s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M452.8 122.6 C457.1 125.2, 452.7 128.4, 457.5 132.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-02-18: 17 contributions</title>
+      <ellipse cx="455" cy="143" rx="5.7" ry="7.1" transform="rotate(-24 455 143)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M452.8 138.6 C457.1 141.2, 452.7 144.4, 457.5 148.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-02-19: 8 contributions</title>
+      <ellipse cx="455" cy="159" rx="5.7" ry="7.1" transform="rotate(-24 455 159)" fill="#604029" stroke="#A47248" stroke-width="1.1">
+        
+      </ellipse>
+      <path d="M452.8 154.6 C457.1 157.2, 452.7 160.4, 457.5 164.1" stroke="#D0A474" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g><g><title>2026-02-20: 0 contributions</title><circle cx="455" cy="175" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2026-02-21: 0 contributions</title><circle cx="455" cy="191" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2026-02-22: 0 contributions</title><circle cx="471" cy="95" r="2.1" fill="#5A3825" opacity="0.55"/></g>
+    <g opacity="0.98">
+      <title>2026-02-23: 26 contributions</title>
+      <ellipse cx="471" cy="111" rx="5.7" ry="7.1" transform="rotate(-24 471 111)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.8s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M468.8 106.6 C473.1 109.2, 468.7 112.4, 473.5 116.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-02-24: 11 contributions</title>
+      <ellipse cx="471" cy="127" rx="5.7" ry="7.1" transform="rotate(-24 471 127)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M468.8 122.6 C473.1 125.2, 468.7 128.4, 473.5 132.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-02-25: 27 contributions</title>
+      <ellipse cx="471" cy="143" rx="5.7" ry="7.1" transform="rotate(-24 471 143)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.1s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M468.8 138.6 C473.1 141.2, 468.7 144.4, 473.5 148.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-02-26: 13 contributions</title>
+      <ellipse cx="471" cy="159" rx="5.7" ry="7.1" transform="rotate(-24 471 159)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.2s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M468.8 154.6 C473.1 157.2, 468.7 160.4, 473.5 164.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g><g><title>2026-02-27: 0 contributions</title><circle cx="471" cy="175" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2026-02-28: 0 contributions</title><circle cx="471" cy="191" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2026-03-01: 0 contributions</title><circle cx="487" cy="95" r="2.1" fill="#5A3825" opacity="0.55"/></g>
+    <g opacity="0.98">
+      <title>2026-03-02: 24 contributions</title>
+      <ellipse cx="487" cy="111" rx="5.7" ry="7.1" transform="rotate(-24 487 111)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M484.8 106.6 C489.1 109.2, 484.7 112.4, 489.5 116.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-03-03: 32 contributions</title>
+      <ellipse cx="487" cy="127" rx="5.7" ry="7.1" transform="rotate(-24 487 127)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.1s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M484.8 122.6 C489.1 125.2, 484.7 128.4, 489.5 132.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g><g><title>2026-03-04: 0 contributions</title><circle cx="487" cy="143" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2026-03-05: 0 contributions</title><circle cx="487" cy="159" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2026-03-06: 0 contributions</title><circle cx="487" cy="175" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2026-03-07: 0 contributions</title><circle cx="487" cy="191" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2026-03-08: 0 contributions</title><circle cx="503" cy="95" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2026-03-09: 0 contributions</title><circle cx="503" cy="111" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2026-03-10: 0 contributions</title><circle cx="503" cy="127" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2026-03-11: 0 contributions</title><circle cx="503" cy="143" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2026-03-12: 0 contributions</title><circle cx="503" cy="159" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2026-03-13: 0 contributions</title><circle cx="503" cy="175" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2026-03-14: 0 contributions</title><circle cx="503" cy="191" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2026-03-15: 0 contributions</title><circle cx="519" cy="95" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2026-03-16: 0 contributions</title><circle cx="519" cy="111" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2026-03-17: 0 contributions</title><circle cx="519" cy="127" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2026-03-18: 0 contributions</title><circle cx="519" cy="143" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2026-03-19: 0 contributions</title><circle cx="519" cy="159" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2026-03-20: 0 contributions</title><circle cx="519" cy="175" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2026-03-21: 0 contributions</title><circle cx="519" cy="191" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2026-03-22: 0 contributions</title><circle cx="535" cy="95" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2026-03-23: 0 contributions</title><circle cx="535" cy="111" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2026-03-24: 0 contributions</title><circle cx="535" cy="127" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2026-03-25: 0 contributions</title><circle cx="535" cy="143" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2026-03-26: 0 contributions</title><circle cx="535" cy="159" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2026-03-27: 0 contributions</title><circle cx="535" cy="175" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2026-03-28: 0 contributions</title><circle cx="535" cy="191" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2026-03-29: 0 contributions</title><circle cx="551" cy="95" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2026-03-30: 0 contributions</title><circle cx="551" cy="111" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2026-03-31: 0 contributions</title><circle cx="551" cy="127" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2026-04-01: 0 contributions</title><circle cx="551" cy="143" r="2.1" fill="#5A3825" opacity="0.55"/></g>
+    <g opacity="0.98">
+      <title>2026-04-02: 1 contribution</title>
+      <ellipse cx="551" cy="159" rx="5.7" ry="7.1" transform="rotate(-24 551 159)" fill="#CDAA7D" stroke="#E7C9A3" stroke-width="1.1">
+        
+      </ellipse>
+      <path d="M548.8 154.6 C553.1 157.2, 548.7 160.4, 553.5 164.1" stroke="#8C5E35" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-04-03: 1 contribution</title>
+      <ellipse cx="551" cy="175" rx="5.7" ry="7.1" transform="rotate(-24 551 175)" fill="#CDAA7D" stroke="#E7C9A3" stroke-width="1.1">
+        
+      </ellipse>
+      <path d="M548.8 170.6 C553.1 173.2, 548.7 176.4, 553.5 180.1" stroke="#8C5E35" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g><g><title>2026-04-04: 0 contributions</title><circle cx="551" cy="191" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2026-04-05: 0 contributions</title><circle cx="567" cy="95" r="2.1" fill="#5A3825" opacity="0.55"/></g>
+    <g opacity="0.98">
+      <title>2026-04-06: 1 contribution</title>
+      <ellipse cx="567" cy="111" rx="5.7" ry="7.1" transform="rotate(-24 567 111)" fill="#CDAA7D" stroke="#E7C9A3" stroke-width="1.1">
+        
+      </ellipse>
+      <path d="M564.8 106.6 C569.1 109.2, 564.7 112.4, 569.5 116.1" stroke="#8C5E35" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-04-07: 5 contributions</title>
+      <ellipse cx="567" cy="127" rx="5.7" ry="7.1" transform="rotate(-24 567 127)" fill="#604029" stroke="#A47248" stroke-width="1.1">
+        
+      </ellipse>
+      <path d="M564.8 122.6 C569.1 125.2, 564.7 128.4, 569.5 132.1" stroke="#D0A474" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g><g><title>2026-04-08: 0 contributions</title><circle cx="567" cy="143" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2026-04-09: 0 contributions</title><circle cx="567" cy="159" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2026-04-10: 0 contributions</title><circle cx="567" cy="175" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2026-04-11: 0 contributions</title><circle cx="567" cy="191" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2026-04-12: 0 contributions</title><circle cx="583" cy="95" r="2.1" fill="#5A3825" opacity="0.55"/></g>
+    <g opacity="0.98">
+      <title>2026-04-13: 3 contributions</title>
+      <ellipse cx="583" cy="111" rx="5.7" ry="7.1" transform="rotate(-24 583 111)" fill="#9B6A3D" stroke="#C99663" stroke-width="1.1">
+        
+      </ellipse>
+      <path d="M580.8 106.6 C585.1 109.2, 580.7 112.4, 585.5 116.1" stroke="#53301E" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g><g><title>2026-04-14: 0 contributions</title><circle cx="583" cy="127" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2026-04-15: 0 contributions</title><circle cx="583" cy="143" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2026-04-16: 0 contributions</title><circle cx="583" cy="159" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2026-04-17: 0 contributions</title><circle cx="583" cy="175" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2026-04-18: 0 contributions</title><circle cx="583" cy="191" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2026-04-19: 0 contributions</title><circle cx="599" cy="95" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2026-04-20: 0 contributions</title><circle cx="599" cy="111" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2026-04-21: 0 contributions</title><circle cx="599" cy="127" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2026-04-22: 0 contributions</title><circle cx="599" cy="143" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2026-04-23: 0 contributions</title><circle cx="599" cy="159" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2026-04-24: 0 contributions</title><circle cx="599" cy="175" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2026-04-25: 0 contributions</title><circle cx="599" cy="191" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2026-04-26: 0 contributions</title><circle cx="615" cy="95" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2026-04-27: 0 contributions</title><circle cx="615" cy="111" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2026-04-28: 0 contributions</title><circle cx="615" cy="127" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2026-04-29: 0 contributions</title><circle cx="615" cy="143" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2026-04-30: 0 contributions</title><circle cx="615" cy="159" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2026-05-01: 0 contributions</title><circle cx="615" cy="175" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2026-05-02: 0 contributions</title><circle cx="615" cy="191" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2026-05-03: 0 contributions</title><circle cx="631" cy="95" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2026-05-04: 0 contributions</title><circle cx="631" cy="111" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2026-05-05: 0 contributions</title><circle cx="631" cy="127" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2026-05-06: 0 contributions</title><circle cx="631" cy="143" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2026-05-07: 0 contributions</title><circle cx="631" cy="159" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2026-05-08: 0 contributions</title><circle cx="631" cy="175" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2026-05-09: 0 contributions</title><circle cx="631" cy="191" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2026-05-10: 0 contributions</title><circle cx="647" cy="95" r="2.1" fill="#5A3825" opacity="0.55"/></g><g><title>2026-05-11: 0 contributions</title><circle cx="647" cy="111" r="2.1" fill="#5A3825" opacity="0.55"/></g>
+    <g opacity="0.98">
+      <title>2026-05-12: 5 contributions</title>
+      <ellipse cx="647" cy="127" rx="5.7" ry="7.1" transform="rotate(-24 647 127)" fill="#604029" stroke="#A47248" stroke-width="1.1">
+        
+      </ellipse>
+      <path d="M644.8 122.6 C649.1 125.2, 644.7 128.4, 649.5 132.1" stroke="#D0A474" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-05-13: 5 contributions</title>
+      <ellipse cx="647" cy="143" rx="5.7" ry="7.1" transform="rotate(-24 647 143)" fill="#604029" stroke="#A47248" stroke-width="1.1">
+        
+      </ellipse>
+      <path d="M644.8 138.6 C649.1 141.2, 644.7 144.4, 649.5 148.1" stroke="#D0A474" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-05-14: 7 contributions</title>
+      <ellipse cx="647" cy="159" rx="5.7" ry="7.1" transform="rotate(-24 647 159)" fill="#604029" stroke="#A47248" stroke-width="1.1">
+        
+      </ellipse>
+      <path d="M644.8 154.6 C649.1 157.2, 644.7 160.4, 649.5 164.1" stroke="#D0A474" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-05-15: 30 contributions</title>
+      <ellipse cx="647" cy="175" rx="5.7" ry="7.1" transform="rotate(-24 647 175)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.5s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M644.8 170.6 C649.1 173.2, 644.7 176.4, 649.5 180.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g><g><title>2026-05-16: 0 contributions</title><circle cx="647" cy="191" r="2.1" fill="#5A3825" opacity="0.55"/></g>
+    <g opacity="0.98">
+      <title>2026-05-17: 9 contributions</title>
+      <ellipse cx="663" cy="95" rx="5.7" ry="7.1" transform="rotate(-24 663 95)" fill="#604029" stroke="#A47248" stroke-width="1.1">
+        
+      </ellipse>
+      <path d="M660.8 90.6 C665.1 93.2, 660.7 96.4, 665.5 100.1" stroke="#D0A474" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-05-18: 31 contributions</title>
+      <ellipse cx="663" cy="111" rx="5.7" ry="7.1" transform="rotate(-24 663 111)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.2s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M660.8 106.6 C665.1 109.2, 660.7 112.4, 665.5 116.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-05-19: 19 contributions</title>
+      <ellipse cx="663" cy="127" rx="5.7" ry="7.1" transform="rotate(-24 663 127)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.3s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M660.8 122.6 C665.1 125.2, 660.7 128.4, 665.5 132.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-05-20: 61 contributions</title>
+      <ellipse cx="663" cy="143" rx="5.7" ry="7.1" transform="rotate(-24 663 143)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.4s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M660.8 138.6 C665.1 141.2, 660.7 144.4, 665.5 148.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-05-21: 72 contributions</title>
+      <ellipse cx="663" cy="159" rx="5.7" ry="7.1" transform="rotate(-24 663 159)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.5s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M660.8 154.6 C665.1 157.2, 660.7 160.4, 665.5 164.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-05-22: 75 contributions</title>
+      <ellipse cx="663" cy="175" rx="5.7" ry="7.1" transform="rotate(-24 663 175)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.6s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M660.8 170.6 C665.1 173.2, 660.7 176.4, 665.5 180.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-05-23: 55 contributions</title>
+      <ellipse cx="663" cy="191" rx="5.7" ry="7.1" transform="rotate(-24 663 191)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.7s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M660.8 186.6 C665.1 189.2, 660.7 192.4, 665.5 196.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-05-24: 97 contributions</title>
+      <ellipse cx="679" cy="95" rx="5.7" ry="7.1" transform="rotate(-24 679 95)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.2s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M676.8 90.6 C681.1 93.2, 676.7 96.4, 681.5 100.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-05-25: 59 contributions</title>
+      <ellipse cx="679" cy="111" rx="5.7" ry="7.1" transform="rotate(-24 679 111)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.3s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M676.8 106.6 C681.1 109.2, 676.7 112.4, 681.5 116.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-05-26: 75 contributions</title>
+      <ellipse cx="679" cy="127" rx="5.7" ry="7.1" transform="rotate(-24 679 127)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.4s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M676.8 122.6 C681.1 125.2, 676.7 128.4, 681.5 132.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-05-27: 184 contributions</title>
+      <ellipse cx="679" cy="143" rx="5.7" ry="7.1" transform="rotate(-24 679 143)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.5s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M676.8 138.6 C681.1 141.2, 676.7 144.4, 681.5 148.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-05-28: 63 contributions</title>
+      <ellipse cx="679" cy="159" rx="5.7" ry="7.1" transform="rotate(-24 679 159)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.6s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M676.8 154.6 C681.1 157.2, 676.7 160.4, 681.5 164.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-05-29: 10 contributions</title>
+      <ellipse cx="679" cy="175" rx="5.7" ry="7.1" transform="rotate(-24 679 175)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.7s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M676.8 170.6 C681.1 173.2, 676.7 176.4, 681.5 180.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g><g><title>2026-05-30: 0 contributions</title><circle cx="679" cy="191" r="2.1" fill="#5A3825" opacity="0.55"/></g>
+    <g opacity="0.98">
+      <title>2026-05-31: 37 contributions</title>
+      <ellipse cx="695" cy="95" rx="5.7" ry="7.1" transform="rotate(-24 695 95)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.3s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M692.8 90.6 C697.1 93.2, 692.7 96.4, 697.5 100.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-06-01: 123 contributions</title>
+      <ellipse cx="695" cy="111" rx="5.7" ry="7.1" transform="rotate(-24 695 111)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.4s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M692.8 106.6 C697.1 109.2, 692.7 112.4, 697.5 116.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-06-02: 257 contributions</title>
+      <ellipse cx="695" cy="127" rx="5.7" ry="7.1" transform="rotate(-24 695 127)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.5s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M692.8 122.6 C697.1 125.2, 692.7 128.4, 697.5 132.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-06-03: 128 contributions</title>
+      <ellipse cx="695" cy="143" rx="5.7" ry="7.1" transform="rotate(-24 695 143)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.6s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M692.8 138.6 C697.1 141.2, 692.7 144.4, 697.5 148.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-06-04: 195 contributions</title>
+      <ellipse cx="695" cy="159" rx="5.7" ry="7.1" transform="rotate(-24 695 159)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.7s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M692.8 154.6 C697.1 157.2, 692.7 160.4, 697.5 164.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-06-05: 58 contributions</title>
+      <ellipse cx="695" cy="175" rx="5.7" ry="7.1" transform="rotate(-24 695 175)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.8s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M692.8 170.6 C697.1 173.2, 692.7 176.4, 697.5 180.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-06-06: 1 contribution</title>
+      <ellipse cx="695" cy="191" rx="5.7" ry="7.1" transform="rotate(-24 695 191)" fill="#CDAA7D" stroke="#E7C9A3" stroke-width="1.1">
+        
+      </ellipse>
+      <path d="M692.8 186.6 C697.1 189.2, 692.7 192.4, 697.5 196.1" stroke="#8C5E35" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-06-07: 102 contributions</title>
+      <ellipse cx="711" cy="95" rx="5.7" ry="7.1" transform="rotate(-24 711 95)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.4s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M708.8 90.6 C713.1 93.2, 708.7 96.4, 713.5 100.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-06-08: 110 contributions</title>
+      <ellipse cx="711" cy="111" rx="5.7" ry="7.1" transform="rotate(-24 711 111)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.5s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M708.8 106.6 C713.1 109.2, 708.7 112.4, 713.5 116.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-06-09: 112 contributions</title>
+      <ellipse cx="711" cy="127" rx="5.7" ry="7.1" transform="rotate(-24 711 127)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.6s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M708.8 122.6 C713.1 125.2, 708.7 128.4, 713.5 132.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-06-10: 115 contributions</title>
+      <ellipse cx="711" cy="143" rx="5.7" ry="7.1" transform="rotate(-24 711 143)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.7s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M708.8 138.6 C713.1 141.2, 708.7 144.4, 713.5 148.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-06-11: 297 contributions</title>
+      <ellipse cx="711" cy="159" rx="5.7" ry="7.1" transform="rotate(-24 711 159)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.8s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M708.8 154.6 C713.1 157.2, 708.7 160.4, 713.5 164.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-06-12: 269 contributions</title>
+      <ellipse cx="711" cy="175" rx="5.7" ry="7.1" transform="rotate(-24 711 175)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M708.8 170.6 C713.1 173.2, 708.7 176.4, 713.5 180.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-06-13: 129 contributions</title>
+      <ellipse cx="711" cy="191" rx="5.7" ry="7.1" transform="rotate(-24 711 191)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.1s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M708.8 186.6 C713.1 189.2, 708.7 192.4, 713.5 196.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-06-14: 207 contributions</title>
+      <ellipse cx="727" cy="95" rx="5.7" ry="7.1" transform="rotate(-24 727 95)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.5s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M724.8 90.6 C729.1 93.2, 724.7 96.4, 729.5 100.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-06-15: 204 contributions</title>
+      <ellipse cx="727" cy="111" rx="5.7" ry="7.1" transform="rotate(-24 727 111)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.6s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M724.8 106.6 C729.1 109.2, 724.7 112.4, 729.5 116.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-06-16: 59 contributions</title>
+      <ellipse cx="727" cy="127" rx="5.7" ry="7.1" transform="rotate(-24 727 127)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.7s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M724.8 122.6 C729.1 125.2, 724.7 128.4, 729.5 132.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-06-17: 78 contributions</title>
+      <ellipse cx="727" cy="143" rx="5.7" ry="7.1" transform="rotate(-24 727 143)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.8s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M724.8 138.6 C729.1 141.2, 724.7 144.4, 729.5 148.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-06-18: 149 contributions</title>
+      <ellipse cx="727" cy="159" rx="5.7" ry="7.1" transform="rotate(-24 727 159)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M724.8 154.6 C729.1 157.2, 724.7 160.4, 729.5 164.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-06-19: 200 contributions</title>
+      <ellipse cx="727" cy="175" rx="5.7" ry="7.1" transform="rotate(-24 727 175)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.1s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M724.8 170.6 C729.1 173.2, 724.7 176.4, 729.5 180.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-06-20: 220 contributions</title>
+      <ellipse cx="727" cy="191" rx="5.7" ry="7.1" transform="rotate(-24 727 191)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.2s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M724.8 186.6 C729.1 189.2, 724.7 192.4, 729.5 196.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-06-21: 121 contributions</title>
+      <ellipse cx="743" cy="95" rx="5.7" ry="7.1" transform="rotate(-24 743 95)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.6s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M740.8 90.6 C745.1 93.2, 740.7 96.4, 745.5 100.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-06-22: 133 contributions</title>
+      <ellipse cx="743" cy="111" rx="5.7" ry="7.1" transform="rotate(-24 743 111)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.7s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M740.8 106.6 C745.1 109.2, 740.7 112.4, 745.5 116.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-06-23: 244 contributions</title>
+      <ellipse cx="743" cy="127" rx="5.7" ry="7.1" transform="rotate(-24 743 127)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.8s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M740.8 122.6 C745.1 125.2, 740.7 128.4, 745.5 132.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-06-24: 97 contributions</title>
+      <ellipse cx="743" cy="143" rx="5.7" ry="7.1" transform="rotate(-24 743 143)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M740.8 138.6 C745.1 141.2, 740.7 144.4, 745.5 148.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-06-25: 244 contributions</title>
+      <ellipse cx="743" cy="159" rx="5.7" ry="7.1" transform="rotate(-24 743 159)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.1s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M740.8 154.6 C745.1 157.2, 740.7 160.4, 745.5 164.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-06-26: 178 contributions</title>
+      <ellipse cx="743" cy="175" rx="5.7" ry="7.1" transform="rotate(-24 743 175)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.2s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M740.8 170.6 C745.1 173.2, 740.7 176.4, 745.5 180.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-06-27: 190 contributions</title>
+      <ellipse cx="743" cy="191" rx="5.7" ry="7.1" transform="rotate(-24 743 191)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.3s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M740.8 186.6 C745.1 189.2, 740.7 192.4, 745.5 196.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-06-28: 44 contributions</title>
+      <ellipse cx="759" cy="95" rx="5.7" ry="7.1" transform="rotate(-24 759 95)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.7s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M756.8 90.6 C761.1 93.2, 756.7 96.4, 761.5 100.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g><g><title>2026-06-29: 0 contributions</title><circle cx="759" cy="111" r="2.1" fill="#5A3825" opacity="0.55"/></g>
+    <g opacity="0.98">
+      <title>2026-06-30: 16 contributions</title>
+      <ellipse cx="759" cy="127" rx="5.7" ry="7.1" transform="rotate(-24 759 127)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M756.8 122.6 C761.1 125.2, 756.7 128.4, 761.5 132.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-07-01: 148 contributions</title>
+      <ellipse cx="759" cy="143" rx="5.7" ry="7.1" transform="rotate(-24 759 143)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.1s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M756.8 138.6 C761.1 141.2, 756.7 144.4, 761.5 148.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-07-02: 146 contributions</title>
+      <ellipse cx="759" cy="159" rx="5.7" ry="7.1" transform="rotate(-24 759 159)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.2s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M756.8 154.6 C761.1 157.2, 756.7 160.4, 761.5 164.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-07-03: 166 contributions</title>
+      <ellipse cx="759" cy="175" rx="5.7" ry="7.1" transform="rotate(-24 759 175)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.3s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M756.8 170.6 C761.1 173.2, 756.7 176.4, 761.5 180.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-07-04: 106 contributions</title>
+      <ellipse cx="759" cy="191" rx="5.7" ry="7.1" transform="rotate(-24 759 191)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.4s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M756.8 186.6 C761.1 189.2, 756.7 192.4, 761.5 196.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-07-05: 18 contributions</title>
+      <ellipse cx="775" cy="95" rx="5.7" ry="7.1" transform="rotate(-24 775 95)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.8s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M772.8 90.6 C777.1 93.2, 772.7 96.4, 777.5 100.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-07-06: 101 contributions</title>
+      <ellipse cx="775" cy="111" rx="5.7" ry="7.1" transform="rotate(-24 775 111)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M772.8 106.6 C777.1 109.2, 772.7 112.4, 777.5 116.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-07-07: 104 contributions</title>
+      <ellipse cx="775" cy="127" rx="5.7" ry="7.1" transform="rotate(-24 775 127)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.1s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M772.8 122.6 C777.1 125.2, 772.7 128.4, 777.5 132.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-07-08: 46 contributions</title>
+      <ellipse cx="775" cy="143" rx="5.7" ry="7.1" transform="rotate(-24 775 143)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.2s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M772.8 138.6 C777.1 141.2, 772.7 144.4, 777.5 148.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-07-09: 51 contributions</title>
+      <ellipse cx="775" cy="159" rx="5.7" ry="7.1" transform="rotate(-24 775 159)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.3s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M772.8 154.6 C777.1 157.2, 772.7 160.4, 777.5 164.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-07-10: 63 contributions</title>
+      <ellipse cx="775" cy="175" rx="5.7" ry="7.1" transform="rotate(-24 775 175)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.4s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M772.8 170.6 C777.1 173.2, 772.7 176.4, 777.5 180.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-07-11: 143 contributions</title>
+      <ellipse cx="775" cy="191" rx="5.7" ry="7.1" transform="rotate(-24 775 191)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.5s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M772.8 186.6 C777.1 189.2, 772.7 192.4, 777.5 196.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-07-12: 123 contributions</title>
+      <ellipse cx="791" cy="95" rx="5.7" ry="7.1" transform="rotate(-24 791 95)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M788.8 90.6 C793.1 93.2, 788.7 96.4, 793.5 100.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-07-13: 117 contributions</title>
+      <ellipse cx="791" cy="111" rx="5.7" ry="7.1" transform="rotate(-24 791 111)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.1s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M788.8 106.6 C793.1 109.2, 788.7 112.4, 793.5 116.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-07-14: 393 contributions</title>
+      <ellipse cx="791" cy="127" rx="5.7" ry="7.1" transform="rotate(-24 791 127)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.2s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M788.8 122.6 C793.1 125.2, 788.7 128.4, 793.5 132.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-07-15: 190 contributions</title>
+      <ellipse cx="791" cy="143" rx="5.7" ry="7.1" transform="rotate(-24 791 143)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.3s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M788.8 138.6 C793.1 141.2, 788.7 144.4, 793.5 148.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-07-16: 80 contributions</title>
+      <ellipse cx="791" cy="159" rx="5.7" ry="7.1" transform="rotate(-24 791 159)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.4s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M788.8 154.6 C793.1 157.2, 788.7 160.4, 793.5 164.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-07-17: 132 contributions</title>
+      <ellipse cx="791" cy="175" rx="5.7" ry="7.1" transform="rotate(-24 791 175)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.5s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M788.8 170.6 C793.1 173.2, 788.7 176.4, 793.5 180.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-07-18: 354 contributions</title>
+      <ellipse cx="791" cy="191" rx="5.7" ry="7.1" transform="rotate(-24 791 191)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.6s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M788.8 186.6 C793.1 189.2, 788.7 192.4, 793.5 196.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-07-19: 122 contributions</title>
+      <ellipse cx="807" cy="95" rx="5.7" ry="7.1" transform="rotate(-24 807 95)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.1s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M804.8 90.6 C809.1 93.2, 804.7 96.4, 809.5 100.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g><g><title>2026-07-20: 0 contributions</title><circle cx="807" cy="111" r="2.1" fill="#5A3825" opacity="0.55"/></g>
+    <g opacity="0.98">
+      <title>2026-07-21: 126 contributions</title>
+      <ellipse cx="807" cy="127" rx="5.7" ry="7.1" transform="rotate(-24 807 127)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.3s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M804.8 122.6 C809.1 125.2, 804.7 128.4, 809.5 132.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-07-22: 306 contributions</title>
+      <ellipse cx="807" cy="143" rx="5.7" ry="7.1" transform="rotate(-24 807 143)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.4s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M804.8 138.6 C809.1 141.2, 804.7 144.4, 809.5 148.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-07-23: 423 contributions</title>
+      <ellipse cx="807" cy="159" rx="5.7" ry="7.1" transform="rotate(-24 807 159)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.5s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M804.8 154.6 C809.1 157.2, 804.7 160.4, 809.5 164.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-07-24: 222 contributions</title>
+      <ellipse cx="807" cy="175" rx="5.7" ry="7.1" transform="rotate(-24 807 175)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.6s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M804.8 170.6 C809.1 173.2, 804.7 176.4, 809.5 180.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-07-25: 173 contributions</title>
+      <ellipse cx="807" cy="191" rx="5.7" ry="7.1" transform="rotate(-24 807 191)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.7s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M804.8 186.6 C809.1 189.2, 804.7 192.4, 809.5 196.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-07-26: 39 contributions</title>
+      <ellipse cx="823" cy="95" rx="5.7" ry="7.1" transform="rotate(-24 823 95)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.2s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M820.8 90.6 C825.1 93.2, 820.7 96.4, 825.5 100.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-07-27: 64 contributions</title>
+      <ellipse cx="823" cy="111" rx="5.7" ry="7.1" transform="rotate(-24 823 111)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.3s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M820.8 106.6 C825.1 109.2, 820.7 112.4, 825.5 116.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g><g><title>2026-07-28: 0 contributions</title><circle cx="823" cy="127" r="2.1" fill="#5A3825" opacity="0.55"/></g>
+    <g opacity="0.98">
+      <title>2026-07-29: 8 contributions</title>
+      <ellipse cx="823" cy="143" rx="5.7" ry="7.1" transform="rotate(-24 823 143)" fill="#604029" stroke="#A47248" stroke-width="1.1">
+        
+      </ellipse>
+      <path d="M820.8 138.6 C825.1 141.2, 820.7 144.4, 825.5 148.1" stroke="#D0A474" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-07-30: 40 contributions</title>
+      <ellipse cx="823" cy="159" rx="5.7" ry="7.1" transform="rotate(-24 823 159)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.6s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M820.8 154.6 C825.1 157.2, 820.7 160.4, 825.5 164.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-07-31: 47 contributions</title>
+      <ellipse cx="823" cy="175" rx="5.7" ry="7.1" transform="rotate(-24 823 175)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.7s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M820.8 170.6 C825.1 173.2, 820.7 176.4, 825.5 180.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-08-01: 7 contributions</title>
+      <ellipse cx="823" cy="191" rx="5.7" ry="7.1" transform="rotate(-24 823 191)" fill="#604029" stroke="#A47248" stroke-width="1.1">
+        
+      </ellipse>
+      <path d="M820.8 186.6 C825.1 189.2, 820.7 192.4, 825.5 196.1" stroke="#D0A474" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-08-02: 65 contributions</title>
+      <ellipse cx="839" cy="95" rx="5.7" ry="7.1" transform="rotate(-24 839 95)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.3s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M836.8 90.6 C841.1 93.2, 836.7 96.4, 841.5 100.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-08-03: 101 contributions</title>
+      <ellipse cx="839" cy="111" rx="5.7" ry="7.1" transform="rotate(-24 839 111)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.4s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M836.8 106.6 C841.1 109.2, 836.7 112.4, 841.5 116.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-08-04: 63 contributions</title>
+      <ellipse cx="839" cy="127" rx="5.7" ry="7.1" transform="rotate(-24 839 127)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.5s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M836.8 122.6 C841.1 125.2, 836.7 128.4, 841.5 132.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-08-05: 286 contributions</title>
+      <ellipse cx="839" cy="143" rx="5.7" ry="7.1" transform="rotate(-24 839 143)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.6s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M836.8 138.6 C841.1 141.2, 836.7 144.4, 841.5 148.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-08-06: 218 contributions</title>
+      <ellipse cx="839" cy="159" rx="5.7" ry="7.1" transform="rotate(-24 839 159)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.7s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M836.8 154.6 C841.1 157.2, 836.7 160.4, 841.5 164.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-08-07: 158 contributions</title>
+      <ellipse cx="839" cy="175" rx="5.7" ry="7.1" transform="rotate(-24 839 175)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.8s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M836.8 170.6 C841.1 173.2, 836.7 176.4, 841.5 180.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-08-08: 80 contributions</title>
+      <ellipse cx="839" cy="191" rx="5.7" ry="7.1" transform="rotate(-24 839 191)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M836.8 186.6 C841.1 189.2, 836.7 192.4, 841.5 196.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-08-09: 137 contributions</title>
+      <ellipse cx="855" cy="95" rx="5.7" ry="7.1" transform="rotate(-24 855 95)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.4s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M852.8 90.6 C857.1 93.2, 852.7 96.4, 857.5 100.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-08-10: 192 contributions</title>
+      <ellipse cx="855" cy="111" rx="5.7" ry="7.1" transform="rotate(-24 855 111)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.5s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M852.8 106.6 C857.1 109.2, 852.7 112.4, 857.5 116.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-08-11: 151 contributions</title>
+      <ellipse cx="855" cy="127" rx="5.7" ry="7.1" transform="rotate(-24 855 127)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.6s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M852.8 122.6 C857.1 125.2, 852.7 128.4, 857.5 132.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-08-12: 217 contributions</title>
+      <ellipse cx="855" cy="143" rx="5.7" ry="7.1" transform="rotate(-24 855 143)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.7s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M852.8 138.6 C857.1 141.2, 852.7 144.4, 857.5 148.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-08-13: 75 contributions</title>
+      <ellipse cx="855" cy="159" rx="5.7" ry="7.1" transform="rotate(-24 855 159)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.8s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M852.8 154.6 C857.1 157.2, 852.7 160.4, 857.5 164.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-08-14: 147 contributions</title>
+      <ellipse cx="855" cy="175" rx="5.7" ry="7.1" transform="rotate(-24 855 175)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M852.8 170.6 C857.1 173.2, 852.7 176.4, 857.5 180.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-08-15: 203 contributions</title>
+      <ellipse cx="855" cy="191" rx="5.7" ry="7.1" transform="rotate(-24 855 191)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.1s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M852.8 186.6 C857.1 189.2, 852.7 192.4, 857.5 196.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-08-16: 123 contributions</title>
+      <ellipse cx="871" cy="95" rx="5.7" ry="7.1" transform="rotate(-24 871 95)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.5s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M868.8 90.6 C873.1 93.2, 868.7 96.4, 873.5 100.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-08-17: 348 contributions</title>
+      <ellipse cx="871" cy="111" rx="5.7" ry="7.1" transform="rotate(-24 871 111)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.6s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M868.8 106.6 C873.1 109.2, 868.7 112.4, 873.5 116.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-08-18: 443 contributions</title>
+      <ellipse cx="871" cy="127" rx="5.7" ry="7.1" transform="rotate(-24 871 127)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.7s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M868.8 122.6 C873.1 125.2, 868.7 128.4, 873.5 132.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-08-19: 370 contributions</title>
+      <ellipse cx="871" cy="143" rx="5.7" ry="7.1" transform="rotate(-24 871 143)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.8s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M868.8 138.6 C873.1 141.2, 868.7 144.4, 873.5 148.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-08-20: 202 contributions</title>
+      <ellipse cx="871" cy="159" rx="5.7" ry="7.1" transform="rotate(-24 871 159)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M868.8 154.6 C873.1 157.2, 868.7 160.4, 873.5 164.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-08-21: 160 contributions</title>
+      <ellipse cx="871" cy="175" rx="5.7" ry="7.1" transform="rotate(-24 871 175)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.1s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M868.8 170.6 C873.1 173.2, 868.7 176.4, 873.5 180.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-08-22: 69 contributions</title>
+      <ellipse cx="871" cy="191" rx="5.7" ry="7.1" transform="rotate(-24 871 191)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.2s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M868.8 186.6 C873.1 189.2, 868.7 192.4, 873.5 196.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-08-23: 7 contributions</title>
+      <ellipse cx="887" cy="95" rx="5.7" ry="7.1" transform="rotate(-24 887 95)" fill="#604029" stroke="#A47248" stroke-width="1.1">
+        
+      </ellipse>
+      <path d="M884.8 90.6 C889.1 93.2, 884.7 96.4, 889.5 100.1" stroke="#D0A474" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-08-24: 39 contributions</title>
+      <ellipse cx="887" cy="111" rx="5.7" ry="7.1" transform="rotate(-24 887 111)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.7s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M884.8 106.6 C889.1 109.2, 884.7 112.4, 889.5 116.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-08-25: 118 contributions</title>
+      <ellipse cx="887" cy="127" rx="5.7" ry="7.1" transform="rotate(-24 887 127)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.8s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M884.8 122.6 C889.1 125.2, 884.7 128.4, 889.5 132.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-08-26: 86 contributions</title>
+      <ellipse cx="887" cy="143" rx="5.7" ry="7.1" transform="rotate(-24 887 143)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M884.8 138.6 C889.1 141.2, 884.7 144.4, 889.5 148.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-08-27: 56 contributions</title>
+      <ellipse cx="887" cy="159" rx="5.7" ry="7.1" transform="rotate(-24 887 159)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.1s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M884.8 154.6 C889.1 157.2, 884.7 160.4, 889.5 164.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-08-28: 23 contributions</title>
+      <ellipse cx="887" cy="175" rx="5.7" ry="7.1" transform="rotate(-24 887 175)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.2s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M884.8 170.6 C889.1 173.2, 884.7 176.4, 889.5 180.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-08-29: 150 contributions</title>
+      <ellipse cx="887" cy="191" rx="5.7" ry="7.1" transform="rotate(-24 887 191)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.3s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M884.8 186.6 C889.1 189.2, 884.7 192.4, 889.5 196.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-08-30: 271 contributions</title>
+      <ellipse cx="903" cy="95" rx="5.7" ry="7.1" transform="rotate(-24 903 95)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.7s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M900.8 90.6 C905.1 93.2, 900.7 96.4, 905.5 100.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-08-31: 248 contributions</title>
+      <ellipse cx="903" cy="111" rx="5.7" ry="7.1" transform="rotate(-24 903 111)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.8s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M900.8 106.6 C905.1 109.2, 900.7 112.4, 905.5 116.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-09-01: 60 contributions</title>
+      <ellipse cx="903" cy="127" rx="5.7" ry="7.1" transform="rotate(-24 903 127)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M900.8 122.6 C905.1 125.2, 900.7 128.4, 905.5 132.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-09-02: 60 contributions</title>
+      <ellipse cx="903" cy="143" rx="5.7" ry="7.1" transform="rotate(-24 903 143)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.1s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M900.8 138.6 C905.1 141.2, 900.7 144.4, 905.5 148.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-09-03: 98 contributions</title>
+      <ellipse cx="903" cy="159" rx="5.7" ry="7.1" transform="rotate(-24 903 159)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.2s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M900.8 154.6 C905.1 157.2, 900.7 160.4, 905.5 164.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-09-04: 92 contributions</title>
+      <ellipse cx="903" cy="175" rx="5.7" ry="7.1" transform="rotate(-24 903 175)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.3s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M900.8 170.6 C905.1 173.2, 900.7 176.4, 905.5 180.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <g opacity="0.98">
+      <title>2026-09-05: 29 contributions</title>
+      <ellipse cx="903" cy="191" rx="5.7" ry="7.1" transform="rotate(-24 903 191)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1">
+        <animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="0.4s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M900.8 186.6 C905.1 189.2, 900.7 192.4, 905.5 196.1" stroke="#E8D3B8" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    </g>
+  </g>
+
+  <g>
+    <text x="42" y="218" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#D4A373">light roast → medium roast → dark roast → espresso</text>
+    <g><circle cx="655" cy="208" r="2.1" fill="#5A3825" opacity="0.55"/><text x="640" y="232" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9" fill="#B98E66">No</text></g><g><ellipse cx="721" cy="208" rx="5.7" ry="7.1" transform="rotate(-24 721 208)" fill="#CDAA7D" stroke="#E7C9A3" stroke-width="1.1"/><text x="706" y="232" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9" fill="#B98E66">Light</text></g><g><ellipse cx="787" cy="208" rx="5.7" ry="7.1" transform="rotate(-24 787 208)" fill="#9B6A3D" stroke="#C99663" stroke-width="1.1"/><text x="772" y="232" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9" fill="#B98E66">Medium</text></g><g><ellipse cx="853" cy="208" rx="5.7" ry="7.1" transform="rotate(-24 853 208)" fill="#604029" stroke="#A47248" stroke-width="1.1"/><text x="838" y="232" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9" fill="#B98E66">Dark</text></g><g><ellipse cx="919" cy="208" rx="5.7" ry="7.1" transform="rotate(-24 919 208)" fill="#2B1710" stroke="#D4A373" stroke-width="1.1"/><text x="904" y="232" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9" fill="#B98E66">Espresso</text></g>
+  </g>
+
+  <g transform="translate(884 31)">
+    <path d="M24 32h48c0 22-12 41-33 41h-15c-21 0-33-19-33-41h33Z" fill="#322016" stroke="#D4A373" stroke-width="3"/>
+    <path d="M72 42h8c13 0 13 19 0 19h-9" stroke="#D4A373" stroke-width="5" stroke-linecap="round" fill="none"/>
+    <path d="M18 80h60" stroke="#D4A373" stroke-width="4" stroke-linecap="round"/>
+    <path d="M30 20 C20 9 42 7 32 -4" stroke="#E8D3B8" stroke-width="2.7" stroke-linecap="round" opacity="0.75">
+      <animateTransform attributeName="transform" type="translate" values="0 0; 0 -7; 0 0" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".25;.9;.25" dur="4s" repeatCount="indefinite"/>
+    </path>
+    <path d="M51 20 C41 9 63 7 53 -4" stroke="#E8D3B8" stroke-width="2.7" stroke-linecap="round" opacity="0.65">
+      <animateTransform attributeName="transform" type="translate" values="0 0; 0 -8; 0 0" dur="4.8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".2;.8;.2" dur="4.8s" repeatCount="indefinite"/>
+    </path>
+  </g>
+</svg>
