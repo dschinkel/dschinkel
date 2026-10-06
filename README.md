@@ -38,6 +38,10 @@ flowchart LR
   E --> F[Production Systems]
 ```
 
+## Autumn Contributions
+
+<img src="https://raw.githubusercontent.com/dschinkel/dschinkel/output/fall-contribution-grid.svg" alt="GitHub contribution calendar in fall colors: rust, orange, and gold" width="100%">
+
 ## Contribution Roast
 
 <img src="https://raw.githubusercontent.com/dschinkel/dschinkel/output/coffee-contribution-grid.svg" alt="Coffee-themed GitHub contribution roast grid" width="100%">

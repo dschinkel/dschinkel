@@ -1,4 +1,4 @@
-name: Generate coffee contribution grid
+name: Generate contribution grids
 
 on:
   schedule:
@@ -23,6 +23,12 @@ jobs:
 
       - name: Generate coffee contribution grid SVG
         run: node scripts/generate-coffee-grid.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USERNAME: dschinkel
+
+      - name: Generate fall contribution grid SVG
+        run: node scripts/generate-fall-grid.mjs
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_USERNAME: dschinkel
