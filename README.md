@@ -75,6 +75,8 @@ Cloud Automation
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react)
 ![TypeScript](https://img.shields.io/badge/TypeScript-20232A?style=for-the-badge&logo=typescript)
 ![Node.js](https://img.shields.io/badge/Node.js-20232A?style=for-the-badge&logo=node.js)
+![Java](https://img.shields.io/badge/Java-20232A?style=for-the-badge&logo=openjdk)
+![.NET](https://img.shields.io/badge/.NET-20232A?style=for-the-badge&logo=dotnet)
 ![Next.js](https://img.shields.io/badge/Next.js-20232A?style=for-the-badge&logo=next.js)
 ![Google Cloud](https://img.shields.io/badge/Google_Cloud-20232A?style=for-the-badge&logo=googlecloud)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-20232A?style=for-the-badge&logo=githubactions)
