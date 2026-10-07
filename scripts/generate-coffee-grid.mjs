@@ -163,20 +163,6 @@ function svg(calendar) {
     <text x="42" y="218" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#D4A373">light roast → medium roast → dark roast → espresso</text>
     ${legend}
   </g>
-
-  <g transform="translate(884 31)">
-    <path d="M24 32h48c0 22-12 41-33 41h-15c-21 0-33-19-33-41h33Z" fill="#322016" stroke="#D4A373" stroke-width="3"/>
-    <path d="M72 42h8c13 0 13 19 0 19h-9" stroke="#D4A373" stroke-width="5" stroke-linecap="round" fill="none"/>
-    <path d="M18 80h60" stroke="#D4A373" stroke-width="4" stroke-linecap="round"/>
-    <path d="M30 20 C20 9 42 7 32 -4" stroke="#E8D3B8" stroke-width="2.7" stroke-linecap="round" opacity="0.75">
-      <animateTransform attributeName="transform" type="translate" values="0 0; 0 -7; 0 0" dur="4s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values=".25;.9;.25" dur="4s" repeatCount="indefinite"/>
-    </path>
-    <path d="M51 20 C41 9 63 7 53 -4" stroke="#E8D3B8" stroke-width="2.7" stroke-linecap="round" opacity="0.65">
-      <animateTransform attributeName="transform" type="translate" values="0 0; 0 -8; 0 0" dur="4.8s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values=".2;.8;.2" dur="4.8s" repeatCount="indefinite"/>
-    </path>
-  </g>
 </svg>`;
 }
 
