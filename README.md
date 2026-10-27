@@ -43,17 +43,6 @@ TDD-First Codebases
 Cloud Automation
 ```
 
-## Definition of Done
-
-```txt
-[✓] Tests verify important behavior
-[✓] Small vertical slices
-[✓] Clean domain boundaries
-[✓] Fast local feedback
-[✓] CI-enforced quality
-[✓] Agent outputs verified by tests
-```
-
 ## Tech Stack
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react)
