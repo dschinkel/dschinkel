@@ -1,6 +1,9 @@
 <img src="./assets/github-profile-banner.svg" alt="Dave Schinkel GitHub profile banner" width="100%">
 
-# Dave Schinkel
+## Links
+
+- Website: https://WeDoTDD.com
+- LinkedIn: https://www.linkedin.com/in/daveschinkel
 
 ```txt
 Open to Work
@@ -22,11 +25,6 @@ prompt-evaluation-pipelines
 ci-quality-gates
 clean-architecture
 ```
-
-## Links
-
-- Website: https://WeDoTDD.com
-- LinkedIn: https://www.linkedin.com/in/daveschinkel
 
 ## Autumn Contributions
 
