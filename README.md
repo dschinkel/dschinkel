@@ -25,19 +25,6 @@ ci-quality-gates
 clean-architecture
 ```
 
-## Agentic Engineering Lab
-
-Building practical AI-assisted software delivery systems with fast feedback, executable checks, and clean boundaries.
-
-```mermaid
-flowchart LR
-  A[Claude Code] --> B[Custom Skills]
-  B --> C[Agentic Workflows]
-  C --> D[Test Feedback]
-  D --> E[CI Quality Gates]
-  E --> F[Production Systems]
-```
-
 ## Autumn Contributions
 
 <img src="https://raw.githubusercontent.com/dschinkel/dschinkel/output/fall-contribution-grid.svg" alt="GitHub contribution calendar in fall colors: rust, orange, and gold" width="100%">
