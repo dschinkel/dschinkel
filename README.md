@@ -4,6 +4,19 @@
 
 <img src="https://raw.githubusercontent.com/dschinkel/dschinkel/output/coffee-contribution-grid.svg" alt="Coffee-themed GitHub contribution roast grid" width="100%">
 
+## Tech Stack
+
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react)
+![TypeScript](https://img.shields.io/badge/TypeScript-20232A?style=for-the-badge&logo=typescript)
+![Node.js](https://img.shields.io/badge/Node.js-20232A?style=for-the-badge&logo=node.js)
+![Java](https://img.shields.io/badge/Java-20232A?style=for-the-badge&logo=openjdk)
+![.NET](https://img.shields.io/badge/.NET-20232A?style=for-the-badge&logo=dotnet)
+![Next.js](https://img.shields.io/badge/Next.js-20232A?style=for-the-badge&logo=next.js)
+![Google Cloud](https://img.shields.io/badge/Google_Cloud-20232A?style=for-the-badge&logo=googlecloud)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-20232A?style=for-the-badge&logo=githubactions)
+![TDD](https://img.shields.io/badge/TDD-20232A?style=for-the-badge)
+![Claude Code](https://img.shields.io/badge/Claude_Code-20232A?style=for-the-badge)
+
 ## Links
 
 - Website: https://WeDoTDD.com
@@ -53,19 +66,6 @@ Cloud Automation
 [✓] CI-enforced quality
 [✓] Agent outputs verified by tests
 ```
-
-## Tech Stack
-
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react)
-![TypeScript](https://img.shields.io/badge/TypeScript-20232A?style=for-the-badge&logo=typescript)
-![Node.js](https://img.shields.io/badge/Node.js-20232A?style=for-the-badge&logo=node.js)
-![Java](https://img.shields.io/badge/Java-20232A?style=for-the-badge&logo=openjdk)
-![.NET](https://img.shields.io/badge/.NET-20232A?style=for-the-badge&logo=dotnet)
-![Next.js](https://img.shields.io/badge/Next.js-20232A?style=for-the-badge&logo=next.js)
-![Google Cloud](https://img.shields.io/badge/Google_Cloud-20232A?style=for-the-badge&logo=googlecloud)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-20232A?style=for-the-badge&logo=githubactions)
-![TDD](https://img.shields.io/badge/TDD-20232A?style=for-the-badge)
-![Claude Code](https://img.shields.io/badge/Claude_Code-20232A?style=for-the-badge)
 
 ## GitHub Activity
 
