@@ -50,13 +50,13 @@ async function fetchCalendar() {
 
 const levels = ['NONE', 'FIRST_QUARTILE', 'SECOND_QUARTILE', 'THIRD_QUARTILE', 'FOURTH_QUARTILE'];
 
-// Match the fall calendar's activity levels; brighter fills mean more activity.
+// Match the fall calendar's activity levels; darker roasts mean more activity.
 const palette = [
   { fill: '#2A1810', stroke: '#4A2C1E', line: '#51301F', label: 'No roast' },
-  { fill: '#754126', stroke: '#A7673F', line: '#E4A16A', label: 'Light roast' },
-  { fill: '#B56A32', stroke: '#D88C46', line: '#4A2617', label: 'Medium roast' },
-  { fill: '#E8AA53', stroke: '#F5C878', line: '#63371E', label: 'Dark roast' },
-  { fill: '#FFE1A3', stroke: '#FFF0CD', line: '#754126', label: 'Espresso' }
+  { fill: '#FFE1A3', stroke: '#FFF0CD', line: '#754126', label: 'Light roast' },
+  { fill: '#E8AA53', stroke: '#F5C878', line: '#63371E', label: 'Medium roast' },
+  { fill: '#B56A32', stroke: '#D88C46', line: '#4A2617', label: 'Dark roast' },
+  { fill: '#754126', stroke: '#A7673F', line: '#E4A16A', label: 'Espresso' }
 ];
 
 function bean(x, y, level, title = '') {
@@ -85,7 +85,7 @@ function weekMonthLabels(weeks) {
     const d = new Date(`${first.date}T00:00:00Z`);
     const month = formatter.format(d);
     if (month !== lastMonth && d.getUTCDate() <= 7) {
-      labels += `<text x="${64 + i * 16}" y="75" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#B98E66">${month}</text>`;
+      labels += `<text x="${64 + i * 16}" y="96" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#B98E66">${month}</text>`;
       lastMonth = month;
     }
   });
@@ -95,9 +95,9 @@ function weekMonthLabels(weeks) {
 function svg(calendar) {
   const weeks = calendar.weeks;
   const width = 990;
-  const height = 255;
+  const height = 300;
   const gridX = 64;
-  const gridY = 88;
+  const gridY = 112;
   const cell = 14;
   const gap = 2;
   const now = new Date().toISOString().slice(0, 10);
@@ -115,15 +115,15 @@ function svg(calendar) {
 
   const legend = palette.map((p, i) => {
     const x = 648 + i * 66;
-    const sample = bean(x, 201, i);
-    return `<g>${sample}<text x="${x - 8}" y="232" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9" fill="#B98E66">${p.label.split(' ')[0]}</text></g>`;
+    const sample = bean(x, 245, i);
+    return `<g>${sample}<text x="${x - 8}" y="276" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9" fill="#B98E66">${p.label.split(' ')[0]}</text></g>`;
   }).join('');
 
   return `<svg width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">Coffee-themed GitHub contribution grid for ${username}</title>
-  <desc id="desc">A coffee bean roast map generated from GitHub contribution activity. Brighter beans indicate higher activity, from light roast to espresso.</desc>
+  <desc id="desc">A coffee bean roast map generated from GitHub contribution activity. Beans darken with higher activity, from light roast to espresso.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="990" y2="255" gradientUnits="userSpaceOnUse">
+    <linearGradient id="bg" x1="0" y1="0" x2="990" y2="300" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#110906"/>
       <stop offset="0.55" stop-color="#25140D"/>
       <stop offset="1" stop-color="#0C0604"/>
@@ -133,8 +133,8 @@ function svg(calendar) {
     </filter>
   </defs>
 
-  <rect x="0" y="0" width="990" height="255" rx="24" fill="url(#bg)"/>
-  <rect x="18" y="18" width="954" height="219" rx="18" fill="#160C08" stroke="#6B442A" stroke-opacity="0.55"/>
+  <rect x="0" y="0" width="990" height="300" rx="24" fill="url(#bg)"/>
+  <rect x="18" y="18" width="954" height="264" rx="18" fill="#160C08" stroke="#6B442A" stroke-opacity="0.55"/>
 
   <g filter="url(#shadow)">
     <text x="42" y="47" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16" fill="#D4A373">CONTRIBUTION ROAST</text>
@@ -142,15 +142,15 @@ function svg(calendar) {
   </g>
 
   <g>
-    <text x="34" y="100" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" fill="#806047">Mon</text>
-    <text x="34" y="132" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" fill="#806047">Wed</text>
-    <text x="34" y="164" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" fill="#806047">Fri</text>
+    <text x="34" y="124" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" fill="#806047">Mon</text>
+    <text x="34" y="156" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" fill="#806047">Wed</text>
+    <text x="34" y="188" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" fill="#806047">Fri</text>
     ${weekMonthLabels(weeks)}
     ${beans}
   </g>
 
   <g>
-    <text x="42" y="218" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#D4A373">light roast → medium roast → dark roast → espresso</text>
+    <text x="42" y="260" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#D4A373">light roast → medium roast → dark roast → espresso</text>
     ${legend}
   </g>
 </svg>`;
