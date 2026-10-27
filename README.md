@@ -1,5 +1,9 @@
 <img src="./assets/github-profile-banner.svg" alt="Dave Schinkel GitHub profile banner" width="100%">
 
+## Contribution Roast
+
+<img src="https://raw.githubusercontent.com/dschinkel/dschinkel/output/coffee-contribution-grid.svg" alt="Coffee-themed GitHub contribution roast grid" width="100%">
+
 ## Links
 
 - Website: https://WeDoTDD.com
@@ -25,10 +29,6 @@ prompt-evaluation-pipelines
 ci-quality-gates
 clean-architecture
 ```
-
-## Contribution Roast
-
-<img src="https://raw.githubusercontent.com/dschinkel/dschinkel/output/coffee-contribution-grid.svg" alt="Coffee-themed GitHub contribution roast grid" width="100%">
 
 ## Systems I Build
 
