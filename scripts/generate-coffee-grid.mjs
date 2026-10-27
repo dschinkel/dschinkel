@@ -18,6 +18,7 @@ query($login: String!) {
           contributionDays {
             date
             contributionCount
+            contributionLevel
             weekday
           }
         }
@@ -47,41 +48,30 @@ async function fetchCalendar() {
   return json.data.user.contributionsCollection.contributionCalendar;
 }
 
-function roastLevel(count) {
-  if (count === 0) return 0;
-  if (count === 1) return 1;
-  if (count <= 4) return 2;
-  if (count <= 9) return 3;
-  return 4;
-}
+const levels = ['NONE', 'FIRST_QUARTILE', 'SECOND_QUARTILE', 'THIRD_QUARTILE', 'FOURTH_QUARTILE'];
 
+// Match the fall calendar's activity levels; brighter fills mean more activity.
 const palette = [
   { fill: '#2A1810', stroke: '#4A2C1E', line: '#51301F', label: 'No roast' },
-  { fill: '#CDAA7D', stroke: '#E7C9A3', line: '#8C5E35', label: 'Light roast' },
-  { fill: '#9B6A3D', stroke: '#C99663', line: '#53301E', label: 'Medium roast' },
-  { fill: '#604029', stroke: '#A47248', line: '#D0A474', label: 'Dark roast' },
-  { fill: '#2B1710', stroke: '#D4A373', line: '#E8D3B8', label: 'Espresso' }
+  { fill: '#754126', stroke: '#A7673F', line: '#E4A16A', label: 'Light roast' },
+  { fill: '#B56A32', stroke: '#D88C46', line: '#4A2617', label: 'Medium roast' },
+  { fill: '#E8AA53', stroke: '#F5C878', line: '#63371E', label: 'Dark roast' },
+  { fill: '#FFE1A3', stroke: '#FFF0CD', line: '#754126', label: 'Espresso' }
 ];
 
-function bean(x, y, count, date, delay) {
-  const level = roastLevel(count);
+function bean(x, y, level, title = '') {
   const p = palette[level];
-  const title = `${date}: ${count} contribution${count === 1 ? '' : 's'}`;
-  const pulse = level >= 4
-    ? `<animate attributeName="opacity" values="1;.68;1" dur="2.8s" begin="${delay}s" repeatCount="indefinite"/>`
-    : '';
+  const tooltip = title ? `<title>${title}</title>` : '';
 
   if (level === 0) {
-    return `<g><title>${title}</title><circle cx="${x + 7}" cy="${y + 7}" r="2.1" fill="#5A3825" opacity="0.55"/></g>`;
+    return `<g>${tooltip}<circle cx="${x + 7}" cy="${y + 7}" r="2.1" fill="#5A3825" opacity="0.55"/></g>`;
   }
 
   return `
-    <g opacity="0.98">
-      <title>${title}</title>
-      <ellipse cx="${x + 7}" cy="${y + 7}" rx="5.7" ry="7.1" transform="rotate(-24 ${x + 7} ${y + 7})" fill="${p.fill}" stroke="${p.stroke}" stroke-width="1.1">
-        ${pulse}
-      </ellipse>
-      <path d="M${x + 4.8} ${y + 2.6} C${x + 9.1} ${y + 5.2}, ${x + 4.7} ${y + 8.4}, ${x + 9.5} ${y + 12.1}" stroke="${p.line}" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    <g>
+      ${tooltip}
+      <ellipse cx="${x + 7}" cy="${y + 7}" rx="5.7" ry="7.1" transform="rotate(-24 ${x + 7} ${y + 7})" fill="${p.fill}" stroke="${p.stroke}" stroke-width="1.1"/>
+      <path d="M${x + 4.8} ${y + 2.6} C${x + 9.1} ${y + 5.2}, ${x + 4.7} ${y + 8.4}, ${x + 9.5} ${y + 12.1}" stroke="${p.line}" stroke-width="1.1" fill="none" stroke-linecap="round"/>
     </g>`;
 }
 
@@ -117,21 +107,21 @@ function svg(calendar) {
     week.contributionDays.forEach((day) => {
       const x = gridX + weekIndex * (cell + gap);
       const y = gridY + day.weekday * (cell + gap);
-      beans += bean(x, y, day.contributionCount, day.date, ((weekIndex + day.weekday) % 9) / 10);
+      const level = levels.indexOf(day.contributionLevel);
+      if (level < 0) throw new Error(`Unknown contribution level: ${day.contributionLevel}`);
+      beans += bean(x, y, level, `${day.date}: ${day.contributionCount} contribution${day.contributionCount === 1 ? '' : 's'}`);
     });
   });
 
   const legend = palette.map((p, i) => {
     const x = 648 + i * 66;
-    const sample = i === 0
-      ? `<circle cx="${x + 7}" cy="208" r="2.1" fill="#5A3825" opacity="0.55"/>`
-      : `<ellipse cx="${x + 7}" cy="208" rx="5.7" ry="7.1" transform="rotate(-24 ${x + 7} 208)" fill="${p.fill}" stroke="${p.stroke}" stroke-width="1.1"/>`;
+    const sample = bean(x, 201, i);
     return `<g>${sample}<text x="${x - 8}" y="232" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9" fill="#B98E66">${p.label.split(' ')[0]}</text></g>`;
   }).join('');
 
   return `<svg width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">Coffee-themed GitHub contribution grid for ${username}</title>
-  <desc id="desc">A coffee bean roast map generated from GitHub contribution activity.</desc>
+  <desc id="desc">A coffee bean roast map generated from GitHub contribution activity. Brighter beans indicate higher activity, from light roast to espresso.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="990" y2="255" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#110906"/>

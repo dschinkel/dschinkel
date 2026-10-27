@@ -23,6 +23,11 @@ ci-quality-gates
 clean-architecture
 ```
 
+## Links
+
+- Website: https://WeDoTDD.com
+- LinkedIn: https://www.linkedin.com/in/daveschinkel
+
 ## Autumn Contributions
 
 <img src="https://raw.githubusercontent.com/dschinkel/dschinkel/output/fall-contribution-grid.svg" alt="GitHub contribution calendar in fall colors: rust, orange, and gold" width="100%">
@@ -75,9 +80,3 @@ Cloud Automation
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=dschinkel&layout=compact&theme=github_dark&hide_border=true)
 
 ![GitHub Streak](https://streak-stats.demolab.com?user=dschinkel&theme=github-dark-blue&hide_border=true)
-
-## Links
-
-Website: https://WeDoTDD.com  
-GitHub: https://github.com/dschinkel  
-LinkedIn: https://www.linkedin.com/in/daveschinkel
