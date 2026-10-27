@@ -14,8 +14,6 @@ React / Node / Cloud automation
 ## Current Focus
 
 ```txt
-$ current-focus
-
 custom-claude-skills
 local-llm-test-loops
 embedding-agents
