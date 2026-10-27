@@ -43,7 +43,7 @@ TDD-First Codebases
 Cloud Automation
 ```
 
-## Definition of Done
+## Go Well
 
 ```txt
 [✓] Tests verify important behavior
