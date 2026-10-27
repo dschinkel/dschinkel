@@ -4,6 +4,11 @@
 
 <img src="https://raw.githubusercontent.com/dschinkel/dschinkel/output/coffee-contribution-grid.svg" alt="Coffee-themed GitHub contribution roast grid" width="100%">
 
+## Links
+
+- Website: https://WeDoTDD.com
+- LinkedIn: https://www.linkedin.com/in/daveschinkel
+
 ## Tech Stack
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react)
@@ -16,11 +21,6 @@
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-20232A?style=for-the-badge&logo=githubactions)
 ![TDD](https://img.shields.io/badge/TDD-20232A?style=for-the-badge)
 ![Claude Code](https://img.shields.io/badge/Claude_Code-20232A?style=for-the-badge)
-
-## Links
-
-- Website: https://WeDoTDD.com
-- LinkedIn: https://www.linkedin.com/in/daveschinkel
 
 ```txt
 Open to Work
