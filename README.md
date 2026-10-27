@@ -3,7 +3,7 @@
 # Dave Schinkel
 
 ```txt
-$ whoami
+Open to Work
 
 Staff / Lead Software Engineer
 TDD / XP practitioner
