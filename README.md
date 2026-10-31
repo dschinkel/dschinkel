@@ -2,7 +2,9 @@
 
 ## Contribution Roast
 
-<img src="https://raw.githubusercontent.com/dschinkel/dschinkel/output/coffee-contribution-grid.svg" alt="Coffee-themed GitHub contribution roast grid" width="100%">
+<a href="https://dschinkel.github.io/dschinkel/">
+  <img src="https://raw.githubusercontent.com/dschinkel/dschinkel/output/coffee-contribution-grid.svg" alt="Contribution Roast — click to explore real daily counts in larger bean-shaped tooltips" width="100%">
+</a>
 
 ## Links
 

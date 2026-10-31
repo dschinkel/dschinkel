@@ -24,7 +24,10 @@ jobs:
         with:
           node-version: 22
 
-      - name: Generate coffee contribution grid SVG
+      - name: Verify daily count tooltips
+        run: node --test
+
+      - name: Generate coffee contribution SVG and interactive page
         run: node scripts/generate-coffee-grid.mjs
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -36,7 +39,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_USERNAME: dschinkel
 
-      - name: Push generated SVG to output branch
+      - name: Publish generated charts and interactive page to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
