@@ -91,10 +91,10 @@ function weekMonthLabels(weeks) {
   return labels;
 }
 
-export function svg(calendar) {
+export function svg(calendar, callout = 'Click to explore daily counts ↗') {
   const weeks = calendar.weeks;
   const width = 990;
-  const height = 322;
+  const height = 300;
   const gridX = 64;
   const gridY = 112;
   const cell = 14;
@@ -133,8 +133,8 @@ export function svg(calendar) {
     </filter>
   </defs>
 
-  <rect x="0" y="0" width="990" height="322" rx="24" fill="url(#bg)"/>
-  <rect x="18" y="18" width="954" height="286" rx="18" fill="#0B0205" stroke="#8A0E16" stroke-opacity="0.55"/>
+  <rect x="0" y="0" width="990" height="300" rx="24" fill="url(#bg)"/>
+  <rect x="18" y="18" width="954" height="264" rx="18" fill="#0B0205" stroke="#8A0E16" stroke-opacity="0.55"/>
 
   <g filter="url(#shadow)">
     <text x="42" y="47" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16" fill="#E0473A">CONTRIBUTION ROAST</text>
@@ -150,17 +150,16 @@ export function svg(calendar) {
   </g>
 
   <g>
-    <text x="42" y="260" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#E0473A">light roast → medium roast → dark roast → espresso</text>
     ${legend}
-    <rect x="42" y="278" width="530" height="24" rx="12" fill="#2A070C" stroke="#E0473A" stroke-opacity="0.7"/>
-    <text x="54" y="294" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#FFB09A">Click to explore daily counts ↗</text>
+    <rect x="42" y="244" width="${Math.ceil(callout.length * 7.2 + 24)}" height="24" rx="12" fill="#2A070C" stroke="#E0473A" stroke-opacity="0.7"/>
+    <text x="54" y="260" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#FFB09A">${callout}</text>
   </g>
 </svg>`;
 }
 
 export function interactivePage(calendar) {
   // Inline SVG exposes each day to pointer and keyboard events; README images cannot.
-  const chart = svg(calendar).replace('role="img" aria-labelledby="title desc"', 'role="group" aria-labelledby="title desc"').replace('Click to explore daily counts ↗', 'Hover, tap, or focus a bean to see its daily count');
+  const chart = svg(calendar, 'Hover, tap, or focus a bean to see its daily count').replace('role="img" aria-labelledby="title desc"', 'role="group" aria-labelledby="title desc"');
   return `<!doctype html>
 <html lang="en">
 <head>
@@ -186,7 +185,7 @@ h1 { font-size: 28px; }
 <h1>Contribution Roast</h1>
 <p>Hover, tap, or use Tab to select a bean. The larger bean shows that day's actual GitHub contribution count.</p>
 <div class="chart">${chart}</div>
-<p>Counts come from GitHub's contribution calendar and refresh automatically every three hours.</p>
+<p>Counts come from GitHub's contribution calendar and refresh automatically every hour.</p>
 <p><a href="https://github.com/${username}">Back to GitHub profile</a></p>
 <div id="bean-tooltip" role="tooltip" hidden>
 <svg viewBox="0 0 120 144" aria-hidden="true">
