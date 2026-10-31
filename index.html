@@ -1,0 +1,1231 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contribution Roast — dschinkel</title>
+<style>
+* { box-sizing: border-box; }
+body { margin: 0; padding: 28px; background: #0d1117; color: #f0f3f6; font: 16px system-ui, sans-serif; }
+main { max-width: 1400px; margin: auto; }
+a { color: #ffb09a; }
+h1 { font-size: 28px; }
+.chart { overflow-x: auto; padding: 4px; }
+.chart > svg { width: 100%; min-width: 760px; height: auto; display: block; }
+.day { cursor: pointer; outline: none; }
+.day:focus > rect { stroke: #fff; stroke-width: 1; rx: 3; }
+#bean-tooltip { position: fixed; width: 120px; height: 144px; pointer-events: none; z-index: 10; filter: drop-shadow(0 5px 8px #000a); }
+#bean-tooltip[hidden] { display: none; }
+#bean-tooltip svg { width: 100%; height: 100%; overflow: visible; }
+@media (max-width: 600px) { body { padding: 16px; } }
+</style>
+</head>
+<body><main>
+<h1>Contribution Roast</h1>
+<p>Hover, tap, or use Tab to select a bean. The larger bean shows that day's actual GitHub contribution count.</p>
+<div class="chart"><svg width="990" height="300" viewBox="0 0 990 300" xmlns="http://www.w3.org/2000/svg" role="group" aria-labelledby="title desc">
+  <title id="title">Coffee-themed GitHub contribution grid for dschinkel</title>
+  <desc id="desc">A coffee bean roast map generated from GitHub contribution activity. Bean colors progress from pale coral to deep red as activity increases.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="990" y2="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#050103"/>
+      <stop offset="0.55" stop-color="#17050B"/>
+      <stop offset="1" stop-color="#070205"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="7" stdDeviation="9" flood-color="#000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <rect x="0" y="0" width="990" height="300" rx="24" fill="url(#bg)"/>
+  <rect x="18" y="18" width="954" height="264" rx="18" fill="#0B0205" stroke="#8A0E16" stroke-opacity="0.55"/>
+
+  <g filter="url(#shadow)">
+    <text x="42" y="47" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16" fill="#E0473A">CONTRIBUTION ROAST</text>
+    <text x="42" y="67" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#C9A0A1">dschinkel • 24371 contributions • generated 2026-10-31</text>
+  </g>
+
+  <g>
+    <text x="34" y="124" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" fill="#A8797D">Mon</text>
+    <text x="34" y="156" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" fill="#A8797D">Wed</text>
+    <text x="34" y="188" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" fill="#A8797D">Fri</text>
+    <text x="80" y="96" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#C9A0A1">Nov</text><text x="160" y="96" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#C9A0A1">Dec</text><text x="224" y="96" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#C9A0A1">Jan</text><text x="288" y="96" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#C9A0A1">Feb</text><text x="352" y="96" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#C9A0A1">Mar</text><text x="432" y="96" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#C9A0A1">Apr</text><text x="496" y="96" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#C9A0A1">May</text><text x="576" y="96" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#C9A0A1">Jun</text><text x="640" y="96" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#C9A0A1">Jul</text><text x="704" y="96" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#C9A0A1">Aug</text><text x="784" y="96" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#C9A0A1">Sep</text><text x="848" y="96" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#C9A0A1">Oct</text>
+    <g class="day" tabindex="0" role="img" aria-label="2025-10-26: 0 contributions" data-date="2025-10-26" data-count="0" data-level="0"><title>2025-10-26: 0 contributions</title><rect x="63" y="111" width="16" height="16" fill="transparent"/><circle cx="71" cy="119" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2025-10-27: 0 contributions" data-date="2025-10-27" data-count="0" data-level="0"><title>2025-10-27: 0 contributions</title><rect x="63" y="127" width="16" height="16" fill="transparent"/><circle cx="71" cy="135" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2025-10-28: 0 contributions" data-date="2025-10-28" data-count="0" data-level="0"><title>2025-10-28: 0 contributions</title><rect x="63" y="143" width="16" height="16" fill="transparent"/><circle cx="71" cy="151" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2025-10-29: 0 contributions" data-date="2025-10-29" data-count="0" data-level="0"><title>2025-10-29: 0 contributions</title><rect x="63" y="159" width="16" height="16" fill="transparent"/><circle cx="71" cy="167" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2025-10-30: 0 contributions" data-date="2025-10-30" data-count="0" data-level="0"><title>2025-10-30: 0 contributions</title><rect x="63" y="175" width="16" height="16" fill="transparent"/><circle cx="71" cy="183" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2025-10-31: 0 contributions" data-date="2025-10-31" data-count="0" data-level="0"><title>2025-10-31: 0 contributions</title><rect x="63" y="191" width="16" height="16" fill="transparent"/><circle cx="71" cy="199" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2025-11-01: 0 contributions" data-date="2025-11-01" data-count="0" data-level="0"><title>2025-11-01: 0 contributions</title><rect x="63" y="207" width="16" height="16" fill="transparent"/><circle cx="71" cy="215" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2025-11-02: 0 contributions" data-date="2025-11-02" data-count="0" data-level="0"><title>2025-11-02: 0 contributions</title><rect x="79" y="111" width="16" height="16" fill="transparent"/><circle cx="87" cy="119" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2025-11-03: 0 contributions" data-date="2025-11-03" data-count="0" data-level="0"><title>2025-11-03: 0 contributions</title><rect x="79" y="127" width="16" height="16" fill="transparent"/><circle cx="87" cy="135" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2025-11-04: 0 contributions" data-date="2025-11-04" data-count="0" data-level="0"><title>2025-11-04: 0 contributions</title><rect x="79" y="143" width="16" height="16" fill="transparent"/><circle cx="87" cy="151" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2025-11-05: 0 contributions" data-date="2025-11-05" data-count="0" data-level="0"><title>2025-11-05: 0 contributions</title><rect x="79" y="159" width="16" height="16" fill="transparent"/><circle cx="87" cy="167" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2025-11-06: 0 contributions" data-date="2025-11-06" data-count="0" data-level="0"><title>2025-11-06: 0 contributions</title><rect x="79" y="175" width="16" height="16" fill="transparent"/><circle cx="87" cy="183" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2025-11-07: 0 contributions" data-date="2025-11-07" data-count="0" data-level="0"><title>2025-11-07: 0 contributions</title><rect x="79" y="191" width="16" height="16" fill="transparent"/><circle cx="87" cy="199" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2025-11-08: 0 contributions" data-date="2025-11-08" data-count="0" data-level="0"><title>2025-11-08: 0 contributions</title><rect x="79" y="207" width="16" height="16" fill="transparent"/><circle cx="87" cy="215" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2025-11-09: 0 contributions" data-date="2025-11-09" data-count="0" data-level="0"><title>2025-11-09: 0 contributions</title><rect x="95" y="111" width="16" height="16" fill="transparent"/><circle cx="103" cy="119" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2025-11-10: 0 contributions" data-date="2025-11-10" data-count="0" data-level="0"><title>2025-11-10: 0 contributions</title><rect x="95" y="127" width="16" height="16" fill="transparent"/><circle cx="103" cy="135" r="2.1" fill="#5A0C14" opacity="0.55"/></g>
+    <g class="day" tabindex="0" role="img" aria-label="2025-11-11: 2 contributions" data-date="2025-11-11" data-count="2" data-level="1">
+      <title>2025-11-11: 2 contributions</title><rect x="95" y="143" width="16" height="16" fill="transparent"/>
+      <ellipse cx="103" cy="151" rx="5.7" ry="7.1" transform="rotate(-24 103 151)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M100.8 146.6 C105.1 149.2, 100.7 152.4, 105.5 156.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g><g class="day" tabindex="0" role="img" aria-label="2025-11-12: 0 contributions" data-date="2025-11-12" data-count="0" data-level="0"><title>2025-11-12: 0 contributions</title><rect x="95" y="159" width="16" height="16" fill="transparent"/><circle cx="103" cy="167" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2025-11-13: 0 contributions" data-date="2025-11-13" data-count="0" data-level="0"><title>2025-11-13: 0 contributions</title><rect x="95" y="175" width="16" height="16" fill="transparent"/><circle cx="103" cy="183" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2025-11-14: 0 contributions" data-date="2025-11-14" data-count="0" data-level="0"><title>2025-11-14: 0 contributions</title><rect x="95" y="191" width="16" height="16" fill="transparent"/><circle cx="103" cy="199" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2025-11-15: 0 contributions" data-date="2025-11-15" data-count="0" data-level="0"><title>2025-11-15: 0 contributions</title><rect x="95" y="207" width="16" height="16" fill="transparent"/><circle cx="103" cy="215" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2025-11-16: 0 contributions" data-date="2025-11-16" data-count="0" data-level="0"><title>2025-11-16: 0 contributions</title><rect x="111" y="111" width="16" height="16" fill="transparent"/><circle cx="119" cy="119" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2025-11-17: 0 contributions" data-date="2025-11-17" data-count="0" data-level="0"><title>2025-11-17: 0 contributions</title><rect x="111" y="127" width="16" height="16" fill="transparent"/><circle cx="119" cy="135" r="2.1" fill="#5A0C14" opacity="0.55"/></g>
+    <g class="day" tabindex="0" role="img" aria-label="2025-11-18: 5 contributions" data-date="2025-11-18" data-count="5" data-level="1">
+      <title>2025-11-18: 5 contributions</title><rect x="111" y="143" width="16" height="16" fill="transparent"/>
+      <ellipse cx="119" cy="151" rx="5.7" ry="7.1" transform="rotate(-24 119 151)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M116.8 146.6 C121.1 149.2, 116.7 152.4, 121.5 156.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2025-11-19: 2 contributions" data-date="2025-11-19" data-count="2" data-level="1">
+      <title>2025-11-19: 2 contributions</title><rect x="111" y="159" width="16" height="16" fill="transparent"/>
+      <ellipse cx="119" cy="167" rx="5.7" ry="7.1" transform="rotate(-24 119 167)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M116.8 162.6 C121.1 165.2, 116.7 168.4, 121.5 172.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g><g class="day" tabindex="0" role="img" aria-label="2025-11-20: 0 contributions" data-date="2025-11-20" data-count="0" data-level="0"><title>2025-11-20: 0 contributions</title><rect x="111" y="175" width="16" height="16" fill="transparent"/><circle cx="119" cy="183" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2025-11-21: 0 contributions" data-date="2025-11-21" data-count="0" data-level="0"><title>2025-11-21: 0 contributions</title><rect x="111" y="191" width="16" height="16" fill="transparent"/><circle cx="119" cy="199" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2025-11-22: 0 contributions" data-date="2025-11-22" data-count="0" data-level="0"><title>2025-11-22: 0 contributions</title><rect x="111" y="207" width="16" height="16" fill="transparent"/><circle cx="119" cy="215" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2025-11-23: 0 contributions" data-date="2025-11-23" data-count="0" data-level="0"><title>2025-11-23: 0 contributions</title><rect x="127" y="111" width="16" height="16" fill="transparent"/><circle cx="135" cy="119" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2025-11-24: 0 contributions" data-date="2025-11-24" data-count="0" data-level="0"><title>2025-11-24: 0 contributions</title><rect x="127" y="127" width="16" height="16" fill="transparent"/><circle cx="135" cy="135" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2025-11-25: 0 contributions" data-date="2025-11-25" data-count="0" data-level="0"><title>2025-11-25: 0 contributions</title><rect x="127" y="143" width="16" height="16" fill="transparent"/><circle cx="135" cy="151" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2025-11-26: 0 contributions" data-date="2025-11-26" data-count="0" data-level="0"><title>2025-11-26: 0 contributions</title><rect x="127" y="159" width="16" height="16" fill="transparent"/><circle cx="135" cy="167" r="2.1" fill="#5A0C14" opacity="0.55"/></g>
+    <g class="day" tabindex="0" role="img" aria-label="2025-11-27: 2 contributions" data-date="2025-11-27" data-count="2" data-level="1">
+      <title>2025-11-27: 2 contributions</title><rect x="127" y="175" width="16" height="16" fill="transparent"/>
+      <ellipse cx="135" cy="183" rx="5.7" ry="7.1" transform="rotate(-24 135 183)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M132.8 178.6 C137.1 181.2, 132.7 184.4, 137.5 188.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g><g class="day" tabindex="0" role="img" aria-label="2025-11-28: 0 contributions" data-date="2025-11-28" data-count="0" data-level="0"><title>2025-11-28: 0 contributions</title><rect x="127" y="191" width="16" height="16" fill="transparent"/><circle cx="135" cy="199" r="2.1" fill="#5A0C14" opacity="0.55"/></g>
+    <g class="day" tabindex="0" role="img" aria-label="2025-11-29: 1 contribution" data-date="2025-11-29" data-count="1" data-level="1">
+      <title>2025-11-29: 1 contribution</title><rect x="127" y="207" width="16" height="16" fill="transparent"/>
+      <ellipse cx="135" cy="215" rx="5.7" ry="7.1" transform="rotate(-24 135 215)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M132.8 210.6 C137.1 213.2, 132.7 216.4, 137.5 220.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2025-11-30: 38 contributions" data-date="2025-11-30" data-count="38" data-level="1">
+      <title>2025-11-30: 38 contributions</title><rect x="143" y="111" width="16" height="16" fill="transparent"/>
+      <ellipse cx="151" cy="119" rx="5.7" ry="7.1" transform="rotate(-24 151 119)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M148.8 114.6 C153.1 117.2, 148.7 120.4, 153.5 124.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g><g class="day" tabindex="0" role="img" aria-label="2025-12-01: 0 contributions" data-date="2025-12-01" data-count="0" data-level="0"><title>2025-12-01: 0 contributions</title><rect x="143" y="127" width="16" height="16" fill="transparent"/><circle cx="151" cy="135" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2025-12-02: 0 contributions" data-date="2025-12-02" data-count="0" data-level="0"><title>2025-12-02: 0 contributions</title><rect x="143" y="143" width="16" height="16" fill="transparent"/><circle cx="151" cy="151" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2025-12-03: 0 contributions" data-date="2025-12-03" data-count="0" data-level="0"><title>2025-12-03: 0 contributions</title><rect x="143" y="159" width="16" height="16" fill="transparent"/><circle cx="151" cy="167" r="2.1" fill="#5A0C14" opacity="0.55"/></g>
+    <g class="day" tabindex="0" role="img" aria-label="2025-12-04: 1 contribution" data-date="2025-12-04" data-count="1" data-level="1">
+      <title>2025-12-04: 1 contribution</title><rect x="143" y="175" width="16" height="16" fill="transparent"/>
+      <ellipse cx="151" cy="183" rx="5.7" ry="7.1" transform="rotate(-24 151 183)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M148.8 178.6 C153.1 181.2, 148.7 184.4, 153.5 188.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g><g class="day" tabindex="0" role="img" aria-label="2025-12-05: 0 contributions" data-date="2025-12-05" data-count="0" data-level="0"><title>2025-12-05: 0 contributions</title><rect x="143" y="191" width="16" height="16" fill="transparent"/><circle cx="151" cy="199" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2025-12-06: 0 contributions" data-date="2025-12-06" data-count="0" data-level="0"><title>2025-12-06: 0 contributions</title><rect x="143" y="207" width="16" height="16" fill="transparent"/><circle cx="151" cy="215" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2025-12-07: 0 contributions" data-date="2025-12-07" data-count="0" data-level="0"><title>2025-12-07: 0 contributions</title><rect x="159" y="111" width="16" height="16" fill="transparent"/><circle cx="167" cy="119" r="2.1" fill="#5A0C14" opacity="0.55"/></g>
+    <g class="day" tabindex="0" role="img" aria-label="2025-12-08: 3 contributions" data-date="2025-12-08" data-count="3" data-level="1">
+      <title>2025-12-08: 3 contributions</title><rect x="159" y="127" width="16" height="16" fill="transparent"/>
+      <ellipse cx="167" cy="135" rx="5.7" ry="7.1" transform="rotate(-24 167 135)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M164.8 130.6 C169.1 133.2, 164.7 136.4, 169.5 140.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2025-12-09: 2 contributions" data-date="2025-12-09" data-count="2" data-level="1">
+      <title>2025-12-09: 2 contributions</title><rect x="159" y="143" width="16" height="16" fill="transparent"/>
+      <ellipse cx="167" cy="151" rx="5.7" ry="7.1" transform="rotate(-24 167 151)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M164.8 146.6 C169.1 149.2, 164.7 152.4, 169.5 156.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g><g class="day" tabindex="0" role="img" aria-label="2025-12-10: 0 contributions" data-date="2025-12-10" data-count="0" data-level="0"><title>2025-12-10: 0 contributions</title><rect x="159" y="159" width="16" height="16" fill="transparent"/><circle cx="167" cy="167" r="2.1" fill="#5A0C14" opacity="0.55"/></g>
+    <g class="day" tabindex="0" role="img" aria-label="2025-12-11: 6 contributions" data-date="2025-12-11" data-count="6" data-level="1">
+      <title>2025-12-11: 6 contributions</title><rect x="159" y="175" width="16" height="16" fill="transparent"/>
+      <ellipse cx="167" cy="183" rx="5.7" ry="7.1" transform="rotate(-24 167 183)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M164.8 178.6 C169.1 181.2, 164.7 184.4, 169.5 188.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2025-12-12: 14 contributions" data-date="2025-12-12" data-count="14" data-level="1">
+      <title>2025-12-12: 14 contributions</title><rect x="159" y="191" width="16" height="16" fill="transparent"/>
+      <ellipse cx="167" cy="199" rx="5.7" ry="7.1" transform="rotate(-24 167 199)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M164.8 194.6 C169.1 197.2, 164.7 200.4, 169.5 204.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g><g class="day" tabindex="0" role="img" aria-label="2025-12-13: 0 contributions" data-date="2025-12-13" data-count="0" data-level="0"><title>2025-12-13: 0 contributions</title><rect x="159" y="207" width="16" height="16" fill="transparent"/><circle cx="167" cy="215" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2025-12-14: 0 contributions" data-date="2025-12-14" data-count="0" data-level="0"><title>2025-12-14: 0 contributions</title><rect x="175" y="111" width="16" height="16" fill="transparent"/><circle cx="183" cy="119" r="2.1" fill="#5A0C14" opacity="0.55"/></g>
+    <g class="day" tabindex="0" role="img" aria-label="2025-12-15: 49 contributions" data-date="2025-12-15" data-count="49" data-level="1">
+      <title>2025-12-15: 49 contributions</title><rect x="175" y="127" width="16" height="16" fill="transparent"/>
+      <ellipse cx="183" cy="135" rx="5.7" ry="7.1" transform="rotate(-24 183 135)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M180.8 130.6 C185.1 133.2, 180.7 136.4, 185.5 140.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g><g class="day" tabindex="0" role="img" aria-label="2025-12-16: 0 contributions" data-date="2025-12-16" data-count="0" data-level="0"><title>2025-12-16: 0 contributions</title><rect x="175" y="143" width="16" height="16" fill="transparent"/><circle cx="183" cy="151" r="2.1" fill="#5A0C14" opacity="0.55"/></g>
+    <g class="day" tabindex="0" role="img" aria-label="2025-12-17: 6 contributions" data-date="2025-12-17" data-count="6" data-level="1">
+      <title>2025-12-17: 6 contributions</title><rect x="175" y="159" width="16" height="16" fill="transparent"/>
+      <ellipse cx="183" cy="167" rx="5.7" ry="7.1" transform="rotate(-24 183 167)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M180.8 162.6 C185.1 165.2, 180.7 168.4, 185.5 172.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2025-12-18: 9 contributions" data-date="2025-12-18" data-count="9" data-level="1">
+      <title>2025-12-18: 9 contributions</title><rect x="175" y="175" width="16" height="16" fill="transparent"/>
+      <ellipse cx="183" cy="183" rx="5.7" ry="7.1" transform="rotate(-24 183 183)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M180.8 178.6 C185.1 181.2, 180.7 184.4, 185.5 188.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g><g class="day" tabindex="0" role="img" aria-label="2025-12-19: 0 contributions" data-date="2025-12-19" data-count="0" data-level="0"><title>2025-12-19: 0 contributions</title><rect x="175" y="191" width="16" height="16" fill="transparent"/><circle cx="183" cy="199" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2025-12-20: 0 contributions" data-date="2025-12-20" data-count="0" data-level="0"><title>2025-12-20: 0 contributions</title><rect x="175" y="207" width="16" height="16" fill="transparent"/><circle cx="183" cy="215" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2025-12-21: 0 contributions" data-date="2025-12-21" data-count="0" data-level="0"><title>2025-12-21: 0 contributions</title><rect x="191" y="111" width="16" height="16" fill="transparent"/><circle cx="199" cy="119" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2025-12-22: 0 contributions" data-date="2025-12-22" data-count="0" data-level="0"><title>2025-12-22: 0 contributions</title><rect x="191" y="127" width="16" height="16" fill="transparent"/><circle cx="199" cy="135" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2025-12-23: 0 contributions" data-date="2025-12-23" data-count="0" data-level="0"><title>2025-12-23: 0 contributions</title><rect x="191" y="143" width="16" height="16" fill="transparent"/><circle cx="199" cy="151" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2025-12-24: 0 contributions" data-date="2025-12-24" data-count="0" data-level="0"><title>2025-12-24: 0 contributions</title><rect x="191" y="159" width="16" height="16" fill="transparent"/><circle cx="199" cy="167" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2025-12-25: 0 contributions" data-date="2025-12-25" data-count="0" data-level="0"><title>2025-12-25: 0 contributions</title><rect x="191" y="175" width="16" height="16" fill="transparent"/><circle cx="199" cy="183" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2025-12-26: 0 contributions" data-date="2025-12-26" data-count="0" data-level="0"><title>2025-12-26: 0 contributions</title><rect x="191" y="191" width="16" height="16" fill="transparent"/><circle cx="199" cy="199" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2025-12-27: 0 contributions" data-date="2025-12-27" data-count="0" data-level="0"><title>2025-12-27: 0 contributions</title><rect x="191" y="207" width="16" height="16" fill="transparent"/><circle cx="199" cy="215" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2025-12-28: 0 contributions" data-date="2025-12-28" data-count="0" data-level="0"><title>2025-12-28: 0 contributions</title><rect x="207" y="111" width="16" height="16" fill="transparent"/><circle cx="215" cy="119" r="2.1" fill="#5A0C14" opacity="0.55"/></g>
+    <g class="day" tabindex="0" role="img" aria-label="2025-12-29: 2 contributions" data-date="2025-12-29" data-count="2" data-level="1">
+      <title>2025-12-29: 2 contributions</title><rect x="207" y="127" width="16" height="16" fill="transparent"/>
+      <ellipse cx="215" cy="135" rx="5.7" ry="7.1" transform="rotate(-24 215 135)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M212.8 130.6 C217.1 133.2, 212.7 136.4, 217.5 140.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2025-12-30: 9 contributions" data-date="2025-12-30" data-count="9" data-level="1">
+      <title>2025-12-30: 9 contributions</title><rect x="207" y="143" width="16" height="16" fill="transparent"/>
+      <ellipse cx="215" cy="151" rx="5.7" ry="7.1" transform="rotate(-24 215 151)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M212.8 146.6 C217.1 149.2, 212.7 152.4, 217.5 156.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g><g class="day" tabindex="0" role="img" aria-label="2025-12-31: 0 contributions" data-date="2025-12-31" data-count="0" data-level="0"><title>2025-12-31: 0 contributions</title><rect x="207" y="159" width="16" height="16" fill="transparent"/><circle cx="215" cy="167" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2026-01-01: 0 contributions" data-date="2026-01-01" data-count="0" data-level="0"><title>2026-01-01: 0 contributions</title><rect x="207" y="175" width="16" height="16" fill="transparent"/><circle cx="215" cy="183" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2026-01-02: 0 contributions" data-date="2026-01-02" data-count="0" data-level="0"><title>2026-01-02: 0 contributions</title><rect x="207" y="191" width="16" height="16" fill="transparent"/><circle cx="215" cy="199" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2026-01-03: 0 contributions" data-date="2026-01-03" data-count="0" data-level="0"><title>2026-01-03: 0 contributions</title><rect x="207" y="207" width="16" height="16" fill="transparent"/><circle cx="215" cy="215" r="2.1" fill="#5A0C14" opacity="0.55"/></g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-01-04: 9 contributions" data-date="2026-01-04" data-count="9" data-level="1">
+      <title>2026-01-04: 9 contributions</title><rect x="223" y="111" width="16" height="16" fill="transparent"/>
+      <ellipse cx="231" cy="119" rx="5.7" ry="7.1" transform="rotate(-24 231 119)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M228.8 114.6 C233.1 117.2, 228.7 120.4, 233.5 124.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-01-05: 19 contributions" data-date="2026-01-05" data-count="19" data-level="1">
+      <title>2026-01-05: 19 contributions</title><rect x="223" y="127" width="16" height="16" fill="transparent"/>
+      <ellipse cx="231" cy="135" rx="5.7" ry="7.1" transform="rotate(-24 231 135)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M228.8 130.6 C233.1 133.2, 228.7 136.4, 233.5 140.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-01-06: 59 contributions" data-date="2026-01-06" data-count="59" data-level="1">
+      <title>2026-01-06: 59 contributions</title><rect x="223" y="143" width="16" height="16" fill="transparent"/>
+      <ellipse cx="231" cy="151" rx="5.7" ry="7.1" transform="rotate(-24 231 151)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M228.8 146.6 C233.1 149.2, 228.7 152.4, 233.5 156.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-01-07: 8 contributions" data-date="2026-01-07" data-count="8" data-level="1">
+      <title>2026-01-07: 8 contributions</title><rect x="223" y="159" width="16" height="16" fill="transparent"/>
+      <ellipse cx="231" cy="167" rx="5.7" ry="7.1" transform="rotate(-24 231 167)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M228.8 162.6 C233.1 165.2, 228.7 168.4, 233.5 172.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g><g class="day" tabindex="0" role="img" aria-label="2026-01-08: 0 contributions" data-date="2026-01-08" data-count="0" data-level="0"><title>2026-01-08: 0 contributions</title><rect x="223" y="175" width="16" height="16" fill="transparent"/><circle cx="231" cy="183" r="2.1" fill="#5A0C14" opacity="0.55"/></g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-01-09: 3 contributions" data-date="2026-01-09" data-count="3" data-level="1">
+      <title>2026-01-09: 3 contributions</title><rect x="223" y="191" width="16" height="16" fill="transparent"/>
+      <ellipse cx="231" cy="199" rx="5.7" ry="7.1" transform="rotate(-24 231 199)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M228.8 194.6 C233.1 197.2, 228.7 200.4, 233.5 204.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-01-10: 1 contribution" data-date="2026-01-10" data-count="1" data-level="1">
+      <title>2026-01-10: 1 contribution</title><rect x="223" y="207" width="16" height="16" fill="transparent"/>
+      <ellipse cx="231" cy="215" rx="5.7" ry="7.1" transform="rotate(-24 231 215)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M228.8 210.6 C233.1 213.2, 228.7 216.4, 233.5 220.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-01-11: 31 contributions" data-date="2026-01-11" data-count="31" data-level="1">
+      <title>2026-01-11: 31 contributions</title><rect x="239" y="111" width="16" height="16" fill="transparent"/>
+      <ellipse cx="247" cy="119" rx="5.7" ry="7.1" transform="rotate(-24 247 119)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M244.8 114.6 C249.1 117.2, 244.7 120.4, 249.5 124.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-01-12: 2 contributions" data-date="2026-01-12" data-count="2" data-level="1">
+      <title>2026-01-12: 2 contributions</title><rect x="239" y="127" width="16" height="16" fill="transparent"/>
+      <ellipse cx="247" cy="135" rx="5.7" ry="7.1" transform="rotate(-24 247 135)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M244.8 130.6 C249.1 133.2, 244.7 136.4, 249.5 140.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g><g class="day" tabindex="0" role="img" aria-label="2026-01-13: 0 contributions" data-date="2026-01-13" data-count="0" data-level="0"><title>2026-01-13: 0 contributions</title><rect x="239" y="143" width="16" height="16" fill="transparent"/><circle cx="247" cy="151" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2026-01-14: 0 contributions" data-date="2026-01-14" data-count="0" data-level="0"><title>2026-01-14: 0 contributions</title><rect x="239" y="159" width="16" height="16" fill="transparent"/><circle cx="247" cy="167" r="2.1" fill="#5A0C14" opacity="0.55"/></g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-01-15: 1 contribution" data-date="2026-01-15" data-count="1" data-level="1">
+      <title>2026-01-15: 1 contribution</title><rect x="239" y="175" width="16" height="16" fill="transparent"/>
+      <ellipse cx="247" cy="183" rx="5.7" ry="7.1" transform="rotate(-24 247 183)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M244.8 178.6 C249.1 181.2, 244.7 184.4, 249.5 188.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g><g class="day" tabindex="0" role="img" aria-label="2026-01-16: 0 contributions" data-date="2026-01-16" data-count="0" data-level="0"><title>2026-01-16: 0 contributions</title><rect x="239" y="191" width="16" height="16" fill="transparent"/><circle cx="247" cy="199" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2026-01-17: 0 contributions" data-date="2026-01-17" data-count="0" data-level="0"><title>2026-01-17: 0 contributions</title><rect x="239" y="207" width="16" height="16" fill="transparent"/><circle cx="247" cy="215" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2026-01-18: 0 contributions" data-date="2026-01-18" data-count="0" data-level="0"><title>2026-01-18: 0 contributions</title><rect x="255" y="111" width="16" height="16" fill="transparent"/><circle cx="263" cy="119" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2026-01-19: 0 contributions" data-date="2026-01-19" data-count="0" data-level="0"><title>2026-01-19: 0 contributions</title><rect x="255" y="127" width="16" height="16" fill="transparent"/><circle cx="263" cy="135" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2026-01-20: 0 contributions" data-date="2026-01-20" data-count="0" data-level="0"><title>2026-01-20: 0 contributions</title><rect x="255" y="143" width="16" height="16" fill="transparent"/><circle cx="263" cy="151" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2026-01-21: 0 contributions" data-date="2026-01-21" data-count="0" data-level="0"><title>2026-01-21: 0 contributions</title><rect x="255" y="159" width="16" height="16" fill="transparent"/><circle cx="263" cy="167" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2026-01-22: 0 contributions" data-date="2026-01-22" data-count="0" data-level="0"><title>2026-01-22: 0 contributions</title><rect x="255" y="175" width="16" height="16" fill="transparent"/><circle cx="263" cy="183" r="2.1" fill="#5A0C14" opacity="0.55"/></g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-01-23: 2 contributions" data-date="2026-01-23" data-count="2" data-level="1">
+      <title>2026-01-23: 2 contributions</title><rect x="255" y="191" width="16" height="16" fill="transparent"/>
+      <ellipse cx="263" cy="199" rx="5.7" ry="7.1" transform="rotate(-24 263 199)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M260.8 194.6 C265.1 197.2, 260.7 200.4, 265.5 204.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g><g class="day" tabindex="0" role="img" aria-label="2026-01-24: 0 contributions" data-date="2026-01-24" data-count="0" data-level="0"><title>2026-01-24: 0 contributions</title><rect x="255" y="207" width="16" height="16" fill="transparent"/><circle cx="263" cy="215" r="2.1" fill="#5A0C14" opacity="0.55"/></g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-01-25: 29 contributions" data-date="2026-01-25" data-count="29" data-level="1">
+      <title>2026-01-25: 29 contributions</title><rect x="271" y="111" width="16" height="16" fill="transparent"/>
+      <ellipse cx="279" cy="119" rx="5.7" ry="7.1" transform="rotate(-24 279 119)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M276.8 114.6 C281.1 117.2, 276.7 120.4, 281.5 124.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-01-26: 52 contributions" data-date="2026-01-26" data-count="52" data-level="1">
+      <title>2026-01-26: 52 contributions</title><rect x="271" y="127" width="16" height="16" fill="transparent"/>
+      <ellipse cx="279" cy="135" rx="5.7" ry="7.1" transform="rotate(-24 279 135)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M276.8 130.6 C281.1 133.2, 276.7 136.4, 281.5 140.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-01-27: 13 contributions" data-date="2026-01-27" data-count="13" data-level="1">
+      <title>2026-01-27: 13 contributions</title><rect x="271" y="143" width="16" height="16" fill="transparent"/>
+      <ellipse cx="279" cy="151" rx="5.7" ry="7.1" transform="rotate(-24 279 151)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M276.8 146.6 C281.1 149.2, 276.7 152.4, 281.5 156.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-01-28: 48 contributions" data-date="2026-01-28" data-count="48" data-level="1">
+      <title>2026-01-28: 48 contributions</title><rect x="271" y="159" width="16" height="16" fill="transparent"/>
+      <ellipse cx="279" cy="167" rx="5.7" ry="7.1" transform="rotate(-24 279 167)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M276.8 162.6 C281.1 165.2, 276.7 168.4, 281.5 172.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-01-29: 16 contributions" data-date="2026-01-29" data-count="16" data-level="1">
+      <title>2026-01-29: 16 contributions</title><rect x="271" y="175" width="16" height="16" fill="transparent"/>
+      <ellipse cx="279" cy="183" rx="5.7" ry="7.1" transform="rotate(-24 279 183)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M276.8 178.6 C281.1 181.2, 276.7 184.4, 281.5 188.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g><g class="day" tabindex="0" role="img" aria-label="2026-01-30: 0 contributions" data-date="2026-01-30" data-count="0" data-level="0"><title>2026-01-30: 0 contributions</title><rect x="271" y="191" width="16" height="16" fill="transparent"/><circle cx="279" cy="199" r="2.1" fill="#5A0C14" opacity="0.55"/></g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-01-31: 7 contributions" data-date="2026-01-31" data-count="7" data-level="1">
+      <title>2026-01-31: 7 contributions</title><rect x="271" y="207" width="16" height="16" fill="transparent"/>
+      <ellipse cx="279" cy="215" rx="5.7" ry="7.1" transform="rotate(-24 279 215)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M276.8 210.6 C281.1 213.2, 276.7 216.4, 281.5 220.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-02-01: 8 contributions" data-date="2026-02-01" data-count="8" data-level="1">
+      <title>2026-02-01: 8 contributions</title><rect x="287" y="111" width="16" height="16" fill="transparent"/>
+      <ellipse cx="295" cy="119" rx="5.7" ry="7.1" transform="rotate(-24 295 119)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M292.8 114.6 C297.1 117.2, 292.7 120.4, 297.5 124.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g><g class="day" tabindex="0" role="img" aria-label="2026-02-02: 0 contributions" data-date="2026-02-02" data-count="0" data-level="0"><title>2026-02-02: 0 contributions</title><rect x="287" y="127" width="16" height="16" fill="transparent"/><circle cx="295" cy="135" r="2.1" fill="#5A0C14" opacity="0.55"/></g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-02-03: 1 contribution" data-date="2026-02-03" data-count="1" data-level="1">
+      <title>2026-02-03: 1 contribution</title><rect x="287" y="143" width="16" height="16" fill="transparent"/>
+      <ellipse cx="295" cy="151" rx="5.7" ry="7.1" transform="rotate(-24 295 151)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M292.8 146.6 C297.1 149.2, 292.7 152.4, 297.5 156.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-02-04: 39 contributions" data-date="2026-02-04" data-count="39" data-level="1">
+      <title>2026-02-04: 39 contributions</title><rect x="287" y="159" width="16" height="16" fill="transparent"/>
+      <ellipse cx="295" cy="167" rx="5.7" ry="7.1" transform="rotate(-24 295 167)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M292.8 162.6 C297.1 165.2, 292.7 168.4, 297.5 172.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-02-05: 1 contribution" data-date="2026-02-05" data-count="1" data-level="1">
+      <title>2026-02-05: 1 contribution</title><rect x="287" y="175" width="16" height="16" fill="transparent"/>
+      <ellipse cx="295" cy="183" rx="5.7" ry="7.1" transform="rotate(-24 295 183)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M292.8 178.6 C297.1 181.2, 292.7 184.4, 297.5 188.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g><g class="day" tabindex="0" role="img" aria-label="2026-02-06: 0 contributions" data-date="2026-02-06" data-count="0" data-level="0"><title>2026-02-06: 0 contributions</title><rect x="287" y="191" width="16" height="16" fill="transparent"/><circle cx="295" cy="199" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2026-02-07: 0 contributions" data-date="2026-02-07" data-count="0" data-level="0"><title>2026-02-07: 0 contributions</title><rect x="287" y="207" width="16" height="16" fill="transparent"/><circle cx="295" cy="215" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2026-02-08: 0 contributions" data-date="2026-02-08" data-count="0" data-level="0"><title>2026-02-08: 0 contributions</title><rect x="303" y="111" width="16" height="16" fill="transparent"/><circle cx="311" cy="119" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2026-02-09: 0 contributions" data-date="2026-02-09" data-count="0" data-level="0"><title>2026-02-09: 0 contributions</title><rect x="303" y="127" width="16" height="16" fill="transparent"/><circle cx="311" cy="135" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2026-02-10: 0 contributions" data-date="2026-02-10" data-count="0" data-level="0"><title>2026-02-10: 0 contributions</title><rect x="303" y="143" width="16" height="16" fill="transparent"/><circle cx="311" cy="151" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2026-02-11: 0 contributions" data-date="2026-02-11" data-count="0" data-level="0"><title>2026-02-11: 0 contributions</title><rect x="303" y="159" width="16" height="16" fill="transparent"/><circle cx="311" cy="167" r="2.1" fill="#5A0C14" opacity="0.55"/></g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-02-12: 1 contribution" data-date="2026-02-12" data-count="1" data-level="1">
+      <title>2026-02-12: 1 contribution</title><rect x="303" y="175" width="16" height="16" fill="transparent"/>
+      <ellipse cx="311" cy="183" rx="5.7" ry="7.1" transform="rotate(-24 311 183)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M308.8 178.6 C313.1 181.2, 308.7 184.4, 313.5 188.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g><g class="day" tabindex="0" role="img" aria-label="2026-02-13: 0 contributions" data-date="2026-02-13" data-count="0" data-level="0"><title>2026-02-13: 0 contributions</title><rect x="303" y="191" width="16" height="16" fill="transparent"/><circle cx="311" cy="199" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2026-02-14: 0 contributions" data-date="2026-02-14" data-count="0" data-level="0"><title>2026-02-14: 0 contributions</title><rect x="303" y="207" width="16" height="16" fill="transparent"/><circle cx="311" cy="215" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2026-02-15: 0 contributions" data-date="2026-02-15" data-count="0" data-level="0"><title>2026-02-15: 0 contributions</title><rect x="319" y="111" width="16" height="16" fill="transparent"/><circle cx="327" cy="119" r="2.1" fill="#5A0C14" opacity="0.55"/></g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-02-16: 18 contributions" data-date="2026-02-16" data-count="18" data-level="1">
+      <title>2026-02-16: 18 contributions</title><rect x="319" y="127" width="16" height="16" fill="transparent"/>
+      <ellipse cx="327" cy="135" rx="5.7" ry="7.1" transform="rotate(-24 327 135)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M324.8 130.6 C329.1 133.2, 324.7 136.4, 329.5 140.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-02-17: 24 contributions" data-date="2026-02-17" data-count="24" data-level="1">
+      <title>2026-02-17: 24 contributions</title><rect x="319" y="143" width="16" height="16" fill="transparent"/>
+      <ellipse cx="327" cy="151" rx="5.7" ry="7.1" transform="rotate(-24 327 151)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M324.8 146.6 C329.1 149.2, 324.7 152.4, 329.5 156.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-02-18: 17 contributions" data-date="2026-02-18" data-count="17" data-level="1">
+      <title>2026-02-18: 17 contributions</title><rect x="319" y="159" width="16" height="16" fill="transparent"/>
+      <ellipse cx="327" cy="167" rx="5.7" ry="7.1" transform="rotate(-24 327 167)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M324.8 162.6 C329.1 165.2, 324.7 168.4, 329.5 172.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-02-19: 8 contributions" data-date="2026-02-19" data-count="8" data-level="1">
+      <title>2026-02-19: 8 contributions</title><rect x="319" y="175" width="16" height="16" fill="transparent"/>
+      <ellipse cx="327" cy="183" rx="5.7" ry="7.1" transform="rotate(-24 327 183)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M324.8 178.6 C329.1 181.2, 324.7 184.4, 329.5 188.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g><g class="day" tabindex="0" role="img" aria-label="2026-02-20: 0 contributions" data-date="2026-02-20" data-count="0" data-level="0"><title>2026-02-20: 0 contributions</title><rect x="319" y="191" width="16" height="16" fill="transparent"/><circle cx="327" cy="199" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2026-02-21: 0 contributions" data-date="2026-02-21" data-count="0" data-level="0"><title>2026-02-21: 0 contributions</title><rect x="319" y="207" width="16" height="16" fill="transparent"/><circle cx="327" cy="215" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2026-02-22: 0 contributions" data-date="2026-02-22" data-count="0" data-level="0"><title>2026-02-22: 0 contributions</title><rect x="335" y="111" width="16" height="16" fill="transparent"/><circle cx="343" cy="119" r="2.1" fill="#5A0C14" opacity="0.55"/></g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-02-23: 26 contributions" data-date="2026-02-23" data-count="26" data-level="1">
+      <title>2026-02-23: 26 contributions</title><rect x="335" y="127" width="16" height="16" fill="transparent"/>
+      <ellipse cx="343" cy="135" rx="5.7" ry="7.1" transform="rotate(-24 343 135)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M340.8 130.6 C345.1 133.2, 340.7 136.4, 345.5 140.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-02-24: 11 contributions" data-date="2026-02-24" data-count="11" data-level="1">
+      <title>2026-02-24: 11 contributions</title><rect x="335" y="143" width="16" height="16" fill="transparent"/>
+      <ellipse cx="343" cy="151" rx="5.7" ry="7.1" transform="rotate(-24 343 151)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M340.8 146.6 C345.1 149.2, 340.7 152.4, 345.5 156.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-02-25: 27 contributions" data-date="2026-02-25" data-count="27" data-level="1">
+      <title>2026-02-25: 27 contributions</title><rect x="335" y="159" width="16" height="16" fill="transparent"/>
+      <ellipse cx="343" cy="167" rx="5.7" ry="7.1" transform="rotate(-24 343 167)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M340.8 162.6 C345.1 165.2, 340.7 168.4, 345.5 172.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-02-26: 13 contributions" data-date="2026-02-26" data-count="13" data-level="1">
+      <title>2026-02-26: 13 contributions</title><rect x="335" y="175" width="16" height="16" fill="transparent"/>
+      <ellipse cx="343" cy="183" rx="5.7" ry="7.1" transform="rotate(-24 343 183)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M340.8 178.6 C345.1 181.2, 340.7 184.4, 345.5 188.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g><g class="day" tabindex="0" role="img" aria-label="2026-02-27: 0 contributions" data-date="2026-02-27" data-count="0" data-level="0"><title>2026-02-27: 0 contributions</title><rect x="335" y="191" width="16" height="16" fill="transparent"/><circle cx="343" cy="199" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2026-02-28: 0 contributions" data-date="2026-02-28" data-count="0" data-level="0"><title>2026-02-28: 0 contributions</title><rect x="335" y="207" width="16" height="16" fill="transparent"/><circle cx="343" cy="215" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2026-03-01: 0 contributions" data-date="2026-03-01" data-count="0" data-level="0"><title>2026-03-01: 0 contributions</title><rect x="351" y="111" width="16" height="16" fill="transparent"/><circle cx="359" cy="119" r="2.1" fill="#5A0C14" opacity="0.55"/></g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-03-02: 24 contributions" data-date="2026-03-02" data-count="24" data-level="1">
+      <title>2026-03-02: 24 contributions</title><rect x="351" y="127" width="16" height="16" fill="transparent"/>
+      <ellipse cx="359" cy="135" rx="5.7" ry="7.1" transform="rotate(-24 359 135)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M356.8 130.6 C361.1 133.2, 356.7 136.4, 361.5 140.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-03-03: 32 contributions" data-date="2026-03-03" data-count="32" data-level="1">
+      <title>2026-03-03: 32 contributions</title><rect x="351" y="143" width="16" height="16" fill="transparent"/>
+      <ellipse cx="359" cy="151" rx="5.7" ry="7.1" transform="rotate(-24 359 151)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M356.8 146.6 C361.1 149.2, 356.7 152.4, 361.5 156.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g><g class="day" tabindex="0" role="img" aria-label="2026-03-04: 0 contributions" data-date="2026-03-04" data-count="0" data-level="0"><title>2026-03-04: 0 contributions</title><rect x="351" y="159" width="16" height="16" fill="transparent"/><circle cx="359" cy="167" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2026-03-05: 0 contributions" data-date="2026-03-05" data-count="0" data-level="0"><title>2026-03-05: 0 contributions</title><rect x="351" y="175" width="16" height="16" fill="transparent"/><circle cx="359" cy="183" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2026-03-06: 0 contributions" data-date="2026-03-06" data-count="0" data-level="0"><title>2026-03-06: 0 contributions</title><rect x="351" y="191" width="16" height="16" fill="transparent"/><circle cx="359" cy="199" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2026-03-07: 0 contributions" data-date="2026-03-07" data-count="0" data-level="0"><title>2026-03-07: 0 contributions</title><rect x="351" y="207" width="16" height="16" fill="transparent"/><circle cx="359" cy="215" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2026-03-08: 0 contributions" data-date="2026-03-08" data-count="0" data-level="0"><title>2026-03-08: 0 contributions</title><rect x="367" y="111" width="16" height="16" fill="transparent"/><circle cx="375" cy="119" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2026-03-09: 0 contributions" data-date="2026-03-09" data-count="0" data-level="0"><title>2026-03-09: 0 contributions</title><rect x="367" y="127" width="16" height="16" fill="transparent"/><circle cx="375" cy="135" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2026-03-10: 0 contributions" data-date="2026-03-10" data-count="0" data-level="0"><title>2026-03-10: 0 contributions</title><rect x="367" y="143" width="16" height="16" fill="transparent"/><circle cx="375" cy="151" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2026-03-11: 0 contributions" data-date="2026-03-11" data-count="0" data-level="0"><title>2026-03-11: 0 contributions</title><rect x="367" y="159" width="16" height="16" fill="transparent"/><circle cx="375" cy="167" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2026-03-12: 0 contributions" data-date="2026-03-12" data-count="0" data-level="0"><title>2026-03-12: 0 contributions</title><rect x="367" y="175" width="16" height="16" fill="transparent"/><circle cx="375" cy="183" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2026-03-13: 0 contributions" data-date="2026-03-13" data-count="0" data-level="0"><title>2026-03-13: 0 contributions</title><rect x="367" y="191" width="16" height="16" fill="transparent"/><circle cx="375" cy="199" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2026-03-14: 0 contributions" data-date="2026-03-14" data-count="0" data-level="0"><title>2026-03-14: 0 contributions</title><rect x="367" y="207" width="16" height="16" fill="transparent"/><circle cx="375" cy="215" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2026-03-15: 0 contributions" data-date="2026-03-15" data-count="0" data-level="0"><title>2026-03-15: 0 contributions</title><rect x="383" y="111" width="16" height="16" fill="transparent"/><circle cx="391" cy="119" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2026-03-16: 0 contributions" data-date="2026-03-16" data-count="0" data-level="0"><title>2026-03-16: 0 contributions</title><rect x="383" y="127" width="16" height="16" fill="transparent"/><circle cx="391" cy="135" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2026-03-17: 0 contributions" data-date="2026-03-17" data-count="0" data-level="0"><title>2026-03-17: 0 contributions</title><rect x="383" y="143" width="16" height="16" fill="transparent"/><circle cx="391" cy="151" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2026-03-18: 0 contributions" data-date="2026-03-18" data-count="0" data-level="0"><title>2026-03-18: 0 contributions</title><rect x="383" y="159" width="16" height="16" fill="transparent"/><circle cx="391" cy="167" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2026-03-19: 0 contributions" data-date="2026-03-19" data-count="0" data-level="0"><title>2026-03-19: 0 contributions</title><rect x="383" y="175" width="16" height="16" fill="transparent"/><circle cx="391" cy="183" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2026-03-20: 0 contributions" data-date="2026-03-20" data-count="0" data-level="0"><title>2026-03-20: 0 contributions</title><rect x="383" y="191" width="16" height="16" fill="transparent"/><circle cx="391" cy="199" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2026-03-21: 0 contributions" data-date="2026-03-21" data-count="0" data-level="0"><title>2026-03-21: 0 contributions</title><rect x="383" y="207" width="16" height="16" fill="transparent"/><circle cx="391" cy="215" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2026-03-22: 0 contributions" data-date="2026-03-22" data-count="0" data-level="0"><title>2026-03-22: 0 contributions</title><rect x="399" y="111" width="16" height="16" fill="transparent"/><circle cx="407" cy="119" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2026-03-23: 0 contributions" data-date="2026-03-23" data-count="0" data-level="0"><title>2026-03-23: 0 contributions</title><rect x="399" y="127" width="16" height="16" fill="transparent"/><circle cx="407" cy="135" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2026-03-24: 0 contributions" data-date="2026-03-24" data-count="0" data-level="0"><title>2026-03-24: 0 contributions</title><rect x="399" y="143" width="16" height="16" fill="transparent"/><circle cx="407" cy="151" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2026-03-25: 0 contributions" data-date="2026-03-25" data-count="0" data-level="0"><title>2026-03-25: 0 contributions</title><rect x="399" y="159" width="16" height="16" fill="transparent"/><circle cx="407" cy="167" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2026-03-26: 0 contributions" data-date="2026-03-26" data-count="0" data-level="0"><title>2026-03-26: 0 contributions</title><rect x="399" y="175" width="16" height="16" fill="transparent"/><circle cx="407" cy="183" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2026-03-27: 0 contributions" data-date="2026-03-27" data-count="0" data-level="0"><title>2026-03-27: 0 contributions</title><rect x="399" y="191" width="16" height="16" fill="transparent"/><circle cx="407" cy="199" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2026-03-28: 0 contributions" data-date="2026-03-28" data-count="0" data-level="0"><title>2026-03-28: 0 contributions</title><rect x="399" y="207" width="16" height="16" fill="transparent"/><circle cx="407" cy="215" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2026-03-29: 0 contributions" data-date="2026-03-29" data-count="0" data-level="0"><title>2026-03-29: 0 contributions</title><rect x="415" y="111" width="16" height="16" fill="transparent"/><circle cx="423" cy="119" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2026-03-30: 0 contributions" data-date="2026-03-30" data-count="0" data-level="0"><title>2026-03-30: 0 contributions</title><rect x="415" y="127" width="16" height="16" fill="transparent"/><circle cx="423" cy="135" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2026-03-31: 0 contributions" data-date="2026-03-31" data-count="0" data-level="0"><title>2026-03-31: 0 contributions</title><rect x="415" y="143" width="16" height="16" fill="transparent"/><circle cx="423" cy="151" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2026-04-01: 0 contributions" data-date="2026-04-01" data-count="0" data-level="0"><title>2026-04-01: 0 contributions</title><rect x="415" y="159" width="16" height="16" fill="transparent"/><circle cx="423" cy="167" r="2.1" fill="#5A0C14" opacity="0.55"/></g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-04-02: 1 contribution" data-date="2026-04-02" data-count="1" data-level="1">
+      <title>2026-04-02: 1 contribution</title><rect x="415" y="175" width="16" height="16" fill="transparent"/>
+      <ellipse cx="423" cy="183" rx="5.7" ry="7.1" transform="rotate(-24 423 183)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M420.8 178.6 C425.1 181.2, 420.7 184.4, 425.5 188.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-04-03: 1 contribution" data-date="2026-04-03" data-count="1" data-level="1">
+      <title>2026-04-03: 1 contribution</title><rect x="415" y="191" width="16" height="16" fill="transparent"/>
+      <ellipse cx="423" cy="199" rx="5.7" ry="7.1" transform="rotate(-24 423 199)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M420.8 194.6 C425.1 197.2, 420.7 200.4, 425.5 204.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g><g class="day" tabindex="0" role="img" aria-label="2026-04-04: 0 contributions" data-date="2026-04-04" data-count="0" data-level="0"><title>2026-04-04: 0 contributions</title><rect x="415" y="207" width="16" height="16" fill="transparent"/><circle cx="423" cy="215" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2026-04-05: 0 contributions" data-date="2026-04-05" data-count="0" data-level="0"><title>2026-04-05: 0 contributions</title><rect x="431" y="111" width="16" height="16" fill="transparent"/><circle cx="439" cy="119" r="2.1" fill="#5A0C14" opacity="0.55"/></g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-04-06: 1 contribution" data-date="2026-04-06" data-count="1" data-level="1">
+      <title>2026-04-06: 1 contribution</title><rect x="431" y="127" width="16" height="16" fill="transparent"/>
+      <ellipse cx="439" cy="135" rx="5.7" ry="7.1" transform="rotate(-24 439 135)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M436.8 130.6 C441.1 133.2, 436.7 136.4, 441.5 140.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-04-07: 5 contributions" data-date="2026-04-07" data-count="5" data-level="1">
+      <title>2026-04-07: 5 contributions</title><rect x="431" y="143" width="16" height="16" fill="transparent"/>
+      <ellipse cx="439" cy="151" rx="5.7" ry="7.1" transform="rotate(-24 439 151)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M436.8 146.6 C441.1 149.2, 436.7 152.4, 441.5 156.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g><g class="day" tabindex="0" role="img" aria-label="2026-04-08: 0 contributions" data-date="2026-04-08" data-count="0" data-level="0"><title>2026-04-08: 0 contributions</title><rect x="431" y="159" width="16" height="16" fill="transparent"/><circle cx="439" cy="167" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2026-04-09: 0 contributions" data-date="2026-04-09" data-count="0" data-level="0"><title>2026-04-09: 0 contributions</title><rect x="431" y="175" width="16" height="16" fill="transparent"/><circle cx="439" cy="183" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2026-04-10: 0 contributions" data-date="2026-04-10" data-count="0" data-level="0"><title>2026-04-10: 0 contributions</title><rect x="431" y="191" width="16" height="16" fill="transparent"/><circle cx="439" cy="199" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2026-04-11: 0 contributions" data-date="2026-04-11" data-count="0" data-level="0"><title>2026-04-11: 0 contributions</title><rect x="431" y="207" width="16" height="16" fill="transparent"/><circle cx="439" cy="215" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2026-04-12: 0 contributions" data-date="2026-04-12" data-count="0" data-level="0"><title>2026-04-12: 0 contributions</title><rect x="447" y="111" width="16" height="16" fill="transparent"/><circle cx="455" cy="119" r="2.1" fill="#5A0C14" opacity="0.55"/></g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-04-13: 3 contributions" data-date="2026-04-13" data-count="3" data-level="1">
+      <title>2026-04-13: 3 contributions</title><rect x="447" y="127" width="16" height="16" fill="transparent"/>
+      <ellipse cx="455" cy="135" rx="5.7" ry="7.1" transform="rotate(-24 455 135)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M452.8 130.6 C457.1 133.2, 452.7 136.4, 457.5 140.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g><g class="day" tabindex="0" role="img" aria-label="2026-04-14: 0 contributions" data-date="2026-04-14" data-count="0" data-level="0"><title>2026-04-14: 0 contributions</title><rect x="447" y="143" width="16" height="16" fill="transparent"/><circle cx="455" cy="151" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2026-04-15: 0 contributions" data-date="2026-04-15" data-count="0" data-level="0"><title>2026-04-15: 0 contributions</title><rect x="447" y="159" width="16" height="16" fill="transparent"/><circle cx="455" cy="167" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2026-04-16: 0 contributions" data-date="2026-04-16" data-count="0" data-level="0"><title>2026-04-16: 0 contributions</title><rect x="447" y="175" width="16" height="16" fill="transparent"/><circle cx="455" cy="183" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2026-04-17: 0 contributions" data-date="2026-04-17" data-count="0" data-level="0"><title>2026-04-17: 0 contributions</title><rect x="447" y="191" width="16" height="16" fill="transparent"/><circle cx="455" cy="199" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2026-04-18: 0 contributions" data-date="2026-04-18" data-count="0" data-level="0"><title>2026-04-18: 0 contributions</title><rect x="447" y="207" width="16" height="16" fill="transparent"/><circle cx="455" cy="215" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2026-04-19: 0 contributions" data-date="2026-04-19" data-count="0" data-level="0"><title>2026-04-19: 0 contributions</title><rect x="463" y="111" width="16" height="16" fill="transparent"/><circle cx="471" cy="119" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2026-04-20: 0 contributions" data-date="2026-04-20" data-count="0" data-level="0"><title>2026-04-20: 0 contributions</title><rect x="463" y="127" width="16" height="16" fill="transparent"/><circle cx="471" cy="135" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2026-04-21: 0 contributions" data-date="2026-04-21" data-count="0" data-level="0"><title>2026-04-21: 0 contributions</title><rect x="463" y="143" width="16" height="16" fill="transparent"/><circle cx="471" cy="151" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2026-04-22: 0 contributions" data-date="2026-04-22" data-count="0" data-level="0"><title>2026-04-22: 0 contributions</title><rect x="463" y="159" width="16" height="16" fill="transparent"/><circle cx="471" cy="167" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2026-04-23: 0 contributions" data-date="2026-04-23" data-count="0" data-level="0"><title>2026-04-23: 0 contributions</title><rect x="463" y="175" width="16" height="16" fill="transparent"/><circle cx="471" cy="183" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2026-04-24: 0 contributions" data-date="2026-04-24" data-count="0" data-level="0"><title>2026-04-24: 0 contributions</title><rect x="463" y="191" width="16" height="16" fill="transparent"/><circle cx="471" cy="199" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2026-04-25: 0 contributions" data-date="2026-04-25" data-count="0" data-level="0"><title>2026-04-25: 0 contributions</title><rect x="463" y="207" width="16" height="16" fill="transparent"/><circle cx="471" cy="215" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2026-04-26: 0 contributions" data-date="2026-04-26" data-count="0" data-level="0"><title>2026-04-26: 0 contributions</title><rect x="479" y="111" width="16" height="16" fill="transparent"/><circle cx="487" cy="119" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2026-04-27: 0 contributions" data-date="2026-04-27" data-count="0" data-level="0"><title>2026-04-27: 0 contributions</title><rect x="479" y="127" width="16" height="16" fill="transparent"/><circle cx="487" cy="135" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2026-04-28: 0 contributions" data-date="2026-04-28" data-count="0" data-level="0"><title>2026-04-28: 0 contributions</title><rect x="479" y="143" width="16" height="16" fill="transparent"/><circle cx="487" cy="151" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2026-04-29: 0 contributions" data-date="2026-04-29" data-count="0" data-level="0"><title>2026-04-29: 0 contributions</title><rect x="479" y="159" width="16" height="16" fill="transparent"/><circle cx="487" cy="167" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2026-04-30: 0 contributions" data-date="2026-04-30" data-count="0" data-level="0"><title>2026-04-30: 0 contributions</title><rect x="479" y="175" width="16" height="16" fill="transparent"/><circle cx="487" cy="183" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2026-05-01: 0 contributions" data-date="2026-05-01" data-count="0" data-level="0"><title>2026-05-01: 0 contributions</title><rect x="479" y="191" width="16" height="16" fill="transparent"/><circle cx="487" cy="199" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2026-05-02: 0 contributions" data-date="2026-05-02" data-count="0" data-level="0"><title>2026-05-02: 0 contributions</title><rect x="479" y="207" width="16" height="16" fill="transparent"/><circle cx="487" cy="215" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2026-05-03: 0 contributions" data-date="2026-05-03" data-count="0" data-level="0"><title>2026-05-03: 0 contributions</title><rect x="495" y="111" width="16" height="16" fill="transparent"/><circle cx="503" cy="119" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2026-05-04: 0 contributions" data-date="2026-05-04" data-count="0" data-level="0"><title>2026-05-04: 0 contributions</title><rect x="495" y="127" width="16" height="16" fill="transparent"/><circle cx="503" cy="135" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2026-05-05: 0 contributions" data-date="2026-05-05" data-count="0" data-level="0"><title>2026-05-05: 0 contributions</title><rect x="495" y="143" width="16" height="16" fill="transparent"/><circle cx="503" cy="151" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2026-05-06: 0 contributions" data-date="2026-05-06" data-count="0" data-level="0"><title>2026-05-06: 0 contributions</title><rect x="495" y="159" width="16" height="16" fill="transparent"/><circle cx="503" cy="167" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2026-05-07: 0 contributions" data-date="2026-05-07" data-count="0" data-level="0"><title>2026-05-07: 0 contributions</title><rect x="495" y="175" width="16" height="16" fill="transparent"/><circle cx="503" cy="183" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2026-05-08: 0 contributions" data-date="2026-05-08" data-count="0" data-level="0"><title>2026-05-08: 0 contributions</title><rect x="495" y="191" width="16" height="16" fill="transparent"/><circle cx="503" cy="199" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2026-05-09: 0 contributions" data-date="2026-05-09" data-count="0" data-level="0"><title>2026-05-09: 0 contributions</title><rect x="495" y="207" width="16" height="16" fill="transparent"/><circle cx="503" cy="215" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2026-05-10: 0 contributions" data-date="2026-05-10" data-count="0" data-level="0"><title>2026-05-10: 0 contributions</title><rect x="511" y="111" width="16" height="16" fill="transparent"/><circle cx="519" cy="119" r="2.1" fill="#5A0C14" opacity="0.55"/></g><g class="day" tabindex="0" role="img" aria-label="2026-05-11: 0 contributions" data-date="2026-05-11" data-count="0" data-level="0"><title>2026-05-11: 0 contributions</title><rect x="511" y="127" width="16" height="16" fill="transparent"/><circle cx="519" cy="135" r="2.1" fill="#5A0C14" opacity="0.55"/></g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-05-12: 5 contributions" data-date="2026-05-12" data-count="5" data-level="1">
+      <title>2026-05-12: 5 contributions</title><rect x="511" y="143" width="16" height="16" fill="transparent"/>
+      <ellipse cx="519" cy="151" rx="5.7" ry="7.1" transform="rotate(-24 519 151)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M516.8 146.6 C521.1 149.2, 516.7 152.4, 521.5 156.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-05-13: 5 contributions" data-date="2026-05-13" data-count="5" data-level="1">
+      <title>2026-05-13: 5 contributions</title><rect x="511" y="159" width="16" height="16" fill="transparent"/>
+      <ellipse cx="519" cy="167" rx="5.7" ry="7.1" transform="rotate(-24 519 167)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M516.8 162.6 C521.1 165.2, 516.7 168.4, 521.5 172.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-05-14: 7 contributions" data-date="2026-05-14" data-count="7" data-level="1">
+      <title>2026-05-14: 7 contributions</title><rect x="511" y="175" width="16" height="16" fill="transparent"/>
+      <ellipse cx="519" cy="183" rx="5.7" ry="7.1" transform="rotate(-24 519 183)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M516.8 178.6 C521.1 181.2, 516.7 184.4, 521.5 188.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-05-15: 30 contributions" data-date="2026-05-15" data-count="30" data-level="1">
+      <title>2026-05-15: 30 contributions</title><rect x="511" y="191" width="16" height="16" fill="transparent"/>
+      <ellipse cx="519" cy="199" rx="5.7" ry="7.1" transform="rotate(-24 519 199)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M516.8 194.6 C521.1 197.2, 516.7 200.4, 521.5 204.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g><g class="day" tabindex="0" role="img" aria-label="2026-05-16: 0 contributions" data-date="2026-05-16" data-count="0" data-level="0"><title>2026-05-16: 0 contributions</title><rect x="511" y="207" width="16" height="16" fill="transparent"/><circle cx="519" cy="215" r="2.1" fill="#5A0C14" opacity="0.55"/></g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-05-17: 9 contributions" data-date="2026-05-17" data-count="9" data-level="1">
+      <title>2026-05-17: 9 contributions</title><rect x="527" y="111" width="16" height="16" fill="transparent"/>
+      <ellipse cx="535" cy="119" rx="5.7" ry="7.1" transform="rotate(-24 535 119)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M532.8 114.6 C537.1 117.2, 532.7 120.4, 537.5 124.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-05-18: 31 contributions" data-date="2026-05-18" data-count="31" data-level="1">
+      <title>2026-05-18: 31 contributions</title><rect x="527" y="127" width="16" height="16" fill="transparent"/>
+      <ellipse cx="535" cy="135" rx="5.7" ry="7.1" transform="rotate(-24 535 135)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M532.8 130.6 C537.1 133.2, 532.7 136.4, 537.5 140.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-05-19: 19 contributions" data-date="2026-05-19" data-count="19" data-level="1">
+      <title>2026-05-19: 19 contributions</title><rect x="527" y="143" width="16" height="16" fill="transparent"/>
+      <ellipse cx="535" cy="151" rx="5.7" ry="7.1" transform="rotate(-24 535 151)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M532.8 146.6 C537.1 149.2, 532.7 152.4, 537.5 156.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-05-20: 61 contributions" data-date="2026-05-20" data-count="61" data-level="1">
+      <title>2026-05-20: 61 contributions</title><rect x="527" y="159" width="16" height="16" fill="transparent"/>
+      <ellipse cx="535" cy="167" rx="5.7" ry="7.1" transform="rotate(-24 535 167)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M532.8 162.6 C537.1 165.2, 532.7 168.4, 537.5 172.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-05-21: 72 contributions" data-date="2026-05-21" data-count="72" data-level="1">
+      <title>2026-05-21: 72 contributions</title><rect x="527" y="175" width="16" height="16" fill="transparent"/>
+      <ellipse cx="535" cy="183" rx="5.7" ry="7.1" transform="rotate(-24 535 183)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M532.8 178.6 C537.1 181.2, 532.7 184.4, 537.5 188.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-05-22: 75 contributions" data-date="2026-05-22" data-count="75" data-level="1">
+      <title>2026-05-22: 75 contributions</title><rect x="527" y="191" width="16" height="16" fill="transparent"/>
+      <ellipse cx="535" cy="199" rx="5.7" ry="7.1" transform="rotate(-24 535 199)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M532.8 194.6 C537.1 197.2, 532.7 200.4, 537.5 204.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-05-23: 55 contributions" data-date="2026-05-23" data-count="55" data-level="1">
+      <title>2026-05-23: 55 contributions</title><rect x="527" y="207" width="16" height="16" fill="transparent"/>
+      <ellipse cx="535" cy="215" rx="5.7" ry="7.1" transform="rotate(-24 535 215)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M532.8 210.6 C537.1 213.2, 532.7 216.4, 537.5 220.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-05-24: 97 contributions" data-date="2026-05-24" data-count="97" data-level="1">
+      <title>2026-05-24: 97 contributions</title><rect x="543" y="111" width="16" height="16" fill="transparent"/>
+      <ellipse cx="551" cy="119" rx="5.7" ry="7.1" transform="rotate(-24 551 119)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M548.8 114.6 C553.1 117.2, 548.7 120.4, 553.5 124.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-05-25: 59 contributions" data-date="2026-05-25" data-count="59" data-level="1">
+      <title>2026-05-25: 59 contributions</title><rect x="543" y="127" width="16" height="16" fill="transparent"/>
+      <ellipse cx="551" cy="135" rx="5.7" ry="7.1" transform="rotate(-24 551 135)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M548.8 130.6 C553.1 133.2, 548.7 136.4, 553.5 140.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-05-26: 75 contributions" data-date="2026-05-26" data-count="75" data-level="1">
+      <title>2026-05-26: 75 contributions</title><rect x="543" y="143" width="16" height="16" fill="transparent"/>
+      <ellipse cx="551" cy="151" rx="5.7" ry="7.1" transform="rotate(-24 551 151)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M548.8 146.6 C553.1 149.2, 548.7 152.4, 553.5 156.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-05-27: 184 contributions" data-date="2026-05-27" data-count="184" data-level="2">
+      <title>2026-05-27: 184 contributions</title><rect x="543" y="159" width="16" height="16" fill="transparent"/>
+      <ellipse cx="551" cy="167" rx="5.7" ry="7.1" transform="rotate(-24 551 167)" fill="#FF5A3A" stroke="#FFB09A" stroke-width="1.1"/>
+      <path d="M548.8 162.6 C553.1 165.2, 548.7 168.4, 553.5 172.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-05-28: 63 contributions" data-date="2026-05-28" data-count="63" data-level="1">
+      <title>2026-05-28: 63 contributions</title><rect x="543" y="175" width="16" height="16" fill="transparent"/>
+      <ellipse cx="551" cy="183" rx="5.7" ry="7.1" transform="rotate(-24 551 183)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M548.8 178.6 C553.1 181.2, 548.7 184.4, 553.5 188.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-05-29: 10 contributions" data-date="2026-05-29" data-count="10" data-level="1">
+      <title>2026-05-29: 10 contributions</title><rect x="543" y="191" width="16" height="16" fill="transparent"/>
+      <ellipse cx="551" cy="199" rx="5.7" ry="7.1" transform="rotate(-24 551 199)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M548.8 194.6 C553.1 197.2, 548.7 200.4, 553.5 204.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g><g class="day" tabindex="0" role="img" aria-label="2026-05-30: 0 contributions" data-date="2026-05-30" data-count="0" data-level="0"><title>2026-05-30: 0 contributions</title><rect x="543" y="207" width="16" height="16" fill="transparent"/><circle cx="551" cy="215" r="2.1" fill="#5A0C14" opacity="0.55"/></g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-05-31: 37 contributions" data-date="2026-05-31" data-count="37" data-level="1">
+      <title>2026-05-31: 37 contributions</title><rect x="559" y="111" width="16" height="16" fill="transparent"/>
+      <ellipse cx="567" cy="119" rx="5.7" ry="7.1" transform="rotate(-24 567 119)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M564.8 114.6 C569.1 117.2, 564.7 120.4, 569.5 124.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-06-01: 123 contributions" data-date="2026-06-01" data-count="123" data-level="2">
+      <title>2026-06-01: 123 contributions</title><rect x="559" y="127" width="16" height="16" fill="transparent"/>
+      <ellipse cx="567" cy="135" rx="5.7" ry="7.1" transform="rotate(-24 567 135)" fill="#FF5A3A" stroke="#FFB09A" stroke-width="1.1"/>
+      <path d="M564.8 130.6 C569.1 133.2, 564.7 136.4, 569.5 140.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-06-02: 257 contributions" data-date="2026-06-02" data-count="257" data-level="3">
+      <title>2026-06-02: 257 contributions</title><rect x="559" y="143" width="16" height="16" fill="transparent"/>
+      <ellipse cx="567" cy="151" rx="5.7" ry="7.1" transform="rotate(-24 567 151)" fill="#C42A2A" stroke="#E0473A" stroke-width="1.1"/>
+      <path d="M564.8 146.6 C569.1 149.2, 564.7 152.4, 569.5 156.1" stroke="#F2E6DC" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-06-03: 128 contributions" data-date="2026-06-03" data-count="128" data-level="2">
+      <title>2026-06-03: 128 contributions</title><rect x="559" y="159" width="16" height="16" fill="transparent"/>
+      <ellipse cx="567" cy="167" rx="5.7" ry="7.1" transform="rotate(-24 567 167)" fill="#FF5A3A" stroke="#FFB09A" stroke-width="1.1"/>
+      <path d="M564.8 162.6 C569.1 165.2, 564.7 168.4, 569.5 172.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-06-04: 195 contributions" data-date="2026-06-04" data-count="195" data-level="2">
+      <title>2026-06-04: 195 contributions</title><rect x="559" y="175" width="16" height="16" fill="transparent"/>
+      <ellipse cx="567" cy="183" rx="5.7" ry="7.1" transform="rotate(-24 567 183)" fill="#FF5A3A" stroke="#FFB09A" stroke-width="1.1"/>
+      <path d="M564.8 178.6 C569.1 181.2, 564.7 184.4, 569.5 188.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-06-05: 58 contributions" data-date="2026-06-05" data-count="58" data-level="1">
+      <title>2026-06-05: 58 contributions</title><rect x="559" y="191" width="16" height="16" fill="transparent"/>
+      <ellipse cx="567" cy="199" rx="5.7" ry="7.1" transform="rotate(-24 567 199)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M564.8 194.6 C569.1 197.2, 564.7 200.4, 569.5 204.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-06-06: 1 contribution" data-date="2026-06-06" data-count="1" data-level="1">
+      <title>2026-06-06: 1 contribution</title><rect x="559" y="207" width="16" height="16" fill="transparent"/>
+      <ellipse cx="567" cy="215" rx="5.7" ry="7.1" transform="rotate(-24 567 215)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M564.8 210.6 C569.1 213.2, 564.7 216.4, 569.5 220.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-06-07: 102 contributions" data-date="2026-06-07" data-count="102" data-level="1">
+      <title>2026-06-07: 102 contributions</title><rect x="575" y="111" width="16" height="16" fill="transparent"/>
+      <ellipse cx="583" cy="119" rx="5.7" ry="7.1" transform="rotate(-24 583 119)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M580.8 114.6 C585.1 117.2, 580.7 120.4, 585.5 124.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-06-08: 110 contributions" data-date="2026-06-08" data-count="110" data-level="1">
+      <title>2026-06-08: 110 contributions</title><rect x="575" y="127" width="16" height="16" fill="transparent"/>
+      <ellipse cx="583" cy="135" rx="5.7" ry="7.1" transform="rotate(-24 583 135)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M580.8 130.6 C585.1 133.2, 580.7 136.4, 585.5 140.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-06-09: 112 contributions" data-date="2026-06-09" data-count="112" data-level="2">
+      <title>2026-06-09: 112 contributions</title><rect x="575" y="143" width="16" height="16" fill="transparent"/>
+      <ellipse cx="583" cy="151" rx="5.7" ry="7.1" transform="rotate(-24 583 151)" fill="#FF5A3A" stroke="#FFB09A" stroke-width="1.1"/>
+      <path d="M580.8 146.6 C585.1 149.2, 580.7 152.4, 585.5 156.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-06-10: 115 contributions" data-date="2026-06-10" data-count="115" data-level="2">
+      <title>2026-06-10: 115 contributions</title><rect x="575" y="159" width="16" height="16" fill="transparent"/>
+      <ellipse cx="583" cy="167" rx="5.7" ry="7.1" transform="rotate(-24 583 167)" fill="#FF5A3A" stroke="#FFB09A" stroke-width="1.1"/>
+      <path d="M580.8 162.6 C585.1 165.2, 580.7 168.4, 585.5 172.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-06-11: 297 contributions" data-date="2026-06-11" data-count="297" data-level="3">
+      <title>2026-06-11: 297 contributions</title><rect x="575" y="175" width="16" height="16" fill="transparent"/>
+      <ellipse cx="583" cy="183" rx="5.7" ry="7.1" transform="rotate(-24 583 183)" fill="#C42A2A" stroke="#E0473A" stroke-width="1.1"/>
+      <path d="M580.8 178.6 C585.1 181.2, 580.7 184.4, 585.5 188.1" stroke="#F2E6DC" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-06-12: 269 contributions" data-date="2026-06-12" data-count="269" data-level="3">
+      <title>2026-06-12: 269 contributions</title><rect x="575" y="191" width="16" height="16" fill="transparent"/>
+      <ellipse cx="583" cy="199" rx="5.7" ry="7.1" transform="rotate(-24 583 199)" fill="#C42A2A" stroke="#E0473A" stroke-width="1.1"/>
+      <path d="M580.8 194.6 C585.1 197.2, 580.7 200.4, 585.5 204.1" stroke="#F2E6DC" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-06-13: 129 contributions" data-date="2026-06-13" data-count="129" data-level="2">
+      <title>2026-06-13: 129 contributions</title><rect x="575" y="207" width="16" height="16" fill="transparent"/>
+      <ellipse cx="583" cy="215" rx="5.7" ry="7.1" transform="rotate(-24 583 215)" fill="#FF5A3A" stroke="#FFB09A" stroke-width="1.1"/>
+      <path d="M580.8 210.6 C585.1 213.2, 580.7 216.4, 585.5 220.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-06-14: 207 contributions" data-date="2026-06-14" data-count="207" data-level="2">
+      <title>2026-06-14: 207 contributions</title><rect x="591" y="111" width="16" height="16" fill="transparent"/>
+      <ellipse cx="599" cy="119" rx="5.7" ry="7.1" transform="rotate(-24 599 119)" fill="#FF5A3A" stroke="#FFB09A" stroke-width="1.1"/>
+      <path d="M596.8 114.6 C601.1 117.2, 596.7 120.4, 601.5 124.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-06-15: 204 contributions" data-date="2026-06-15" data-count="204" data-level="2">
+      <title>2026-06-15: 204 contributions</title><rect x="591" y="127" width="16" height="16" fill="transparent"/>
+      <ellipse cx="599" cy="135" rx="5.7" ry="7.1" transform="rotate(-24 599 135)" fill="#FF5A3A" stroke="#FFB09A" stroke-width="1.1"/>
+      <path d="M596.8 130.6 C601.1 133.2, 596.7 136.4, 601.5 140.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-06-16: 59 contributions" data-date="2026-06-16" data-count="59" data-level="1">
+      <title>2026-06-16: 59 contributions</title><rect x="591" y="143" width="16" height="16" fill="transparent"/>
+      <ellipse cx="599" cy="151" rx="5.7" ry="7.1" transform="rotate(-24 599 151)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M596.8 146.6 C601.1 149.2, 596.7 152.4, 601.5 156.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-06-17: 78 contributions" data-date="2026-06-17" data-count="78" data-level="1">
+      <title>2026-06-17: 78 contributions</title><rect x="591" y="159" width="16" height="16" fill="transparent"/>
+      <ellipse cx="599" cy="167" rx="5.7" ry="7.1" transform="rotate(-24 599 167)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M596.8 162.6 C601.1 165.2, 596.7 168.4, 601.5 172.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-06-18: 149 contributions" data-date="2026-06-18" data-count="149" data-level="2">
+      <title>2026-06-18: 149 contributions</title><rect x="591" y="175" width="16" height="16" fill="transparent"/>
+      <ellipse cx="599" cy="183" rx="5.7" ry="7.1" transform="rotate(-24 599 183)" fill="#FF5A3A" stroke="#FFB09A" stroke-width="1.1"/>
+      <path d="M596.8 178.6 C601.1 181.2, 596.7 184.4, 601.5 188.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-06-19: 200 contributions" data-date="2026-06-19" data-count="200" data-level="2">
+      <title>2026-06-19: 200 contributions</title><rect x="591" y="191" width="16" height="16" fill="transparent"/>
+      <ellipse cx="599" cy="199" rx="5.7" ry="7.1" transform="rotate(-24 599 199)" fill="#FF5A3A" stroke="#FFB09A" stroke-width="1.1"/>
+      <path d="M596.8 194.6 C601.1 197.2, 596.7 200.4, 601.5 204.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-06-20: 220 contributions" data-date="2026-06-20" data-count="220" data-level="2">
+      <title>2026-06-20: 220 contributions</title><rect x="591" y="207" width="16" height="16" fill="transparent"/>
+      <ellipse cx="599" cy="215" rx="5.7" ry="7.1" transform="rotate(-24 599 215)" fill="#FF5A3A" stroke="#FFB09A" stroke-width="1.1"/>
+      <path d="M596.8 210.6 C601.1 213.2, 596.7 216.4, 601.5 220.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-06-21: 121 contributions" data-date="2026-06-21" data-count="121" data-level="2">
+      <title>2026-06-21: 121 contributions</title><rect x="607" y="111" width="16" height="16" fill="transparent"/>
+      <ellipse cx="615" cy="119" rx="5.7" ry="7.1" transform="rotate(-24 615 119)" fill="#FF5A3A" stroke="#FFB09A" stroke-width="1.1"/>
+      <path d="M612.8 114.6 C617.1 117.2, 612.7 120.4, 617.5 124.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-06-22: 133 contributions" data-date="2026-06-22" data-count="133" data-level="2">
+      <title>2026-06-22: 133 contributions</title><rect x="607" y="127" width="16" height="16" fill="transparent"/>
+      <ellipse cx="615" cy="135" rx="5.7" ry="7.1" transform="rotate(-24 615 135)" fill="#FF5A3A" stroke="#FFB09A" stroke-width="1.1"/>
+      <path d="M612.8 130.6 C617.1 133.2, 612.7 136.4, 617.5 140.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-06-23: 244 contributions" data-date="2026-06-23" data-count="244" data-level="3">
+      <title>2026-06-23: 244 contributions</title><rect x="607" y="143" width="16" height="16" fill="transparent"/>
+      <ellipse cx="615" cy="151" rx="5.7" ry="7.1" transform="rotate(-24 615 151)" fill="#C42A2A" stroke="#E0473A" stroke-width="1.1"/>
+      <path d="M612.8 146.6 C617.1 149.2, 612.7 152.4, 617.5 156.1" stroke="#F2E6DC" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-06-24: 97 contributions" data-date="2026-06-24" data-count="97" data-level="1">
+      <title>2026-06-24: 97 contributions</title><rect x="607" y="159" width="16" height="16" fill="transparent"/>
+      <ellipse cx="615" cy="167" rx="5.7" ry="7.1" transform="rotate(-24 615 167)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M612.8 162.6 C617.1 165.2, 612.7 168.4, 617.5 172.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-06-25: 244 contributions" data-date="2026-06-25" data-count="244" data-level="3">
+      <title>2026-06-25: 244 contributions</title><rect x="607" y="175" width="16" height="16" fill="transparent"/>
+      <ellipse cx="615" cy="183" rx="5.7" ry="7.1" transform="rotate(-24 615 183)" fill="#C42A2A" stroke="#E0473A" stroke-width="1.1"/>
+      <path d="M612.8 178.6 C617.1 181.2, 612.7 184.4, 617.5 188.1" stroke="#F2E6DC" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-06-26: 178 contributions" data-date="2026-06-26" data-count="178" data-level="2">
+      <title>2026-06-26: 178 contributions</title><rect x="607" y="191" width="16" height="16" fill="transparent"/>
+      <ellipse cx="615" cy="199" rx="5.7" ry="7.1" transform="rotate(-24 615 199)" fill="#FF5A3A" stroke="#FFB09A" stroke-width="1.1"/>
+      <path d="M612.8 194.6 C617.1 197.2, 612.7 200.4, 617.5 204.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-06-27: 190 contributions" data-date="2026-06-27" data-count="190" data-level="2">
+      <title>2026-06-27: 190 contributions</title><rect x="607" y="207" width="16" height="16" fill="transparent"/>
+      <ellipse cx="615" cy="215" rx="5.7" ry="7.1" transform="rotate(-24 615 215)" fill="#FF5A3A" stroke="#FFB09A" stroke-width="1.1"/>
+      <path d="M612.8 210.6 C617.1 213.2, 612.7 216.4, 617.5 220.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-06-28: 44 contributions" data-date="2026-06-28" data-count="44" data-level="1">
+      <title>2026-06-28: 44 contributions</title><rect x="623" y="111" width="16" height="16" fill="transparent"/>
+      <ellipse cx="631" cy="119" rx="5.7" ry="7.1" transform="rotate(-24 631 119)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M628.8 114.6 C633.1 117.2, 628.7 120.4, 633.5 124.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g><g class="day" tabindex="0" role="img" aria-label="2026-06-29: 0 contributions" data-date="2026-06-29" data-count="0" data-level="0"><title>2026-06-29: 0 contributions</title><rect x="623" y="127" width="16" height="16" fill="transparent"/><circle cx="631" cy="135" r="2.1" fill="#5A0C14" opacity="0.55"/></g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-06-30: 16 contributions" data-date="2026-06-30" data-count="16" data-level="1">
+      <title>2026-06-30: 16 contributions</title><rect x="623" y="143" width="16" height="16" fill="transparent"/>
+      <ellipse cx="631" cy="151" rx="5.7" ry="7.1" transform="rotate(-24 631 151)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M628.8 146.6 C633.1 149.2, 628.7 152.4, 633.5 156.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-07-01: 148 contributions" data-date="2026-07-01" data-count="148" data-level="2">
+      <title>2026-07-01: 148 contributions</title><rect x="623" y="159" width="16" height="16" fill="transparent"/>
+      <ellipse cx="631" cy="167" rx="5.7" ry="7.1" transform="rotate(-24 631 167)" fill="#FF5A3A" stroke="#FFB09A" stroke-width="1.1"/>
+      <path d="M628.8 162.6 C633.1 165.2, 628.7 168.4, 633.5 172.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-07-02: 146 contributions" data-date="2026-07-02" data-count="146" data-level="2">
+      <title>2026-07-02: 146 contributions</title><rect x="623" y="175" width="16" height="16" fill="transparent"/>
+      <ellipse cx="631" cy="183" rx="5.7" ry="7.1" transform="rotate(-24 631 183)" fill="#FF5A3A" stroke="#FFB09A" stroke-width="1.1"/>
+      <path d="M628.8 178.6 C633.1 181.2, 628.7 184.4, 633.5 188.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-07-03: 166 contributions" data-date="2026-07-03" data-count="166" data-level="2">
+      <title>2026-07-03: 166 contributions</title><rect x="623" y="191" width="16" height="16" fill="transparent"/>
+      <ellipse cx="631" cy="199" rx="5.7" ry="7.1" transform="rotate(-24 631 199)" fill="#FF5A3A" stroke="#FFB09A" stroke-width="1.1"/>
+      <path d="M628.8 194.6 C633.1 197.2, 628.7 200.4, 633.5 204.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-07-04: 106 contributions" data-date="2026-07-04" data-count="106" data-level="1">
+      <title>2026-07-04: 106 contributions</title><rect x="623" y="207" width="16" height="16" fill="transparent"/>
+      <ellipse cx="631" cy="215" rx="5.7" ry="7.1" transform="rotate(-24 631 215)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M628.8 210.6 C633.1 213.2, 628.7 216.4, 633.5 220.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-07-05: 18 contributions" data-date="2026-07-05" data-count="18" data-level="1">
+      <title>2026-07-05: 18 contributions</title><rect x="639" y="111" width="16" height="16" fill="transparent"/>
+      <ellipse cx="647" cy="119" rx="5.7" ry="7.1" transform="rotate(-24 647 119)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M644.8 114.6 C649.1 117.2, 644.7 120.4, 649.5 124.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-07-06: 101 contributions" data-date="2026-07-06" data-count="101" data-level="1">
+      <title>2026-07-06: 101 contributions</title><rect x="639" y="127" width="16" height="16" fill="transparent"/>
+      <ellipse cx="647" cy="135" rx="5.7" ry="7.1" transform="rotate(-24 647 135)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M644.8 130.6 C649.1 133.2, 644.7 136.4, 649.5 140.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-07-07: 104 contributions" data-date="2026-07-07" data-count="104" data-level="1">
+      <title>2026-07-07: 104 contributions</title><rect x="639" y="143" width="16" height="16" fill="transparent"/>
+      <ellipse cx="647" cy="151" rx="5.7" ry="7.1" transform="rotate(-24 647 151)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M644.8 146.6 C649.1 149.2, 644.7 152.4, 649.5 156.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-07-08: 46 contributions" data-date="2026-07-08" data-count="46" data-level="1">
+      <title>2026-07-08: 46 contributions</title><rect x="639" y="159" width="16" height="16" fill="transparent"/>
+      <ellipse cx="647" cy="167" rx="5.7" ry="7.1" transform="rotate(-24 647 167)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M644.8 162.6 C649.1 165.2, 644.7 168.4, 649.5 172.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-07-09: 51 contributions" data-date="2026-07-09" data-count="51" data-level="1">
+      <title>2026-07-09: 51 contributions</title><rect x="639" y="175" width="16" height="16" fill="transparent"/>
+      <ellipse cx="647" cy="183" rx="5.7" ry="7.1" transform="rotate(-24 647 183)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M644.8 178.6 C649.1 181.2, 644.7 184.4, 649.5 188.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-07-10: 63 contributions" data-date="2026-07-10" data-count="63" data-level="1">
+      <title>2026-07-10: 63 contributions</title><rect x="639" y="191" width="16" height="16" fill="transparent"/>
+      <ellipse cx="647" cy="199" rx="5.7" ry="7.1" transform="rotate(-24 647 199)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M644.8 194.6 C649.1 197.2, 644.7 200.4, 649.5 204.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-07-11: 143 contributions" data-date="2026-07-11" data-count="143" data-level="2">
+      <title>2026-07-11: 143 contributions</title><rect x="639" y="207" width="16" height="16" fill="transparent"/>
+      <ellipse cx="647" cy="215" rx="5.7" ry="7.1" transform="rotate(-24 647 215)" fill="#FF5A3A" stroke="#FFB09A" stroke-width="1.1"/>
+      <path d="M644.8 210.6 C649.1 213.2, 644.7 216.4, 649.5 220.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-07-12: 123 contributions" data-date="2026-07-12" data-count="123" data-level="2">
+      <title>2026-07-12: 123 contributions</title><rect x="655" y="111" width="16" height="16" fill="transparent"/>
+      <ellipse cx="663" cy="119" rx="5.7" ry="7.1" transform="rotate(-24 663 119)" fill="#FF5A3A" stroke="#FFB09A" stroke-width="1.1"/>
+      <path d="M660.8 114.6 C665.1 117.2, 660.7 120.4, 665.5 124.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-07-13: 117 contributions" data-date="2026-07-13" data-count="117" data-level="2">
+      <title>2026-07-13: 117 contributions</title><rect x="655" y="127" width="16" height="16" fill="transparent"/>
+      <ellipse cx="663" cy="135" rx="5.7" ry="7.1" transform="rotate(-24 663 135)" fill="#FF5A3A" stroke="#FFB09A" stroke-width="1.1"/>
+      <path d="M660.8 130.6 C665.1 133.2, 660.7 136.4, 665.5 140.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-07-14: 393 contributions" data-date="2026-07-14" data-count="393" data-level="4">
+      <title>2026-07-14: 393 contributions</title><rect x="655" y="143" width="16" height="16" fill="transparent"/>
+      <ellipse cx="663" cy="151" rx="5.7" ry="7.1" transform="rotate(-24 663 151)" fill="#8A0E16" stroke="#E0473A" stroke-width="1.1"/>
+      <path d="M660.8 146.6 C665.1 149.2, 660.7 152.4, 665.5 156.1" stroke="#FFB09A" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-07-15: 190 contributions" data-date="2026-07-15" data-count="190" data-level="2">
+      <title>2026-07-15: 190 contributions</title><rect x="655" y="159" width="16" height="16" fill="transparent"/>
+      <ellipse cx="663" cy="167" rx="5.7" ry="7.1" transform="rotate(-24 663 167)" fill="#FF5A3A" stroke="#FFB09A" stroke-width="1.1"/>
+      <path d="M660.8 162.6 C665.1 165.2, 660.7 168.4, 665.5 172.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-07-16: 80 contributions" data-date="2026-07-16" data-count="80" data-level="1">
+      <title>2026-07-16: 80 contributions</title><rect x="655" y="175" width="16" height="16" fill="transparent"/>
+      <ellipse cx="663" cy="183" rx="5.7" ry="7.1" transform="rotate(-24 663 183)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M660.8 178.6 C665.1 181.2, 660.7 184.4, 665.5 188.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-07-17: 132 contributions" data-date="2026-07-17" data-count="132" data-level="2">
+      <title>2026-07-17: 132 contributions</title><rect x="655" y="191" width="16" height="16" fill="transparent"/>
+      <ellipse cx="663" cy="199" rx="5.7" ry="7.1" transform="rotate(-24 663 199)" fill="#FF5A3A" stroke="#FFB09A" stroke-width="1.1"/>
+      <path d="M660.8 194.6 C665.1 197.2, 660.7 200.4, 665.5 204.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-07-18: 354 contributions" data-date="2026-07-18" data-count="354" data-level="4">
+      <title>2026-07-18: 354 contributions</title><rect x="655" y="207" width="16" height="16" fill="transparent"/>
+      <ellipse cx="663" cy="215" rx="5.7" ry="7.1" transform="rotate(-24 663 215)" fill="#8A0E16" stroke="#E0473A" stroke-width="1.1"/>
+      <path d="M660.8 210.6 C665.1 213.2, 660.7 216.4, 665.5 220.1" stroke="#FFB09A" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-07-19: 122 contributions" data-date="2026-07-19" data-count="122" data-level="2">
+      <title>2026-07-19: 122 contributions</title><rect x="671" y="111" width="16" height="16" fill="transparent"/>
+      <ellipse cx="679" cy="119" rx="5.7" ry="7.1" transform="rotate(-24 679 119)" fill="#FF5A3A" stroke="#FFB09A" stroke-width="1.1"/>
+      <path d="M676.8 114.6 C681.1 117.2, 676.7 120.4, 681.5 124.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g><g class="day" tabindex="0" role="img" aria-label="2026-07-20: 0 contributions" data-date="2026-07-20" data-count="0" data-level="0"><title>2026-07-20: 0 contributions</title><rect x="671" y="127" width="16" height="16" fill="transparent"/><circle cx="679" cy="135" r="2.1" fill="#5A0C14" opacity="0.55"/></g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-07-21: 126 contributions" data-date="2026-07-21" data-count="126" data-level="2">
+      <title>2026-07-21: 126 contributions</title><rect x="671" y="143" width="16" height="16" fill="transparent"/>
+      <ellipse cx="679" cy="151" rx="5.7" ry="7.1" transform="rotate(-24 679 151)" fill="#FF5A3A" stroke="#FFB09A" stroke-width="1.1"/>
+      <path d="M676.8 146.6 C681.1 149.2, 676.7 152.4, 681.5 156.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-07-22: 306 contributions" data-date="2026-07-22" data-count="306" data-level="3">
+      <title>2026-07-22: 306 contributions</title><rect x="671" y="159" width="16" height="16" fill="transparent"/>
+      <ellipse cx="679" cy="167" rx="5.7" ry="7.1" transform="rotate(-24 679 167)" fill="#C42A2A" stroke="#E0473A" stroke-width="1.1"/>
+      <path d="M676.8 162.6 C681.1 165.2, 676.7 168.4, 681.5 172.1" stroke="#F2E6DC" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-07-23: 423 contributions" data-date="2026-07-23" data-count="423" data-level="4">
+      <title>2026-07-23: 423 contributions</title><rect x="671" y="175" width="16" height="16" fill="transparent"/>
+      <ellipse cx="679" cy="183" rx="5.7" ry="7.1" transform="rotate(-24 679 183)" fill="#8A0E16" stroke="#E0473A" stroke-width="1.1"/>
+      <path d="M676.8 178.6 C681.1 181.2, 676.7 184.4, 681.5 188.1" stroke="#FFB09A" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-07-24: 222 contributions" data-date="2026-07-24" data-count="222" data-level="3">
+      <title>2026-07-24: 222 contributions</title><rect x="671" y="191" width="16" height="16" fill="transparent"/>
+      <ellipse cx="679" cy="199" rx="5.7" ry="7.1" transform="rotate(-24 679 199)" fill="#C42A2A" stroke="#E0473A" stroke-width="1.1"/>
+      <path d="M676.8 194.6 C681.1 197.2, 676.7 200.4, 681.5 204.1" stroke="#F2E6DC" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-07-25: 173 contributions" data-date="2026-07-25" data-count="173" data-level="2">
+      <title>2026-07-25: 173 contributions</title><rect x="671" y="207" width="16" height="16" fill="transparent"/>
+      <ellipse cx="679" cy="215" rx="5.7" ry="7.1" transform="rotate(-24 679 215)" fill="#FF5A3A" stroke="#FFB09A" stroke-width="1.1"/>
+      <path d="M676.8 210.6 C681.1 213.2, 676.7 216.4, 681.5 220.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-07-26: 39 contributions" data-date="2026-07-26" data-count="39" data-level="1">
+      <title>2026-07-26: 39 contributions</title><rect x="687" y="111" width="16" height="16" fill="transparent"/>
+      <ellipse cx="695" cy="119" rx="5.7" ry="7.1" transform="rotate(-24 695 119)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M692.8 114.6 C697.1 117.2, 692.7 120.4, 697.5 124.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-07-27: 64 contributions" data-date="2026-07-27" data-count="64" data-level="1">
+      <title>2026-07-27: 64 contributions</title><rect x="687" y="127" width="16" height="16" fill="transparent"/>
+      <ellipse cx="695" cy="135" rx="5.7" ry="7.1" transform="rotate(-24 695 135)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M692.8 130.6 C697.1 133.2, 692.7 136.4, 697.5 140.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g><g class="day" tabindex="0" role="img" aria-label="2026-07-28: 0 contributions" data-date="2026-07-28" data-count="0" data-level="0"><title>2026-07-28: 0 contributions</title><rect x="687" y="143" width="16" height="16" fill="transparent"/><circle cx="695" cy="151" r="2.1" fill="#5A0C14" opacity="0.55"/></g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-07-29: 8 contributions" data-date="2026-07-29" data-count="8" data-level="1">
+      <title>2026-07-29: 8 contributions</title><rect x="687" y="159" width="16" height="16" fill="transparent"/>
+      <ellipse cx="695" cy="167" rx="5.7" ry="7.1" transform="rotate(-24 695 167)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M692.8 162.6 C697.1 165.2, 692.7 168.4, 697.5 172.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-07-30: 40 contributions" data-date="2026-07-30" data-count="40" data-level="1">
+      <title>2026-07-30: 40 contributions</title><rect x="687" y="175" width="16" height="16" fill="transparent"/>
+      <ellipse cx="695" cy="183" rx="5.7" ry="7.1" transform="rotate(-24 695 183)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M692.8 178.6 C697.1 181.2, 692.7 184.4, 697.5 188.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-07-31: 47 contributions" data-date="2026-07-31" data-count="47" data-level="1">
+      <title>2026-07-31: 47 contributions</title><rect x="687" y="191" width="16" height="16" fill="transparent"/>
+      <ellipse cx="695" cy="199" rx="5.7" ry="7.1" transform="rotate(-24 695 199)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M692.8 194.6 C697.1 197.2, 692.7 200.4, 697.5 204.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-08-01: 7 contributions" data-date="2026-08-01" data-count="7" data-level="1">
+      <title>2026-08-01: 7 contributions</title><rect x="687" y="207" width="16" height="16" fill="transparent"/>
+      <ellipse cx="695" cy="215" rx="5.7" ry="7.1" transform="rotate(-24 695 215)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M692.8 210.6 C697.1 213.2, 692.7 216.4, 697.5 220.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-08-02: 65 contributions" data-date="2026-08-02" data-count="65" data-level="1">
+      <title>2026-08-02: 65 contributions</title><rect x="703" y="111" width="16" height="16" fill="transparent"/>
+      <ellipse cx="711" cy="119" rx="5.7" ry="7.1" transform="rotate(-24 711 119)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M708.8 114.6 C713.1 117.2, 708.7 120.4, 713.5 124.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-08-03: 101 contributions" data-date="2026-08-03" data-count="101" data-level="1">
+      <title>2026-08-03: 101 contributions</title><rect x="703" y="127" width="16" height="16" fill="transparent"/>
+      <ellipse cx="711" cy="135" rx="5.7" ry="7.1" transform="rotate(-24 711 135)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M708.8 130.6 C713.1 133.2, 708.7 136.4, 713.5 140.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-08-04: 63 contributions" data-date="2026-08-04" data-count="63" data-level="1">
+      <title>2026-08-04: 63 contributions</title><rect x="703" y="143" width="16" height="16" fill="transparent"/>
+      <ellipse cx="711" cy="151" rx="5.7" ry="7.1" transform="rotate(-24 711 151)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M708.8 146.6 C713.1 149.2, 708.7 152.4, 713.5 156.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-08-05: 286 contributions" data-date="2026-08-05" data-count="286" data-level="3">
+      <title>2026-08-05: 286 contributions</title><rect x="703" y="159" width="16" height="16" fill="transparent"/>
+      <ellipse cx="711" cy="167" rx="5.7" ry="7.1" transform="rotate(-24 711 167)" fill="#C42A2A" stroke="#E0473A" stroke-width="1.1"/>
+      <path d="M708.8 162.6 C713.1 165.2, 708.7 168.4, 713.5 172.1" stroke="#F2E6DC" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-08-06: 218 contributions" data-date="2026-08-06" data-count="218" data-level="2">
+      <title>2026-08-06: 218 contributions</title><rect x="703" y="175" width="16" height="16" fill="transparent"/>
+      <ellipse cx="711" cy="183" rx="5.7" ry="7.1" transform="rotate(-24 711 183)" fill="#FF5A3A" stroke="#FFB09A" stroke-width="1.1"/>
+      <path d="M708.8 178.6 C713.1 181.2, 708.7 184.4, 713.5 188.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-08-07: 158 contributions" data-date="2026-08-07" data-count="158" data-level="2">
+      <title>2026-08-07: 158 contributions</title><rect x="703" y="191" width="16" height="16" fill="transparent"/>
+      <ellipse cx="711" cy="199" rx="5.7" ry="7.1" transform="rotate(-24 711 199)" fill="#FF5A3A" stroke="#FFB09A" stroke-width="1.1"/>
+      <path d="M708.8 194.6 C713.1 197.2, 708.7 200.4, 713.5 204.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-08-08: 80 contributions" data-date="2026-08-08" data-count="80" data-level="1">
+      <title>2026-08-08: 80 contributions</title><rect x="703" y="207" width="16" height="16" fill="transparent"/>
+      <ellipse cx="711" cy="215" rx="5.7" ry="7.1" transform="rotate(-24 711 215)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M708.8 210.6 C713.1 213.2, 708.7 216.4, 713.5 220.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-08-09: 137 contributions" data-date="2026-08-09" data-count="137" data-level="2">
+      <title>2026-08-09: 137 contributions</title><rect x="719" y="111" width="16" height="16" fill="transparent"/>
+      <ellipse cx="727" cy="119" rx="5.7" ry="7.1" transform="rotate(-24 727 119)" fill="#FF5A3A" stroke="#FFB09A" stroke-width="1.1"/>
+      <path d="M724.8 114.6 C729.1 117.2, 724.7 120.4, 729.5 124.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-08-10: 192 contributions" data-date="2026-08-10" data-count="192" data-level="2">
+      <title>2026-08-10: 192 contributions</title><rect x="719" y="127" width="16" height="16" fill="transparent"/>
+      <ellipse cx="727" cy="135" rx="5.7" ry="7.1" transform="rotate(-24 727 135)" fill="#FF5A3A" stroke="#FFB09A" stroke-width="1.1"/>
+      <path d="M724.8 130.6 C729.1 133.2, 724.7 136.4, 729.5 140.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-08-11: 151 contributions" data-date="2026-08-11" data-count="151" data-level="2">
+      <title>2026-08-11: 151 contributions</title><rect x="719" y="143" width="16" height="16" fill="transparent"/>
+      <ellipse cx="727" cy="151" rx="5.7" ry="7.1" transform="rotate(-24 727 151)" fill="#FF5A3A" stroke="#FFB09A" stroke-width="1.1"/>
+      <path d="M724.8 146.6 C729.1 149.2, 724.7 152.4, 729.5 156.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-08-12: 217 contributions" data-date="2026-08-12" data-count="217" data-level="2">
+      <title>2026-08-12: 217 contributions</title><rect x="719" y="159" width="16" height="16" fill="transparent"/>
+      <ellipse cx="727" cy="167" rx="5.7" ry="7.1" transform="rotate(-24 727 167)" fill="#FF5A3A" stroke="#FFB09A" stroke-width="1.1"/>
+      <path d="M724.8 162.6 C729.1 165.2, 724.7 168.4, 729.5 172.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-08-13: 75 contributions" data-date="2026-08-13" data-count="75" data-level="1">
+      <title>2026-08-13: 75 contributions</title><rect x="719" y="175" width="16" height="16" fill="transparent"/>
+      <ellipse cx="727" cy="183" rx="5.7" ry="7.1" transform="rotate(-24 727 183)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M724.8 178.6 C729.1 181.2, 724.7 184.4, 729.5 188.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-08-14: 147 contributions" data-date="2026-08-14" data-count="147" data-level="2">
+      <title>2026-08-14: 147 contributions</title><rect x="719" y="191" width="16" height="16" fill="transparent"/>
+      <ellipse cx="727" cy="199" rx="5.7" ry="7.1" transform="rotate(-24 727 199)" fill="#FF5A3A" stroke="#FFB09A" stroke-width="1.1"/>
+      <path d="M724.8 194.6 C729.1 197.2, 724.7 200.4, 729.5 204.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-08-15: 203 contributions" data-date="2026-08-15" data-count="203" data-level="2">
+      <title>2026-08-15: 203 contributions</title><rect x="719" y="207" width="16" height="16" fill="transparent"/>
+      <ellipse cx="727" cy="215" rx="5.7" ry="7.1" transform="rotate(-24 727 215)" fill="#FF5A3A" stroke="#FFB09A" stroke-width="1.1"/>
+      <path d="M724.8 210.6 C729.1 213.2, 724.7 216.4, 729.5 220.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-08-16: 123 contributions" data-date="2026-08-16" data-count="123" data-level="2">
+      <title>2026-08-16: 123 contributions</title><rect x="735" y="111" width="16" height="16" fill="transparent"/>
+      <ellipse cx="743" cy="119" rx="5.7" ry="7.1" transform="rotate(-24 743 119)" fill="#FF5A3A" stroke="#FFB09A" stroke-width="1.1"/>
+      <path d="M740.8 114.6 C745.1 117.2, 740.7 120.4, 745.5 124.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-08-17: 348 contributions" data-date="2026-08-17" data-count="348" data-level="4">
+      <title>2026-08-17: 348 contributions</title><rect x="735" y="127" width="16" height="16" fill="transparent"/>
+      <ellipse cx="743" cy="135" rx="5.7" ry="7.1" transform="rotate(-24 743 135)" fill="#8A0E16" stroke="#E0473A" stroke-width="1.1"/>
+      <path d="M740.8 130.6 C745.1 133.2, 740.7 136.4, 745.5 140.1" stroke="#FFB09A" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-08-18: 443 contributions" data-date="2026-08-18" data-count="443" data-level="4">
+      <title>2026-08-18: 443 contributions</title><rect x="735" y="143" width="16" height="16" fill="transparent"/>
+      <ellipse cx="743" cy="151" rx="5.7" ry="7.1" transform="rotate(-24 743 151)" fill="#8A0E16" stroke="#E0473A" stroke-width="1.1"/>
+      <path d="M740.8 146.6 C745.1 149.2, 740.7 152.4, 745.5 156.1" stroke="#FFB09A" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-08-19: 370 contributions" data-date="2026-08-19" data-count="370" data-level="4">
+      <title>2026-08-19: 370 contributions</title><rect x="735" y="159" width="16" height="16" fill="transparent"/>
+      <ellipse cx="743" cy="167" rx="5.7" ry="7.1" transform="rotate(-24 743 167)" fill="#8A0E16" stroke="#E0473A" stroke-width="1.1"/>
+      <path d="M740.8 162.6 C745.1 165.2, 740.7 168.4, 745.5 172.1" stroke="#FFB09A" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-08-20: 202 contributions" data-date="2026-08-20" data-count="202" data-level="2">
+      <title>2026-08-20: 202 contributions</title><rect x="735" y="175" width="16" height="16" fill="transparent"/>
+      <ellipse cx="743" cy="183" rx="5.7" ry="7.1" transform="rotate(-24 743 183)" fill="#FF5A3A" stroke="#FFB09A" stroke-width="1.1"/>
+      <path d="M740.8 178.6 C745.1 181.2, 740.7 184.4, 745.5 188.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-08-21: 160 contributions" data-date="2026-08-21" data-count="160" data-level="2">
+      <title>2026-08-21: 160 contributions</title><rect x="735" y="191" width="16" height="16" fill="transparent"/>
+      <ellipse cx="743" cy="199" rx="5.7" ry="7.1" transform="rotate(-24 743 199)" fill="#FF5A3A" stroke="#FFB09A" stroke-width="1.1"/>
+      <path d="M740.8 194.6 C745.1 197.2, 740.7 200.4, 745.5 204.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-08-22: 69 contributions" data-date="2026-08-22" data-count="69" data-level="1">
+      <title>2026-08-22: 69 contributions</title><rect x="735" y="207" width="16" height="16" fill="transparent"/>
+      <ellipse cx="743" cy="215" rx="5.7" ry="7.1" transform="rotate(-24 743 215)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M740.8 210.6 C745.1 213.2, 740.7 216.4, 745.5 220.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-08-23: 7 contributions" data-date="2026-08-23" data-count="7" data-level="1">
+      <title>2026-08-23: 7 contributions</title><rect x="751" y="111" width="16" height="16" fill="transparent"/>
+      <ellipse cx="759" cy="119" rx="5.7" ry="7.1" transform="rotate(-24 759 119)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M756.8 114.6 C761.1 117.2, 756.7 120.4, 761.5 124.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-08-24: 39 contributions" data-date="2026-08-24" data-count="39" data-level="1">
+      <title>2026-08-24: 39 contributions</title><rect x="751" y="127" width="16" height="16" fill="transparent"/>
+      <ellipse cx="759" cy="135" rx="5.7" ry="7.1" transform="rotate(-24 759 135)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M756.8 130.6 C761.1 133.2, 756.7 136.4, 761.5 140.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-08-25: 118 contributions" data-date="2026-08-25" data-count="118" data-level="2">
+      <title>2026-08-25: 118 contributions</title><rect x="751" y="143" width="16" height="16" fill="transparent"/>
+      <ellipse cx="759" cy="151" rx="5.7" ry="7.1" transform="rotate(-24 759 151)" fill="#FF5A3A" stroke="#FFB09A" stroke-width="1.1"/>
+      <path d="M756.8 146.6 C761.1 149.2, 756.7 152.4, 761.5 156.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-08-26: 86 contributions" data-date="2026-08-26" data-count="86" data-level="1">
+      <title>2026-08-26: 86 contributions</title><rect x="751" y="159" width="16" height="16" fill="transparent"/>
+      <ellipse cx="759" cy="167" rx="5.7" ry="7.1" transform="rotate(-24 759 167)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M756.8 162.6 C761.1 165.2, 756.7 168.4, 761.5 172.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-08-27: 56 contributions" data-date="2026-08-27" data-count="56" data-level="1">
+      <title>2026-08-27: 56 contributions</title><rect x="751" y="175" width="16" height="16" fill="transparent"/>
+      <ellipse cx="759" cy="183" rx="5.7" ry="7.1" transform="rotate(-24 759 183)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M756.8 178.6 C761.1 181.2, 756.7 184.4, 761.5 188.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-08-28: 23 contributions" data-date="2026-08-28" data-count="23" data-level="1">
+      <title>2026-08-28: 23 contributions</title><rect x="751" y="191" width="16" height="16" fill="transparent"/>
+      <ellipse cx="759" cy="199" rx="5.7" ry="7.1" transform="rotate(-24 759 199)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M756.8 194.6 C761.1 197.2, 756.7 200.4, 761.5 204.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-08-29: 150 contributions" data-date="2026-08-29" data-count="150" data-level="2">
+      <title>2026-08-29: 150 contributions</title><rect x="751" y="207" width="16" height="16" fill="transparent"/>
+      <ellipse cx="759" cy="215" rx="5.7" ry="7.1" transform="rotate(-24 759 215)" fill="#FF5A3A" stroke="#FFB09A" stroke-width="1.1"/>
+      <path d="M756.8 210.6 C761.1 213.2, 756.7 216.4, 761.5 220.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-08-30: 271 contributions" data-date="2026-08-30" data-count="271" data-level="3">
+      <title>2026-08-30: 271 contributions</title><rect x="767" y="111" width="16" height="16" fill="transparent"/>
+      <ellipse cx="775" cy="119" rx="5.7" ry="7.1" transform="rotate(-24 775 119)" fill="#C42A2A" stroke="#E0473A" stroke-width="1.1"/>
+      <path d="M772.8 114.6 C777.1 117.2, 772.7 120.4, 777.5 124.1" stroke="#F2E6DC" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-08-31: 248 contributions" data-date="2026-08-31" data-count="248" data-level="3">
+      <title>2026-08-31: 248 contributions</title><rect x="767" y="127" width="16" height="16" fill="transparent"/>
+      <ellipse cx="775" cy="135" rx="5.7" ry="7.1" transform="rotate(-24 775 135)" fill="#C42A2A" stroke="#E0473A" stroke-width="1.1"/>
+      <path d="M772.8 130.6 C777.1 133.2, 772.7 136.4, 777.5 140.1" stroke="#F2E6DC" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-09-01: 60 contributions" data-date="2026-09-01" data-count="60" data-level="1">
+      <title>2026-09-01: 60 contributions</title><rect x="767" y="143" width="16" height="16" fill="transparent"/>
+      <ellipse cx="775" cy="151" rx="5.7" ry="7.1" transform="rotate(-24 775 151)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M772.8 146.6 C777.1 149.2, 772.7 152.4, 777.5 156.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-09-02: 60 contributions" data-date="2026-09-02" data-count="60" data-level="1">
+      <title>2026-09-02: 60 contributions</title><rect x="767" y="159" width="16" height="16" fill="transparent"/>
+      <ellipse cx="775" cy="167" rx="5.7" ry="7.1" transform="rotate(-24 775 167)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M772.8 162.6 C777.1 165.2, 772.7 168.4, 777.5 172.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-09-03: 133 contributions" data-date="2026-09-03" data-count="133" data-level="2">
+      <title>2026-09-03: 133 contributions</title><rect x="767" y="175" width="16" height="16" fill="transparent"/>
+      <ellipse cx="775" cy="183" rx="5.7" ry="7.1" transform="rotate(-24 775 183)" fill="#FF5A3A" stroke="#FFB09A" stroke-width="1.1"/>
+      <path d="M772.8 178.6 C777.1 181.2, 772.7 184.4, 777.5 188.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-09-04: 116 contributions" data-date="2026-09-04" data-count="116" data-level="2">
+      <title>2026-09-04: 116 contributions</title><rect x="767" y="191" width="16" height="16" fill="transparent"/>
+      <ellipse cx="775" cy="199" rx="5.7" ry="7.1" transform="rotate(-24 775 199)" fill="#FF5A3A" stroke="#FFB09A" stroke-width="1.1"/>
+      <path d="M772.8 194.6 C777.1 197.2, 772.7 200.4, 777.5 204.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-09-05: 79 contributions" data-date="2026-09-05" data-count="79" data-level="1">
+      <title>2026-09-05: 79 contributions</title><rect x="767" y="207" width="16" height="16" fill="transparent"/>
+      <ellipse cx="775" cy="215" rx="5.7" ry="7.1" transform="rotate(-24 775 215)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M772.8 210.6 C777.1 213.2, 772.7 216.4, 777.5 220.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-09-06: 65 contributions" data-date="2026-09-06" data-count="65" data-level="1">
+      <title>2026-09-06: 65 contributions</title><rect x="783" y="111" width="16" height="16" fill="transparent"/>
+      <ellipse cx="791" cy="119" rx="5.7" ry="7.1" transform="rotate(-24 791 119)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M788.8 114.6 C793.1 117.2, 788.7 120.4, 793.5 124.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-09-07: 78 contributions" data-date="2026-09-07" data-count="78" data-level="1">
+      <title>2026-09-07: 78 contributions</title><rect x="783" y="127" width="16" height="16" fill="transparent"/>
+      <ellipse cx="791" cy="135" rx="5.7" ry="7.1" transform="rotate(-24 791 135)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M788.8 130.6 C793.1 133.2, 788.7 136.4, 793.5 140.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-09-08: 306 contributions" data-date="2026-09-08" data-count="306" data-level="3">
+      <title>2026-09-08: 306 contributions</title><rect x="783" y="143" width="16" height="16" fill="transparent"/>
+      <ellipse cx="791" cy="151" rx="5.7" ry="7.1" transform="rotate(-24 791 151)" fill="#C42A2A" stroke="#E0473A" stroke-width="1.1"/>
+      <path d="M788.8 146.6 C793.1 149.2, 788.7 152.4, 793.5 156.1" stroke="#F2E6DC" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-09-09: 358 contributions" data-date="2026-09-09" data-count="358" data-level="4">
+      <title>2026-09-09: 358 contributions</title><rect x="783" y="159" width="16" height="16" fill="transparent"/>
+      <ellipse cx="791" cy="167" rx="5.7" ry="7.1" transform="rotate(-24 791 167)" fill="#8A0E16" stroke="#E0473A" stroke-width="1.1"/>
+      <path d="M788.8 162.6 C793.1 165.2, 788.7 168.4, 793.5 172.1" stroke="#FFB09A" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-09-10: 168 contributions" data-date="2026-09-10" data-count="168" data-level="2">
+      <title>2026-09-10: 168 contributions</title><rect x="783" y="175" width="16" height="16" fill="transparent"/>
+      <ellipse cx="791" cy="183" rx="5.7" ry="7.1" transform="rotate(-24 791 183)" fill="#FF5A3A" stroke="#FFB09A" stroke-width="1.1"/>
+      <path d="M788.8 178.6 C793.1 181.2, 788.7 184.4, 793.5 188.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-09-11: 162 contributions" data-date="2026-09-11" data-count="162" data-level="2">
+      <title>2026-09-11: 162 contributions</title><rect x="783" y="191" width="16" height="16" fill="transparent"/>
+      <ellipse cx="791" cy="199" rx="5.7" ry="7.1" transform="rotate(-24 791 199)" fill="#FF5A3A" stroke="#FFB09A" stroke-width="1.1"/>
+      <path d="M788.8 194.6 C793.1 197.2, 788.7 200.4, 793.5 204.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-09-12: 2 contributions" data-date="2026-09-12" data-count="2" data-level="1">
+      <title>2026-09-12: 2 contributions</title><rect x="783" y="207" width="16" height="16" fill="transparent"/>
+      <ellipse cx="791" cy="215" rx="5.7" ry="7.1" transform="rotate(-24 791 215)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M788.8 210.6 C793.1 213.2, 788.7 216.4, 793.5 220.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-09-13: 1 contribution" data-date="2026-09-13" data-count="1" data-level="1">
+      <title>2026-09-13: 1 contribution</title><rect x="799" y="111" width="16" height="16" fill="transparent"/>
+      <ellipse cx="807" cy="119" rx="5.7" ry="7.1" transform="rotate(-24 807 119)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M804.8 114.6 C809.1 117.2, 804.7 120.4, 809.5 124.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-09-14: 8 contributions" data-date="2026-09-14" data-count="8" data-level="1">
+      <title>2026-09-14: 8 contributions</title><rect x="799" y="127" width="16" height="16" fill="transparent"/>
+      <ellipse cx="807" cy="135" rx="5.7" ry="7.1" transform="rotate(-24 807 135)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M804.8 130.6 C809.1 133.2, 804.7 136.4, 809.5 140.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-09-15: 1 contribution" data-date="2026-09-15" data-count="1" data-level="1">
+      <title>2026-09-15: 1 contribution</title><rect x="799" y="143" width="16" height="16" fill="transparent"/>
+      <ellipse cx="807" cy="151" rx="5.7" ry="7.1" transform="rotate(-24 807 151)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M804.8 146.6 C809.1 149.2, 804.7 152.4, 809.5 156.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-09-16: 235 contributions" data-date="2026-09-16" data-count="235" data-level="3">
+      <title>2026-09-16: 235 contributions</title><rect x="799" y="159" width="16" height="16" fill="transparent"/>
+      <ellipse cx="807" cy="167" rx="5.7" ry="7.1" transform="rotate(-24 807 167)" fill="#C42A2A" stroke="#E0473A" stroke-width="1.1"/>
+      <path d="M804.8 162.6 C809.1 165.2, 804.7 168.4, 809.5 172.1" stroke="#F2E6DC" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-09-17: 92 contributions" data-date="2026-09-17" data-count="92" data-level="1">
+      <title>2026-09-17: 92 contributions</title><rect x="799" y="175" width="16" height="16" fill="transparent"/>
+      <ellipse cx="807" cy="183" rx="5.7" ry="7.1" transform="rotate(-24 807 183)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M804.8 178.6 C809.1 181.2, 804.7 184.4, 809.5 188.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-09-18: 198 contributions" data-date="2026-09-18" data-count="198" data-level="2">
+      <title>2026-09-18: 198 contributions</title><rect x="799" y="191" width="16" height="16" fill="transparent"/>
+      <ellipse cx="807" cy="199" rx="5.7" ry="7.1" transform="rotate(-24 807 199)" fill="#FF5A3A" stroke="#FFB09A" stroke-width="1.1"/>
+      <path d="M804.8 194.6 C809.1 197.2, 804.7 200.4, 809.5 204.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-09-19: 231 contributions" data-date="2026-09-19" data-count="231" data-level="3">
+      <title>2026-09-19: 231 contributions</title><rect x="799" y="207" width="16" height="16" fill="transparent"/>
+      <ellipse cx="807" cy="215" rx="5.7" ry="7.1" transform="rotate(-24 807 215)" fill="#C42A2A" stroke="#E0473A" stroke-width="1.1"/>
+      <path d="M804.8 210.6 C809.1 213.2, 804.7 216.4, 809.5 220.1" stroke="#F2E6DC" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-09-20: 110 contributions" data-date="2026-09-20" data-count="110" data-level="1">
+      <title>2026-09-20: 110 contributions</title><rect x="815" y="111" width="16" height="16" fill="transparent"/>
+      <ellipse cx="823" cy="119" rx="5.7" ry="7.1" transform="rotate(-24 823 119)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M820.8 114.6 C825.1 117.2, 820.7 120.4, 825.5 124.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-09-21: 27 contributions" data-date="2026-09-21" data-count="27" data-level="1">
+      <title>2026-09-21: 27 contributions</title><rect x="815" y="127" width="16" height="16" fill="transparent"/>
+      <ellipse cx="823" cy="135" rx="5.7" ry="7.1" transform="rotate(-24 823 135)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M820.8 130.6 C825.1 133.2, 820.7 136.4, 825.5 140.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-09-22: 49 contributions" data-date="2026-09-22" data-count="49" data-level="1">
+      <title>2026-09-22: 49 contributions</title><rect x="815" y="143" width="16" height="16" fill="transparent"/>
+      <ellipse cx="823" cy="151" rx="5.7" ry="7.1" transform="rotate(-24 823 151)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M820.8 146.6 C825.1 149.2, 820.7 152.4, 825.5 156.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-09-23: 155 contributions" data-date="2026-09-23" data-count="155" data-level="2">
+      <title>2026-09-23: 155 contributions</title><rect x="815" y="159" width="16" height="16" fill="transparent"/>
+      <ellipse cx="823" cy="167" rx="5.7" ry="7.1" transform="rotate(-24 823 167)" fill="#FF5A3A" stroke="#FFB09A" stroke-width="1.1"/>
+      <path d="M820.8 162.6 C825.1 165.2, 820.7 168.4, 825.5 172.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-09-24: 309 contributions" data-date="2026-09-24" data-count="309" data-level="3">
+      <title>2026-09-24: 309 contributions</title><rect x="815" y="175" width="16" height="16" fill="transparent"/>
+      <ellipse cx="823" cy="183" rx="5.7" ry="7.1" transform="rotate(-24 823 183)" fill="#C42A2A" stroke="#E0473A" stroke-width="1.1"/>
+      <path d="M820.8 178.6 C825.1 181.2, 820.7 184.4, 825.5 188.1" stroke="#F2E6DC" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-09-25: 311 contributions" data-date="2026-09-25" data-count="311" data-level="3">
+      <title>2026-09-25: 311 contributions</title><rect x="815" y="191" width="16" height="16" fill="transparent"/>
+      <ellipse cx="823" cy="199" rx="5.7" ry="7.1" transform="rotate(-24 823 199)" fill="#C42A2A" stroke="#E0473A" stroke-width="1.1"/>
+      <path d="M820.8 194.6 C825.1 197.2, 820.7 200.4, 825.5 204.1" stroke="#F2E6DC" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-09-26: 253 contributions" data-date="2026-09-26" data-count="253" data-level="3">
+      <title>2026-09-26: 253 contributions</title><rect x="815" y="207" width="16" height="16" fill="transparent"/>
+      <ellipse cx="823" cy="215" rx="5.7" ry="7.1" transform="rotate(-24 823 215)" fill="#C42A2A" stroke="#E0473A" stroke-width="1.1"/>
+      <path d="M820.8 210.6 C825.1 213.2, 820.7 216.4, 825.5 220.1" stroke="#F2E6DC" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-09-27: 76 contributions" data-date="2026-09-27" data-count="76" data-level="1">
+      <title>2026-09-27: 76 contributions</title><rect x="831" y="111" width="16" height="16" fill="transparent"/>
+      <ellipse cx="839" cy="119" rx="5.7" ry="7.1" transform="rotate(-24 839 119)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M836.8 114.6 C841.1 117.2, 836.7 120.4, 841.5 124.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-09-28: 12 contributions" data-date="2026-09-28" data-count="12" data-level="1">
+      <title>2026-09-28: 12 contributions</title><rect x="831" y="127" width="16" height="16" fill="transparent"/>
+      <ellipse cx="839" cy="135" rx="5.7" ry="7.1" transform="rotate(-24 839 135)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M836.8 130.6 C841.1 133.2, 836.7 136.4, 841.5 140.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-09-29: 10 contributions" data-date="2026-09-29" data-count="10" data-level="1">
+      <title>2026-09-29: 10 contributions</title><rect x="831" y="143" width="16" height="16" fill="transparent"/>
+      <ellipse cx="839" cy="151" rx="5.7" ry="7.1" transform="rotate(-24 839 151)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M836.8 146.6 C841.1 149.2, 836.7 152.4, 841.5 156.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-09-30: 59 contributions" data-date="2026-09-30" data-count="59" data-level="1">
+      <title>2026-09-30: 59 contributions</title><rect x="831" y="159" width="16" height="16" fill="transparent"/>
+      <ellipse cx="839" cy="167" rx="5.7" ry="7.1" transform="rotate(-24 839 167)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M836.8 162.6 C841.1 165.2, 836.7 168.4, 841.5 172.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-10-01: 16 contributions" data-date="2026-10-01" data-count="16" data-level="1">
+      <title>2026-10-01: 16 contributions</title><rect x="831" y="175" width="16" height="16" fill="transparent"/>
+      <ellipse cx="839" cy="183" rx="5.7" ry="7.1" transform="rotate(-24 839 183)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M836.8 178.6 C841.1 181.2, 836.7 184.4, 841.5 188.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-10-02: 211 contributions" data-date="2026-10-02" data-count="211" data-level="2">
+      <title>2026-10-02: 211 contributions</title><rect x="831" y="191" width="16" height="16" fill="transparent"/>
+      <ellipse cx="839" cy="199" rx="5.7" ry="7.1" transform="rotate(-24 839 199)" fill="#FF5A3A" stroke="#FFB09A" stroke-width="1.1"/>
+      <path d="M836.8 194.6 C841.1 197.2, 836.7 200.4, 841.5 204.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-10-03: 239 contributions" data-date="2026-10-03" data-count="239" data-level="3">
+      <title>2026-10-03: 239 contributions</title><rect x="831" y="207" width="16" height="16" fill="transparent"/>
+      <ellipse cx="839" cy="215" rx="5.7" ry="7.1" transform="rotate(-24 839 215)" fill="#C42A2A" stroke="#E0473A" stroke-width="1.1"/>
+      <path d="M836.8 210.6 C841.1 213.2, 836.7 216.4, 841.5 220.1" stroke="#F2E6DC" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-10-04: 370 contributions" data-date="2026-10-04" data-count="370" data-level="4">
+      <title>2026-10-04: 370 contributions</title><rect x="847" y="111" width="16" height="16" fill="transparent"/>
+      <ellipse cx="855" cy="119" rx="5.7" ry="7.1" transform="rotate(-24 855 119)" fill="#8A0E16" stroke="#E0473A" stroke-width="1.1"/>
+      <path d="M852.8 114.6 C857.1 117.2, 852.7 120.4, 857.5 124.1" stroke="#FFB09A" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-10-05: 79 contributions" data-date="2026-10-05" data-count="79" data-level="1">
+      <title>2026-10-05: 79 contributions</title><rect x="847" y="127" width="16" height="16" fill="transparent"/>
+      <ellipse cx="855" cy="135" rx="5.7" ry="7.1" transform="rotate(-24 855 135)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M852.8 130.6 C857.1 133.2, 852.7 136.4, 857.5 140.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-10-06: 33 contributions" data-date="2026-10-06" data-count="33" data-level="1">
+      <title>2026-10-06: 33 contributions</title><rect x="847" y="143" width="16" height="16" fill="transparent"/>
+      <ellipse cx="855" cy="151" rx="5.7" ry="7.1" transform="rotate(-24 855 151)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M852.8 146.6 C857.1 149.2, 852.7 152.4, 857.5 156.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-10-07: 232 contributions" data-date="2026-10-07" data-count="232" data-level="3">
+      <title>2026-10-07: 232 contributions</title><rect x="847" y="159" width="16" height="16" fill="transparent"/>
+      <ellipse cx="855" cy="167" rx="5.7" ry="7.1" transform="rotate(-24 855 167)" fill="#C42A2A" stroke="#E0473A" stroke-width="1.1"/>
+      <path d="M852.8 162.6 C857.1 165.2, 852.7 168.4, 857.5 172.1" stroke="#F2E6DC" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-10-08: 562 contributions" data-date="2026-10-08" data-count="562" data-level="4">
+      <title>2026-10-08: 562 contributions</title><rect x="847" y="175" width="16" height="16" fill="transparent"/>
+      <ellipse cx="855" cy="183" rx="5.7" ry="7.1" transform="rotate(-24 855 183)" fill="#8A0E16" stroke="#E0473A" stroke-width="1.1"/>
+      <path d="M852.8 178.6 C857.1 181.2, 852.7 184.4, 857.5 188.1" stroke="#FFB09A" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-10-09: 372 contributions" data-date="2026-10-09" data-count="372" data-level="4">
+      <title>2026-10-09: 372 contributions</title><rect x="847" y="191" width="16" height="16" fill="transparent"/>
+      <ellipse cx="855" cy="199" rx="5.7" ry="7.1" transform="rotate(-24 855 199)" fill="#8A0E16" stroke="#E0473A" stroke-width="1.1"/>
+      <path d="M852.8 194.6 C857.1 197.2, 852.7 200.4, 857.5 204.1" stroke="#FFB09A" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-10-10: 114 contributions" data-date="2026-10-10" data-count="114" data-level="2">
+      <title>2026-10-10: 114 contributions</title><rect x="847" y="207" width="16" height="16" fill="transparent"/>
+      <ellipse cx="855" cy="215" rx="5.7" ry="7.1" transform="rotate(-24 855 215)" fill="#FF5A3A" stroke="#FFB09A" stroke-width="1.1"/>
+      <path d="M852.8 210.6 C857.1 213.2, 852.7 216.4, 857.5 220.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-10-11: 31 contributions" data-date="2026-10-11" data-count="31" data-level="1">
+      <title>2026-10-11: 31 contributions</title><rect x="863" y="111" width="16" height="16" fill="transparent"/>
+      <ellipse cx="871" cy="119" rx="5.7" ry="7.1" transform="rotate(-24 871 119)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M868.8 114.6 C873.1 117.2, 868.7 120.4, 873.5 124.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-10-12: 6 contributions" data-date="2026-10-12" data-count="6" data-level="1">
+      <title>2026-10-12: 6 contributions</title><rect x="863" y="127" width="16" height="16" fill="transparent"/>
+      <ellipse cx="871" cy="135" rx="5.7" ry="7.1" transform="rotate(-24 871 135)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M868.8 130.6 C873.1 133.2, 868.7 136.4, 873.5 140.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-10-13: 160 contributions" data-date="2026-10-13" data-count="160" data-level="2">
+      <title>2026-10-13: 160 contributions</title><rect x="863" y="143" width="16" height="16" fill="transparent"/>
+      <ellipse cx="871" cy="151" rx="5.7" ry="7.1" transform="rotate(-24 871 151)" fill="#FF5A3A" stroke="#FFB09A" stroke-width="1.1"/>
+      <path d="M868.8 146.6 C873.1 149.2, 868.7 152.4, 873.5 156.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-10-14: 193 contributions" data-date="2026-10-14" data-count="193" data-level="2">
+      <title>2026-10-14: 193 contributions</title><rect x="863" y="159" width="16" height="16" fill="transparent"/>
+      <ellipse cx="871" cy="167" rx="5.7" ry="7.1" transform="rotate(-24 871 167)" fill="#FF5A3A" stroke="#FFB09A" stroke-width="1.1"/>
+      <path d="M868.8 162.6 C873.1 165.2, 868.7 168.4, 873.5 172.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-10-15: 463 contributions" data-date="2026-10-15" data-count="463" data-level="4">
+      <title>2026-10-15: 463 contributions</title><rect x="863" y="175" width="16" height="16" fill="transparent"/>
+      <ellipse cx="871" cy="183" rx="5.7" ry="7.1" transform="rotate(-24 871 183)" fill="#8A0E16" stroke="#E0473A" stroke-width="1.1"/>
+      <path d="M868.8 178.6 C873.1 181.2, 868.7 184.4, 873.5 188.1" stroke="#FFB09A" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-10-16: 374 contributions" data-date="2026-10-16" data-count="374" data-level="4">
+      <title>2026-10-16: 374 contributions</title><rect x="863" y="191" width="16" height="16" fill="transparent"/>
+      <ellipse cx="871" cy="199" rx="5.7" ry="7.1" transform="rotate(-24 871 199)" fill="#8A0E16" stroke="#E0473A" stroke-width="1.1"/>
+      <path d="M868.8 194.6 C873.1 197.2, 868.7 200.4, 873.5 204.1" stroke="#FFB09A" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-10-17: 238 contributions" data-date="2026-10-17" data-count="238" data-level="3">
+      <title>2026-10-17: 238 contributions</title><rect x="863" y="207" width="16" height="16" fill="transparent"/>
+      <ellipse cx="871" cy="215" rx="5.7" ry="7.1" transform="rotate(-24 871 215)" fill="#C42A2A" stroke="#E0473A" stroke-width="1.1"/>
+      <path d="M868.8 210.6 C873.1 213.2, 868.7 216.4, 873.5 220.1" stroke="#F2E6DC" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-10-18: 78 contributions" data-date="2026-10-18" data-count="78" data-level="1">
+      <title>2026-10-18: 78 contributions</title><rect x="879" y="111" width="16" height="16" fill="transparent"/>
+      <ellipse cx="887" cy="119" rx="5.7" ry="7.1" transform="rotate(-24 887 119)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M884.8 114.6 C889.1 117.2, 884.7 120.4, 889.5 124.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-10-19: 18 contributions" data-date="2026-10-19" data-count="18" data-level="1">
+      <title>2026-10-19: 18 contributions</title><rect x="879" y="127" width="16" height="16" fill="transparent"/>
+      <ellipse cx="887" cy="135" rx="5.7" ry="7.1" transform="rotate(-24 887 135)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M884.8 130.6 C889.1 133.2, 884.7 136.4, 889.5 140.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-10-20: 7 contributions" data-date="2026-10-20" data-count="7" data-level="1">
+      <title>2026-10-20: 7 contributions</title><rect x="879" y="143" width="16" height="16" fill="transparent"/>
+      <ellipse cx="887" cy="151" rx="5.7" ry="7.1" transform="rotate(-24 887 151)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M884.8 146.6 C889.1 149.2, 884.7 152.4, 889.5 156.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-10-21: 116 contributions" data-date="2026-10-21" data-count="116" data-level="2">
+      <title>2026-10-21: 116 contributions</title><rect x="879" y="159" width="16" height="16" fill="transparent"/>
+      <ellipse cx="887" cy="167" rx="5.7" ry="7.1" transform="rotate(-24 887 167)" fill="#FF5A3A" stroke="#FFB09A" stroke-width="1.1"/>
+      <path d="M884.8 162.6 C889.1 165.2, 884.7 168.4, 889.5 172.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-10-22: 200 contributions" data-date="2026-10-22" data-count="200" data-level="2">
+      <title>2026-10-22: 200 contributions</title><rect x="879" y="175" width="16" height="16" fill="transparent"/>
+      <ellipse cx="887" cy="183" rx="5.7" ry="7.1" transform="rotate(-24 887 183)" fill="#FF5A3A" stroke="#FFB09A" stroke-width="1.1"/>
+      <path d="M884.8 178.6 C889.1 181.2, 884.7 184.4, 889.5 188.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-10-23: 240 contributions" data-date="2026-10-23" data-count="240" data-level="3">
+      <title>2026-10-23: 240 contributions</title><rect x="879" y="191" width="16" height="16" fill="transparent"/>
+      <ellipse cx="887" cy="199" rx="5.7" ry="7.1" transform="rotate(-24 887 199)" fill="#C42A2A" stroke="#E0473A" stroke-width="1.1"/>
+      <path d="M884.8 194.6 C889.1 197.2, 884.7 200.4, 889.5 204.1" stroke="#F2E6DC" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-10-24: 205 contributions" data-date="2026-10-24" data-count="205" data-level="2">
+      <title>2026-10-24: 205 contributions</title><rect x="879" y="207" width="16" height="16" fill="transparent"/>
+      <ellipse cx="887" cy="215" rx="5.7" ry="7.1" transform="rotate(-24 887 215)" fill="#FF5A3A" stroke="#FFB09A" stroke-width="1.1"/>
+      <path d="M884.8 210.6 C889.1 213.2, 884.7 216.4, 889.5 220.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-10-25: 74 contributions" data-date="2026-10-25" data-count="74" data-level="1">
+      <title>2026-10-25: 74 contributions</title><rect x="895" y="111" width="16" height="16" fill="transparent"/>
+      <ellipse cx="903" cy="119" rx="5.7" ry="7.1" transform="rotate(-24 903 119)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M900.8 114.6 C905.1 117.2, 900.7 120.4, 905.5 124.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-10-26: 182 contributions" data-date="2026-10-26" data-count="182" data-level="2">
+      <title>2026-10-26: 182 contributions</title><rect x="895" y="127" width="16" height="16" fill="transparent"/>
+      <ellipse cx="903" cy="135" rx="5.7" ry="7.1" transform="rotate(-24 903 135)" fill="#FF5A3A" stroke="#FFB09A" stroke-width="1.1"/>
+      <path d="M900.8 130.6 C905.1 133.2, 900.7 136.4, 905.5 140.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-10-27: 235 contributions" data-date="2026-10-27" data-count="235" data-level="3">
+      <title>2026-10-27: 235 contributions</title><rect x="895" y="143" width="16" height="16" fill="transparent"/>
+      <ellipse cx="903" cy="151" rx="5.7" ry="7.1" transform="rotate(-24 903 151)" fill="#C42A2A" stroke="#E0473A" stroke-width="1.1"/>
+      <path d="M900.8 146.6 C905.1 149.2, 900.7 152.4, 905.5 156.1" stroke="#F2E6DC" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-10-28: 182 contributions" data-date="2026-10-28" data-count="182" data-level="2">
+      <title>2026-10-28: 182 contributions</title><rect x="895" y="159" width="16" height="16" fill="transparent"/>
+      <ellipse cx="903" cy="167" rx="5.7" ry="7.1" transform="rotate(-24 903 167)" fill="#FF5A3A" stroke="#FFB09A" stroke-width="1.1"/>
+      <path d="M900.8 162.6 C905.1 165.2, 900.7 168.4, 905.5 172.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-10-29: 165 contributions" data-date="2026-10-29" data-count="165" data-level="2">
+      <title>2026-10-29: 165 contributions</title><rect x="895" y="175" width="16" height="16" fill="transparent"/>
+      <ellipse cx="903" cy="183" rx="5.7" ry="7.1" transform="rotate(-24 903 183)" fill="#FF5A3A" stroke="#FFB09A" stroke-width="1.1"/>
+      <path d="M900.8 178.6 C905.1 181.2, 900.7 184.4, 905.5 188.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-10-30: 350 contributions" data-date="2026-10-30" data-count="350" data-level="4">
+      <title>2026-10-30: 350 contributions</title><rect x="895" y="191" width="16" height="16" fill="transparent"/>
+      <ellipse cx="903" cy="199" rx="5.7" ry="7.1" transform="rotate(-24 903 199)" fill="#8A0E16" stroke="#E0473A" stroke-width="1.1"/>
+      <path d="M900.8 194.6 C905.1 197.2, 900.7 200.4, 905.5 204.1" stroke="#FFB09A" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="day" tabindex="0" role="img" aria-label="2026-10-31: 152 contributions" data-date="2026-10-31" data-count="152" data-level="2">
+      <title>2026-10-31: 152 contributions</title><rect x="895" y="207" width="16" height="16" fill="transparent"/>
+      <ellipse cx="903" cy="215" rx="5.7" ry="7.1" transform="rotate(-24 903 215)" fill="#FF5A3A" stroke="#FFB09A" stroke-width="1.1"/>
+      <path d="M900.8 210.6 C905.1 213.2, 900.7 216.4, 905.5 220.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g>
+  </g>
+
+  <g>
+    <g><g ><circle cx="655" cy="252" r="2.1" fill="#5A0C14" opacity="0.55"/></g><text x="640" y="276" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9" fill="#C9A0A1">No</text></g><g>
+    <g >
+      
+      <ellipse cx="721" cy="252" rx="5.7" ry="7.1" transform="rotate(-24 721 252)" fill="#FFB09A" stroke="#F2E6DC" stroke-width="1.1"/>
+      <path d="M718.8 247.6 C723.1 250.2, 718.7 253.4, 723.5 257.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g><text x="706" y="276" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9" fill="#C9A0A1">Light</text></g><g>
+    <g >
+      
+      <ellipse cx="787" cy="252" rx="5.7" ry="7.1" transform="rotate(-24 787 252)" fill="#FF5A3A" stroke="#FFB09A" stroke-width="1.1"/>
+      <path d="M784.8 247.6 C789.1 250.2, 784.7 253.4, 789.5 257.1" stroke="#7A0712" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g><text x="772" y="276" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9" fill="#C9A0A1">Medium</text></g><g>
+    <g >
+      
+      <ellipse cx="853" cy="252" rx="5.7" ry="7.1" transform="rotate(-24 853 252)" fill="#C42A2A" stroke="#E0473A" stroke-width="1.1"/>
+      <path d="M850.8 247.6 C855.1 250.2, 850.7 253.4, 855.5 257.1" stroke="#F2E6DC" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g><text x="838" y="276" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9" fill="#C9A0A1">Dark</text></g><g>
+    <g >
+      
+      <ellipse cx="919" cy="252" rx="5.7" ry="7.1" transform="rotate(-24 919 252)" fill="#8A0E16" stroke="#E0473A" stroke-width="1.1"/>
+      <path d="M916.8 247.6 C921.1 250.2, 916.7 253.4, 921.5 257.1" stroke="#FFB09A" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    </g><text x="904" y="276" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9" fill="#C9A0A1">Espresso</text></g>
+    <rect x="42" y="244" width="384" height="24" rx="12" fill="#2A070C" stroke="#E0473A" stroke-opacity="0.7"/>
+    <text x="54" y="260" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#FFB09A">Hover, tap, or focus a bean to see its daily count</text>
+  </g>
+</svg></div>
+<p>Counts come from GitHub's contribution calendar and refresh automatically every hour.</p>
+<p><a href="https://github.com/dschinkel">Back to GitHub profile</a></p>
+<div id="bean-tooltip" role="tooltip" hidden>
+<svg viewBox="0 0 120 144" aria-hidden="true">
+<g transform="translate(4 16) scale(8)">
+<ellipse id="tooltip-bean" cx="7" cy="7" rx="5.7" ry="7.1" transform="rotate(-24 7 7)" stroke-width=".35"/>
+<path id="tooltip-seam" d="M4.8 2.6 C9.1 5.2, 4.7 8.4, 9.5 12.1" stroke-width=".4" fill="none" stroke-linecap="round"/>
+</g>
+<text id="tooltip-count" x="60" y="74" text-anchor="middle" dominant-baseline="middle" font-family="ui-monospace, monospace" font-weight="800" stroke-width="5" stroke-linejoin="round" paint-order="stroke"></text>
+</svg></div>
+</main>
+<script>
+const palette = [{"fill":"#2A070C","stroke":"#5A0C14","line":"#8A0E16","label":"No roast"},{"fill":"#FFB09A","stroke":"#F2E6DC","line":"#7A0712","label":"Light roast"},{"fill":"#FF5A3A","stroke":"#FFB09A","line":"#7A0712","label":"Medium roast"},{"fill":"#C42A2A","stroke":"#E0473A","line":"#F2E6DC","label":"Dark roast"},{"fill":"#8A0E16","stroke":"#E0473A","line":"#FFB09A","label":"Espresso"}];
+const chart = document.querySelector('.chart');
+const tip = document.getElementById('bean-tooltip');
+const count = document.getElementById('tooltip-count');
+let active;
+function hide() {
+  active?.removeAttribute('aria-describedby'); active = null; tip.hidden = true;
+}
+function show(day) {
+  if (!day) return;
+  hide(); active = day;
+  const p = palette[Number(day.dataset.level)];
+  const value = day.dataset.count;
+  const ink = Number(day.dataset.level) === 1 ? '#4b0710' : '#fff5ee';
+  document.getElementById('tooltip-bean').setAttribute('fill', p.fill);
+  document.getElementById('tooltip-bean').setAttribute('stroke', p.stroke);
+  document.getElementById('tooltip-seam').setAttribute('stroke', p.line);
+  count.textContent = value;
+  count.setAttribute('font-size', Math.min(32, 84 / Math.max(1, value.length) * 1.35));
+  count.setAttribute('fill', ink); count.setAttribute('stroke', p.fill);
+  tip.setAttribute('aria-label', day.getAttribute('aria-label'));
+  day.setAttribute('aria-describedby', 'bean-tooltip'); tip.hidden = false;
+  const box = day.getBoundingClientRect();
+  const left = Math.max(4, Math.min(window.innerWidth - 124, box.x + box.width / 2 - 60));
+  const top = box.top >= 156 ? box.top - 152 : Math.min(window.innerHeight - 148, box.bottom + 8);
+  tip.style.left = left + 'px'; tip.style.top = Math.max(4, top) + 'px';
+}
+chart.querySelectorAll('.day title').forEach(title => title.remove());
+chart.addEventListener('pointerover', event => show(event.target.closest('.day')));
+chart.addEventListener('pointerleave', hide);
+chart.addEventListener('pointerout', event => { if (!event.relatedTarget?.closest?.('.day')) hide(); });
+chart.addEventListener('focusin', event => show(event.target.closest('.day')));
+chart.addEventListener('focusout', hide);
+chart.addEventListener('click', event => show(event.target.closest('.day')));
+document.addEventListener('keydown', event => { if (event.key === 'Escape') hide(); });
+window.addEventListener('scroll', hide, true);
+window.addEventListener('resize', hide);
+</script>
+</body></html>
