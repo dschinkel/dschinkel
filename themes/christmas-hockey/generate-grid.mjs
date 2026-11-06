@@ -56,6 +56,22 @@ const ornament = (x, y, color) => `<g>
   <path d="M${x - 3.2} ${y + 2.5}q3.2 2.6 6.4 0" stroke="#FFFBEF" stroke-width="0.55" opacity="0.45"/>
 </g>`;
 const sparkle = (x, y) => `<path d="M${x} ${y - 5}v10M${x - 5} ${y}h10M${x - 3.5} ${y - 3.5}l7 7M${x + 3.5} ${y - 3.5}l-7 7" stroke="#F8EBD0" stroke-width="0.8" stroke-linecap="round" opacity="0.8"/>`;
+const santa = x => `<g transform="translate(${x} 5)">
+  <path d="M19 67Q20 49 32 46H49Q61 49 63 67Z" fill="#B92E3D" stroke="#F4D9C9" stroke-width="0.8"/>
+  <path d="M25 53Q13 48 9 39" stroke="#B92E3D" stroke-width="9" stroke-linecap="round"/>
+  <path d="M10 40L15 44" stroke="#F5F4E9" stroke-width="5" stroke-linecap="round"/>
+  <ellipse cx="7" cy="34" rx="5.5" ry="7" transform="rotate(-25 7 34)" fill="#B92E3D" stroke="#F3D7C6" stroke-width="0.8"/>
+  <path d="M20 63H62" stroke="#17231E" stroke-width="6"/><rect x="38" y="59" width="9" height="8" rx="1" fill="#F4CA66"/><rect x="40" y="61" width="5" height="4" fill="#17231E"/>
+  <ellipse cx="40" cy="35" rx="14.5" ry="16" fill="#F2C4A6"/>
+  <path d="M25 37Q25 52 31 56Q40 64 49 56Q55 51 55 37Q50 42 46 40Q40 44 34 40Q29 42 25 37Z" fill="#F7F5ED" stroke="#D7E2D9" stroke-width="0.8"/>
+  <path d="M25 26Q29 8 45 8Q57 9 59 25Q49 19 42 25Z" fill="#C53643" stroke="#F4CA66" stroke-width="0.8"/>
+  <path d="M24 25Q40 19 57 25" stroke="#F7F5ED" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="24" cy="17" r="5.5" fill="#F7F5ED"/>
+  <circle cx="34" cy="33" r="1.2" fill="#16201E"/><circle cx="46" cy="33" r="1.2" fill="#16201E"/>
+  <circle cx="40" cy="39" r="2.8" fill="#EBAE97"/>
+  <path d="M29 42Q34 46 40 42Q46 46 51 42Q48 49 40 47Q32 49 29 42Z" fill="#FFFDF6"/>
+  <path d="M35 51Q40 55 45 51" stroke="#D7E2D9" stroke-width="0.8" fill="none"/>
+</g>`;
 
 function tree(x, y, level, title = '', day) {
   const attributes = day ? `class="day" tabindex="0" role="img" aria-label="${escape(title)}" data-date="${escape(day.date)}" data-count="${day.contributionCount}" data-level="${level}"` : '';
@@ -120,11 +136,12 @@ const decorations = [
   ornament(126, 33, 'red'), sparkle(228, 27), ornament(344, 33, 'gold'),
   sparkle(width / 2, 27), ornament(width - 344, 33, 'pearl'), sparkle(width - 228, 27), ornament(width - 126, 33, 'red'),
   sparkle(28, 140), sparkle(width - 28, 140),
-  sparkle(276, height - 20), ornament(502, height - 21, 'red'), sparkle(width - 285, height - 20)
+  sparkle(276, height - 20), ornament(502, height - 21, 'red'), sparkle(width - 285, height - 20),
+  santa(width - 82)
 ].join('');
 return `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" role="img" aria-labelledby="title desc">
 <title id="title">Christmas contributions for ${escape(username)}</title>
-<desc id="desc">${calendar.totalContributions.toLocaleString('en-US')} GitHub contributions in the last year. Five tree sizes and colors, from white through gold and green to red, show increasing daily contributions.</desc>
+<desc id="desc">${calendar.totalContributions.toLocaleString('en-US')} GitHub contributions in the last year. Five tree sizes and colors, from white through gold and green to red, show increasing daily contributions. Santa Claus waves from the top right corner.</desc>
 <defs>
   <linearGradient id="winter" x2="1" y2="1"><stop stop-color="#071D18"/><stop offset="1" stop-color="#0D3025"/></linearGradient>
   <radialGradient id="redBauble" cx="0.3" cy="0.25" r="0.8"><stop stop-color="#FF9293"/><stop offset="0.38" stop-color="#D93E4E"/><stop offset="1" stop-color="#741523"/></radialGradient>
