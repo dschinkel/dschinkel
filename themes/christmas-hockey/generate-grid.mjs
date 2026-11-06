@@ -8,7 +8,7 @@ const query = `query($login: String!) {
     contributionsCollection {
       contributionCalendar {
         totalContributions
-        weeks { contributionDays { date contributionCount contributionLevel weekday } }
+        weeks { contributionDays { date contributionCount weekday } }
       }
     }
   }
@@ -36,40 +36,57 @@ return result.data.user.contributionsCollection.contributionCalendar;
 const escape = value => String(value).replace(/[&<>"']/g, char => ({
   '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&apos;'
 })[char]);
-const levels = ['NONE', 'FIRST_QUARTILE', 'SECOND_QUARTILE', 'THIRD_QUARTILE', 'FOURTH_QUARTILE'];
-const treeColors = ['', '#F4F5EA', '#8CDABA', '#35B96A', '#E3454F'];
+const treeColors = ['', '#F4F5EA', '#F4CA66', '#54C878', '#126A46', '#E3454F'];
 const validDay = day => /^\d{4}-\d{2}-\d{2}$/.test(day.date) && Number.isSafeInteger(day.contributionCount) && day.contributionCount >= 0 && Number.isInteger(day.weekday) && day.weekday >= 0 && day.weekday <= 6;
-const names = ['No contributions', 'Small tree', 'Medium tree', 'Large tree', 'Extra large tree'];
+const names = ['No contributions', 'Tiny tree', 'Small tree', 'Medium tree', 'Large tree', 'Extra large tree'];
+const labels = ['None', 'Tiny', 'Small', 'Medium', 'Large', 'XL'];
 const step = 16;
 const left = 70;
 const top = 92;
 const height = 260;
 const text = (x, y, value, size = 11, color = '#CEDFD5') =>
   `<text x="${x}" y="${y}" font-size="${size}" fill="${color}">${escape(value)}</text>`;
-const ornament = (x, y, color) => `<g><path d="M${x} ${y - 12}v7" stroke="#B9D8C2" stroke-width="1"/><circle cx="${x}" cy="${y}" r="4" fill="${color}" stroke="#F8EBD0" stroke-width="0.7"/><circle cx="${x - 1.2}" cy="${y - 1.3}" r="0.9" fill="#FFF9E9" opacity="0.85"/></g>`;
+const ornament = (x, y, color) => `<g>
+  <path d="M${x - 18} ${y - 15}Q${x} ${y - 11} ${x + 18} ${y - 15}" stroke="#4BA86F" stroke-width="1.2" fill="none"/>
+  ${[-14, -7, 7, 14].map(offset => `<path d="M${x + offset} ${y - 13}l-4 -5m4 5l4 -5" stroke="#4BA86F" stroke-width="1" stroke-linecap="round"/>`).join('')}
+  <path d="M${x} ${y - 17}v9" stroke="#D9E5DA" stroke-width="0.9"/>
+  <path d="M${x - 2.4} ${y - 6.7}h4.8v2.2h-4.8z" fill="#D9B874"/>
+  <circle cx="${x}" cy="${y}" r="5.7" fill="url(#${color}Bauble)" stroke="#F8EBD0" stroke-width="0.7"/>
+  <ellipse cx="${x - 1.8}" cy="${y - 2}" rx="1.2" ry="2" fill="#FFFBEF" opacity="0.8"/>
+  <path d="M${x - 3.2} ${y + 2.5}q3.2 2.6 6.4 0" stroke="#FFFBEF" stroke-width="0.55" opacity="0.45"/>
+</g>`;
 const sparkle = (x, y) => `<path d="M${x} ${y - 5}v10M${x - 5} ${y}h10M${x - 3.5} ${y - 3.5}l7 7M${x + 3.5} ${y - 3.5}l-7 7" stroke="#F8EBD0" stroke-width="0.8" stroke-linecap="round" opacity="0.8"/>`;
 
 function tree(x, y, level, title = '', day) {
   const attributes = day ? `class="day" tabindex="0" role="img" aria-label="${escape(title)}" data-date="${escape(day.date)}" data-count="${day.contributionCount}" data-level="${level}"` : '';
   const hitArea = day ? `<rect x="${x - 1}" y="${y - 1}" width="16" height="16" fill="transparent"/>` : '';
   if (!level) return `<g ${attributes}><title>${escape(title)}</title>${hitArea}<circle cx="${x + 7}" cy="${y + 7}" r="2" fill="#486052"/></g>`;
-  const scale = [0, 0.55, 0.7, 0.85, 1][level];
+  const scale = [0, 0.48, 0.6, 0.72, 0.86, 1][level];
   const lights = level >= 2
     ? `<circle cx="-2.5" cy="-2.2" r="0.9" fill="#F7DF85"/><circle cx="2.7" cy="2" r="0.9" fill="#F4F0DF"/>`
     : '';
   const moreLights = level >= 3
-    ? `<circle cx="0.3" cy="-5.1" r="0.8" fill="${level === 4 ? '#FFE59A' : '#D83E45'}"/><circle cx="-3.6" cy="4" r="0.8" fill="#F4F0DF"/>`
+    ? `<circle cx="0.3" cy="-5.1" r="0.8" fill="${level === 5 ? '#FFE59A' : '#D83E45'}"/><circle cx="-3.6" cy="4" r="0.8" fill="#F4F0DF"/>`
     : '';
   return `<g ${attributes}><title>${escape(title)}</title>${hitArea}<g transform="translate(${x + 7} ${y + 7}) scale(${scale})">
     <path d="M-1.1 3.7V7H1.1V3.7" fill="#B99165"/>
     <path d="M0 -7.8L-4.1 -1.7H-2.6L-5.4 2.5H-3.5L-6.2 5.8H6.2L3.5 2.5H5.4L2.6 -1.7H4.1Z" fill="${treeColors[level]}" stroke="#D7F2D5" stroke-width="0.65" stroke-linejoin="round"/>
-    <path d="M-2.6 -1.7H2.6M-3.5 2.5H3.5" stroke="${level === 4 ? '#F9B6AB' : '#5A9B76'}" stroke-width="0.45" opacity="0.8"/>
+    <path d="M-2.6 -1.7H2.6M-3.5 2.5H3.5" stroke="${level === 5 ? '#F9B6AB' : '#5A9B76'}" stroke-width="0.45" opacity="0.8"/>
     ${lights}${moreLights}<path d="M0 -9.4L0.55 -8.25L1.8 -8.1L0.9 -7.25L1.1 -6.05L0 -6.65L-1.1 -6.05L-0.9 -7.25L-1.8 -8.1L-0.55 -8.25Z" fill="#FFE3A0"/>
   </g></g>`;
 }
 
 export function svg(calendar) {
 const width = Math.max(990, left + calendar.weeks.length * step + 28);
+const activeCounts = calendar.weeks.flatMap(week => week.contributionDays)
+  .map(day => day.contributionCount).filter(count => Number.isSafeInteger(count) && count > 0)
+  .sort((a, b) => a - b);
+const cutoffs = [0.2, 0.4, 0.6, 0.8].map(p => activeCounts[Math.ceil(p * activeCounts.length) - 1]);
+const levelFor = count => {
+  if (count === 0) return 0;
+  const bucket = cutoffs.findIndex(cutoff => count <= cutoff);
+  return bucket === -1 ? 5 : bucket + 1;
+};
 let cells = '';
 let months = '';
 let previousMonth = '';
@@ -87,29 +104,33 @@ calendar.weeks.forEach((week, index) => {
   for (const day of week.contributionDays) {
     if (!validDay(day)) throw new Error('Invalid contribution day');
     const count = day.contributionCount;
-    const level = levels.indexOf(day.contributionLevel);
-    if (level < 0) throw new Error(`Unknown contribution level: ${day.contributionLevel}`);
+    const level = levelFor(count);
     cells += tree(left + index * step, top + day.weekday * step, level,
       `${day.date}: ${count} contribution${count === 1 ? '' : 's'}; ${names[level]}`, day);
   }
 });
 
-const legendX = width - 320;
+const legendX = width - 360;
 const legend = names.map((name, level) => {
-  const x = legendX + level * 65;
-  return `<g>${tree(x, 207, level, name)}${text(x - 9, 231, ['None', 'Small', 'Medium', 'Large', 'XL'][level], 10, '#DDEBDD')}</g>`;
+  const x = legendX + level * 60;
+  return `<g>${tree(x, 207, level, name)}${text(x - 9, 231, labels[level], 10, '#DDEBDD')}</g>`;
 }).join('');
 const generated = new Date().toISOString().slice(0, 10);
 const decorations = [
-  ornament(126, 32, '#B92E3D'), sparkle(228, 27), ornament(344, 32, '#E7C36D'),
-  sparkle(width / 2, 27), ornament(width - 344, 32, '#F1F0E4'), sparkle(width - 228, 27), ornament(width - 126, 32, '#B92E3D'),
+  ornament(126, 33, 'red'), sparkle(228, 27), ornament(344, 33, 'gold'),
+  sparkle(width / 2, 27), ornament(width - 344, 33, 'pearl'), sparkle(width - 228, 27), ornament(width - 126, 33, 'red'),
   sparkle(28, 140), sparkle(width - 28, 140),
-  sparkle(276, height - 20), ornament(502, height - 21, '#B92E3D'), sparkle(width - 285, height - 20)
+  sparkle(276, height - 20), ornament(502, height - 21, 'red'), sparkle(width - 285, height - 20)
 ].join('');
 return `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" role="img" aria-labelledby="title desc">
 <title id="title">Christmas contributions for ${escape(username)}</title>
-<desc id="desc">${calendar.totalContributions.toLocaleString('en-US')} GitHub contributions in the last year. Trees grow from small to extra large as daily contributions increase.</desc>
-<defs><linearGradient id="winter" x2="1" y2="1"><stop stop-color="#071D18"/><stop offset="1" stop-color="#0D3025"/></linearGradient></defs>
+<desc id="desc">${calendar.totalContributions.toLocaleString('en-US')} GitHub contributions in the last year. Five tree sizes and colors, from white through gold and green to red, show increasing daily contributions.</desc>
+<defs>
+  <linearGradient id="winter" x2="1" y2="1"><stop stop-color="#071D18"/><stop offset="1" stop-color="#0D3025"/></linearGradient>
+  <radialGradient id="redBauble" cx="0.3" cy="0.25" r="0.8"><stop stop-color="#FF9293"/><stop offset="0.38" stop-color="#D93E4E"/><stop offset="1" stop-color="#741523"/></radialGradient>
+  <radialGradient id="goldBauble" cx="0.3" cy="0.25" r="0.8"><stop stop-color="#FFF2B8"/><stop offset="0.4" stop-color="#E9C469"/><stop offset="1" stop-color="#8B5A21"/></radialGradient>
+  <radialGradient id="pearlBauble" cx="0.3" cy="0.25" r="0.8"><stop stop-color="#FFFFFF"/><stop offset="0.4" stop-color="#E8F1EC"/><stop offset="1" stop-color="#8AADA2"/></radialGradient>
+</defs>
 <rect width="${width}" height="${height}" rx="24" fill="#07110F"/>
 <rect x="18" y="18" width="${width - 36}" height="${height - 36}" rx="18" fill="url(#winter)" stroke="#9F3237" stroke-width="1.5"/>
 <g aria-hidden="true">${decorations}</g>
