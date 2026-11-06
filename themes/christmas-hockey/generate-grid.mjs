@@ -8,7 +8,7 @@ const query = `query($login: String!) {
     contributionsCollection {
       contributionCalendar {
         totalContributions
-        weeks { contributionDays { date contributionCount weekday } }
+        weeks { contributionDays { date contributionCount contributionLevel weekday } }
       }
     }
   }
@@ -36,8 +36,8 @@ return result.data.user.contributionsCollection.contributionCalendar;
 const escape = value => String(value).replace(/[&<>"']/g, char => ({
   '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&apos;'
 })[char]);
-const sizeFor = count => count === 0 ? 0 : count === 1 ? 1 : count <= 4 ? 2 : count <= 9 ? 3 : 4;
-const treeColors = ['', '#C5EAB0', '#83CE8D', '#3FA66A', '#126A46'];
+const levels = ['NONE', 'FIRST_QUARTILE', 'SECOND_QUARTILE', 'THIRD_QUARTILE', 'FOURTH_QUARTILE'];
+const treeColors = ['', '#F4F5EA', '#8CDABA', '#35B96A', '#E3454F'];
 const validDay = day => /^\d{4}-\d{2}-\d{2}$/.test(day.date) && Number.isSafeInteger(day.contributionCount) && day.contributionCount >= 0 && Number.isInteger(day.weekday) && day.weekday >= 0 && day.weekday <= 6;
 const names = ['No contributions', 'Small tree', 'Medium tree', 'Large tree', 'Extra large tree'];
 const step = 16;
@@ -53,17 +53,17 @@ function tree(x, y, level, title = '', day) {
   const attributes = day ? `class="day" tabindex="0" role="img" aria-label="${escape(title)}" data-date="${escape(day.date)}" data-count="${day.contributionCount}" data-level="${level}"` : '';
   const hitArea = day ? `<rect x="${x - 1}" y="${y - 1}" width="16" height="16" fill="transparent"/>` : '';
   if (!level) return `<g ${attributes}><title>${escape(title)}</title>${hitArea}<circle cx="${x + 7}" cy="${y + 7}" r="2" fill="#486052"/></g>`;
-  const scale = [0, 0.42, 0.62, 0.82, 1][level];
+  const scale = [0, 0.55, 0.7, 0.85, 1][level];
   const lights = level >= 2
     ? `<circle cx="-2.5" cy="-2.2" r="0.9" fill="#F7DF85"/><circle cx="2.7" cy="2" r="0.9" fill="#F4F0DF"/>`
     : '';
   const moreLights = level >= 3
-    ? `<circle cx="0.3" cy="-5.1" r="0.8" fill="#D83E45"/><circle cx="-3.6" cy="4" r="0.8" fill="#D83E45"/>`
+    ? `<circle cx="0.3" cy="-5.1" r="0.8" fill="${level === 4 ? '#FFE59A' : '#D83E45'}"/><circle cx="-3.6" cy="4" r="0.8" fill="#F4F0DF"/>`
     : '';
   return `<g ${attributes}><title>${escape(title)}</title>${hitArea}<g transform="translate(${x + 7} ${y + 7}) scale(${scale})">
     <path d="M-1.1 3.7V7H1.1V3.7" fill="#B99165"/>
     <path d="M0 -7.8L-4.1 -1.7H-2.6L-5.4 2.5H-3.5L-6.2 5.8H6.2L3.5 2.5H5.4L2.6 -1.7H4.1Z" fill="${treeColors[level]}" stroke="#D7F2D5" stroke-width="0.65" stroke-linejoin="round"/>
-    <path d="M-2.6 -1.7H2.6M-3.5 2.5H3.5" stroke="#70BA83" stroke-width="0.45" opacity="0.8"/>
+    <path d="M-2.6 -1.7H2.6M-3.5 2.5H3.5" stroke="${level === 4 ? '#F9B6AB' : '#5A9B76'}" stroke-width="0.45" opacity="0.8"/>
     ${lights}${moreLights}<path d="M0 -9.4L0.55 -8.25L1.8 -8.1L0.9 -7.25L1.1 -6.05L0 -6.65L-1.1 -6.05L-0.9 -7.25L-1.8 -8.1L-0.55 -8.25Z" fill="#FFE3A0"/>
   </g></g>`;
 }
@@ -87,7 +87,8 @@ calendar.weeks.forEach((week, index) => {
   for (const day of week.contributionDays) {
     if (!validDay(day)) throw new Error('Invalid contribution day');
     const count = day.contributionCount;
-    const level = sizeFor(count);
+    const level = levels.indexOf(day.contributionLevel);
+    if (level < 0) throw new Error(`Unknown contribution level: ${day.contributionLevel}`);
     cells += tree(left + index * step, top + day.weekday * step, level,
       `${day.date}: ${count} contribution${count === 1 ? '' : 's'}; ${names[level]}`, day);
   }
