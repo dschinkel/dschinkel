@@ -8,4 +8,4 @@ The GitHub Actions workflow generates only the season shown in the profile READM
 | Halloween | `themes/halloween/generate-grid.mjs` | `fall-contribution-grid.svg` |
 | Christmas/hockey | `themes/christmas-hockey/generate-grid.mjs` | `christmas-contribution-grid.svg` |
 
-Each generator needs `GITHUB_TOKEN` and optionally `GITHUB_USERNAME`, and writes its SVG to `dist/`. The Halloween #355 header source is `themes/halloween/355-belfry-bats.mjs`; the published header remains `assets/github-profile-banner.svg`.
+Each generator needs `GITHUB_TOKEN` and optionally `GITHUB_USERNAME`, and writes its SVG to `dist/`. The active hockey header is `themes/christmas-hockey/profile-banner-347-puck-and-stick.svg`, copied to `assets/github-profile-banner.svg` for the profile. The previous Halloween #355 header can be regenerated from `themes/halloween/355-belfry-bats.mjs`.
