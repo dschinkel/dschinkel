@@ -17,6 +17,8 @@ test('daily contribution counts map to none, small, medium, large, and extra lar
     assert.match(image, new RegExp(`data-count="${count}" data-level="${level}"`));
   }
   assert.match(image, /2026-11-05: 12 contributions; Extra large tree/);
+  for (const color of ['#C5EAB0', '#83CE8D', '#3FA66A', '#126A46']) assert.ok(image.includes(`fill="${color}"`));
+  assert.doesNotMatch(image, />CONTRIBUTIONS<\/text>/);
 });
 
 test('interactive page exposes exact daily counts to pointer and keyboard users', () => {

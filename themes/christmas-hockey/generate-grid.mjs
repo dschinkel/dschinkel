@@ -37,6 +37,7 @@ const escape = value => String(value).replace(/[&<>"']/g, char => ({
   '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&apos;'
 })[char]);
 const sizeFor = count => count === 0 ? 0 : count === 1 ? 1 : count <= 4 ? 2 : count <= 9 ? 3 : 4;
+const treeColors = ['', '#C5EAB0', '#83CE8D', '#3FA66A', '#126A46'];
 const validDay = day => /^\d{4}-\d{2}-\d{2}$/.test(day.date) && Number.isSafeInteger(day.contributionCount) && day.contributionCount >= 0 && Number.isInteger(day.weekday) && day.weekday >= 0 && day.weekday <= 6;
 const names = ['No contributions', 'Small tree', 'Medium tree', 'Large tree', 'Extra large tree'];
 const step = 16;
@@ -45,12 +46,14 @@ const top = 92;
 const height = 260;
 const text = (x, y, value, size = 11, color = '#CEDFD5') =>
   `<text x="${x}" y="${y}" font-size="${size}" fill="${color}">${escape(value)}</text>`;
+const ornament = (x, y, color) => `<g><path d="M${x} ${y - 12}v7" stroke="#B9D8C2" stroke-width="1"/><circle cx="${x}" cy="${y}" r="4" fill="${color}" stroke="#F8EBD0" stroke-width="0.7"/><circle cx="${x - 1.2}" cy="${y - 1.3}" r="0.9" fill="#FFF9E9" opacity="0.85"/></g>`;
+const sparkle = (x, y) => `<path d="M${x} ${y - 5}v10M${x - 5} ${y}h10M${x - 3.5} ${y - 3.5}l7 7M${x + 3.5} ${y - 3.5}l-7 7" stroke="#F8EBD0" stroke-width="0.8" stroke-linecap="round" opacity="0.8"/>`;
 
 function tree(x, y, level, title = '', day) {
   const attributes = day ? `class="day" tabindex="0" role="img" aria-label="${escape(title)}" data-date="${escape(day.date)}" data-count="${day.contributionCount}" data-level="${level}"` : '';
   const hitArea = day ? `<rect x="${x - 1}" y="${y - 1}" width="16" height="16" fill="transparent"/>` : '';
   if (!level) return `<g ${attributes}><title>${escape(title)}</title>${hitArea}<circle cx="${x + 7}" cy="${y + 7}" r="2" fill="#486052"/></g>`;
-  const scale = [0, 0.55, 0.7, 0.85, 1][level];
+  const scale = [0, 0.42, 0.62, 0.82, 1][level];
   const lights = level >= 2
     ? `<circle cx="-2.5" cy="-2.2" r="0.9" fill="#F7DF85"/><circle cx="2.7" cy="2" r="0.9" fill="#F4F0DF"/>`
     : '';
@@ -59,7 +62,7 @@ function tree(x, y, level, title = '', day) {
     : '';
   return `<g ${attributes}><title>${escape(title)}</title>${hitArea}<g transform="translate(${x + 7} ${y + 7}) scale(${scale})">
     <path d="M-1.1 3.7V7H1.1V3.7" fill="#B99165"/>
-    <path d="M0 -7.8L-4.1 -1.7H-2.6L-5.4 2.5H-3.5L-6.2 5.8H6.2L3.5 2.5H5.4L2.6 -1.7H4.1Z" fill="#17804D" stroke="#A9DAB7" stroke-width="0.65" stroke-linejoin="round"/>
+    <path d="M0 -7.8L-4.1 -1.7H-2.6L-5.4 2.5H-3.5L-6.2 5.8H6.2L3.5 2.5H5.4L2.6 -1.7H4.1Z" fill="${treeColors[level]}" stroke="#D7F2D5" stroke-width="0.65" stroke-linejoin="round"/>
     <path d="M-2.6 -1.7H2.6M-3.5 2.5H3.5" stroke="#70BA83" stroke-width="0.45" opacity="0.8"/>
     ${lights}${moreLights}<path d="M0 -9.4L0.55 -8.25L1.8 -8.1L0.9 -7.25L1.1 -6.05L0 -6.65L-1.1 -6.05L-0.9 -7.25L-1.8 -8.1L-0.55 -8.25Z" fill="#FFE3A0"/>
   </g></g>`;
@@ -96,15 +99,21 @@ const legend = names.map((name, level) => {
   return `<g>${tree(x, 207, level, name)}${text(x - 9, 231, ['None', 'Small', 'Medium', 'Large', 'XL'][level], 10, '#DDEBDD')}</g>`;
 }).join('');
 const generated = new Date().toISOString().slice(0, 10);
+const decorations = [
+  ornament(126, 32, '#B92E3D'), sparkle(228, 27), ornament(344, 32, '#E7C36D'),
+  sparkle(width / 2, 27), ornament(width - 344, 32, '#F1F0E4'), sparkle(width - 228, 27), ornament(width - 126, 32, '#B92E3D'),
+  sparkle(28, 140), sparkle(width - 28, 140),
+  sparkle(276, height - 20), ornament(502, height - 21, '#B92E3D'), sparkle(width - 285, height - 20)
+].join('');
 return `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" role="img" aria-labelledby="title desc">
 <title id="title">Christmas contributions for ${escape(username)}</title>
 <desc id="desc">${calendar.totalContributions.toLocaleString('en-US')} GitHub contributions in the last year. Trees grow from small to extra large as daily contributions increase.</desc>
 <defs><linearGradient id="winter" x2="1" y2="1"><stop stop-color="#071D18"/><stop offset="1" stop-color="#0D3025"/></linearGradient></defs>
 <rect width="${width}" height="${height}" rx="24" fill="#07110F"/>
 <rect x="18" y="18" width="${width - 36}" height="${height - 36}" rx="18" fill="url(#winter)" stroke="#9F3237" stroke-width="1.5"/>
+<g aria-hidden="true">${decorations}</g>
 <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace">
-${text(42, 48, 'CONTRIBUTIONS', 17, '#F4F0E7')}
-${text(42, 68, `${username} • ${calendar.totalContributions.toLocaleString('en-US')} contributions • generated ${generated}`, 11, '#DCE8DB')}
+${text(42, 51, `${username} • ${calendar.totalContributions.toLocaleString('en-US')} contributions • generated ${generated}`, 11, '#DCE8DB')}
 ${months}
 ${text(34, top + step + 10, 'Mon', 10)}${text(34, top + step * 3 + 10, 'Wed', 10)}${text(34, top + step * 5 + 10, 'Fri', 10)}
 ${cells}
