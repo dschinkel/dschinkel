@@ -1,4 +1,4 @@
-name: Generate contribution grids
+name: Generate Christmas contributions
 
 on:
   schedule:
@@ -29,17 +29,11 @@ jobs:
         with:
           node-version: 22
 
-      - name: Verify daily count tooltips
+      - name: Verify contribution tooltips
         run: node --test
 
-      - name: Generate coffee contribution SVG and interactive page
-        run: node scripts/generate-coffee-grid.mjs
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_USERNAME: dschinkel
-
-      - name: Generate fall contribution grid SVG
-        run: node scripts/generate-fall-grid.mjs
+      - name: Generate Christmas contribution SVG and interactive page
+        run: node themes/christmas-hockey/generate-grid.mjs
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_USERNAME: dschinkel

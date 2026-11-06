@@ -1,7 +1,7 @@
 // GitHub profile banner #355 — Belfry Bats · blood moon
-// Usage: node scripts/banners/355-belfry-bats.mjs
+// Usage: node themes/halloween/355-belfry-bats.mjs
 // Output: dist/banners/profile-banner-355-belfry-bats.svg (override with OUT)
-// Publish header: OUT=assets/github-profile-banner.svg node scripts/banners/355-belfry-bats.mjs
+// Publish header: OUT=assets/github-profile-banner.svg node themes/halloween/355-belfry-bats.mjs
 // Customize CONFIG and PALETTE. No dependencies — Node 18+.
 import fs from 'node:fs/promises';
 import path from 'node:path';

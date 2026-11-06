@@ -1,9 +1,9 @@
 <img src="./assets/github-profile-banner.svg" alt="Dave Schinkel GitHub profile banner" width="100%">
 
-## Contribution Roast
+## Contributions
 
 <a href="https://dschinkel.github.io/dschinkel/">
-  <img src="https://raw.githubusercontent.com/dschinkel/dschinkel/output/coffee-contribution-grid.svg" alt="Contribution Roast — click to explore real daily counts in larger bean-shaped tooltips" width="100%">
+  <img src="https://raw.githubusercontent.com/dschinkel/dschinkel/output/christmas-contribution-grid.svg" alt="Christmas contribution trees — click to explore exact daily counts and see each tree grow" width="100%">
 </a>
 
 ## Links
